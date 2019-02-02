@@ -1,0 +1,3 @@
+function alkohol() {
+	alert("Alkohol")
+}
