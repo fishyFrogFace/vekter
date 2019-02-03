@@ -1,23 +1,23 @@
 import Data.Foldable
 
-categories = [("trussel", "Trusselbildet"),
-              ("risiko", "Risikovurdering"),
-              ("sikring", "Sikringstiltak"),
-              ("oppgaver", "Vektertjenester og -oppgaver"),
-              ("hms", "HMS og arbeidsmiljøloven"),
-              ("beredskap", "Beredskapsplanlegging"),
-              ("alkohol", "Alkoholloven og bevillingssystemet"),
-              ("rus", "Rusmidler"),
-              ("konflikt", "Kommunikasjon og konflikthåndtering"),
-              ("brann", "Brannvern"),
+categories = [("threat", "Trusselbildet"),
+              ("risk", "Risikovurdering"),
+              ("securing", "Sikringstiltak"),
+              ("tasks", "Vektertjenester og -oppgaver"),
+              ("hse", "HMS og arbeidsmiljøloven"),
+              ("preparedness", "Beredskapsplanlegging"),
+              ("alcohol", "Alkoholloven og bevillingssystemet"),
+              ("drugs", "Rusmidler"),
+              ("conflict", "Kommunikasjon og konflikthåndtering"),
+              ("fire", "Brannvern"),
               ("firstaid", "Førstehjelp"),
-              ("etikk", "Etikk"),
+              ("ethics", "Etikk"),
               ("service", "Service, kundebehandling og kvalitet"),
-              ("jus", "Jus"),
-              ("alle", "Alle")]
+              ("law", "Jus"),
+              ("all", "Alle")]
               
 index :: (String, String) -> String
-index (fun, title) = "        <li><a id=\"myLink\" href=\"js\" onclick=\""
+index (fun, title) = "        <li><a id=\"myLink\" href=\"js.html\" onclick=\""
                      ++ fun ++ "();return false;\">" ++ title ++ "</a></li>"
 
 printList :: [String] -> IO()
