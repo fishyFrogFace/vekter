@@ -1,4 +1,4 @@
-const alkohol = [
+const alcohol = [
   {
     question: "Hva defineres som alkoholholdig drikk jf. alkoholloven §1-3?",
     answers: {

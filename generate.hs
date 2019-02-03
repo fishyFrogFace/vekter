@@ -17,8 +17,8 @@ categories = [("threat", "Trusselbildet"),
               ("all", "Alle")]
               
 index :: (String, String) -> String
-index (fun, title) = "        <li><a id=\"myLink\" href=\"js.html\" onclick=\""
-                     ++ fun ++ "();return false;\">" ++ title ++ "</a></li>"
+index (fun, title) = "        <li><a id=\"myLink\" href=\"js.html\" onclick=\"makeQuiz("
+                     ++ fun ++ ");return false;\">" ++ title ++ "</a></li>"
 
 printList :: [String] -> IO()
 printList lst = for_ lst putStrLn
