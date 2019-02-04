@@ -5,7 +5,7 @@ function random(max) {
 }
 
 function makeQuiz(set) {
-    const elements = getRandomElements(2, set)
+    const elements = getRandomElements(questions, set)
     console.log(elements)
 }
 
@@ -23,5 +23,9 @@ function getRandomElements(amount, lst) {
             return internal(count - 1, aquired, max - 1, lst)
         }
     }
-    return internal(amount, [], lst.length - 1, lst)
+    if (lst.length < amount) {
+        return internal(lst.length, [], lst.length - 1, lst)
+    } else {
+        return internal(amount, [], lst.length - 1, lst)
+    }
 }
