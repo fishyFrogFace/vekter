@@ -4,9 +4,10 @@ function random(max) {
     return Math.floor((Math.random() * max) + 1)
 }
 
-function makeQuiz(set) {
+function makeQuiz(set, title) {
     const elements = getRandomElements(questions, set)
     console.log(elements)
+    console.log(title)
 }
 
 function getRandomElements(amount, lst) {
