@@ -1,3 +1,15 @@
+const threat = []
+
+const risk = []
+
+const securing = []
+
+const tasks = []
+
+const hse = []
+
+const preparedness = []
+
 const alcohol = [
   {
     question: "Hva defineres som alkoholholdig drikk jf. alkoholloven §1-3?",
@@ -87,3 +99,19 @@ const alcohol = [
     correctAnswer: "a"
   },
 ]
+
+const drugs = []
+
+const conflict = []
+
+const fire = []
+
+const firstaid = []
+
+const ethics = []
+
+const service = []
+
+const law = []
+
+const all = []

@@ -6,6 +6,7 @@ function random(max) {
 
 function makeQuiz(set, title) {
     const elements = getRandomElements(questions, set)
+    document.getElementById('main-block').innerHTML = "<h1>" + title + "</h1>"
     console.log(elements)
     console.log(title)
 }
