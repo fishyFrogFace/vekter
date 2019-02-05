@@ -26,7 +26,8 @@ const alcohol = [
     answers: {
       a: "Å begrense de samfunnsmessige og individuelle skadene som alkoholbruk kan innebære",
       b: "Å begrense de samfunnsmessige og individuelle fordelene som alkoholbruk kan innebære",
-      c: "Å sørge for at det blir vanskelig å få tak i alkohol"
+      c: "Å sørge for at det blir vanskelig å få tak i alkohol",
+      d: "Å sørge for at staten får inn mest mulig penger i form av avgifter"
     },
     correctAnswer: "a"
   },
@@ -35,7 +36,8 @@ const alcohol = [
     answers: {
       a: "Ja",
       b: "Ja, men ikke på bekostning av avgifter",
-      c: "Nei"
+      c: "Nei",
+      d: "Kanskje"
     },
     correctAnswer: "a"
   },
@@ -94,7 +96,8 @@ const alcohol = [
     answers: {
       a: "Salgs- og sjenketider, aldersgrensebestemmelser og ingen sjenking til personer som er åpenbart påvirket",
       b: "At de ansatte ikke drikker alkohol, alkoholfrie alternativer og aldersgrensebestemmelser",
-      c: "Salgs- og skjenketider, aldersgrensebestemmelser og at det finnes tilstrekkelig mange ordensvakter"
+      c: "Salgs- og skjenketider, aldersgrensebestemmelser og at det finnes tilstrekkelig mange ordensvakter",
+      d: "At alle ansatte er under 18 år"
     },
     correctAnswer: "a"
   },
