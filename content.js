@@ -2249,7 +2249,7 @@ const alcohol = [
       c: "Bare om det er flere edru personer rundt bordet",
 	  d: "I slike tilfeller må hele gjengen forlate lokalet"
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
     question: "Hva menes med rusmidler i alkoholloven forstand?",
@@ -2280,6 +2280,116 @@ const alcohol = [
 	  d: "Nekte dem adgang"
     },
     correctAnswer: "d"
+  },
+  {
+    question: "Hva innebærer bevillingshaverens bistandsplikt jf. alkoholforskriften §4-1?",
+    answers: {
+      a: "En plikt til å bare selge eller skjenke alkohol til personer over 18 år",
+      b: "En plikt til å bistå påvirkede personer til å komme seg ut av lokalet, f.eks. ved å støtte dem ut",
+      c: "En plikt til å hjelpe påvirkede personer som er ute av stand til å hjelpe seg selv, f.eks. ved å ringe etter taxi eller politi",
+	  d: "En plikt til å bistå ordensvaktene"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "Hva innebærer krav om forsvarlig drift jf. alkoholloven §4-7?",
+    answers: {
+      a: "At salg og skjenking av alkoholholdig drikk må foregå innenfor alkohollovens system og til enhver tid utøves på en forsvarlig måte",
+      b: "At salg og skjenking av alkoholholdig drikk må foregå utenfor alkohollovens system og til enhver tid utøves på en forsvarlig måte",
+      c: "At det finnes rutiner synlig bak baren som alle ansatte har tilgang til",
+	  d: "At bevillingshaver er over 20 år og har uklanderlig vandel"
+    },
+    correctAnswer: "a"
+  },
+  {
+    question: "Har kommunen rett på tilgang til lokalene til salgs- og skjenkested?",
+    answers: {
+      a: "Nei",
+      b: "Ja, før og etter stengetid. Hindring av slik tilgang er forbudt jf. alkoholloven §1-9",
+      c: "Ja, både før, under og etter stengetid. Hindring av slik tilgang er forbudt jf. alkoholloven §1-9",
+	  d: "Ja, men bare hovedlokalet. Hindring av slik tilgang er forbudt jf. alkoholloven §1-9"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "Kan gjestene ta med seg medbrakt inn på et skjenkested jf. alkoholloven §4-4?",
+    answers: {
+      a: "Nei, kun på salgssted",
+      b: "Ja",
+      c: "Nei",
+	  d: "Ja, men det kan ikke konsumeres inne på skjenkestedet"
+    },
+    correctAnswer: "d"
+  },
+  {
+    question: "Kan gjestene ta med seg alkohol ut fra et skjenkested jf. alkoholloven §4-4?",
+    answers: {
+      a: "Nei",
+      b: "Ja, hvis de må rekke bussen",
+      c: "Ja, hvis alkoholen ikke er kjøpt på stedet",
+	  d: "Bare hvis de skal ut for å røyke og komme inn igjen"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "Når er skjenking av alkoholholdig drikke i gruppe 3 forbudt jf. alkoholloven §4-4?",
+    answers: {
+      a: "Det er ikke forbudt",
+      b: "Mellom kl. 03:00 og 06:00",
+      c: "Mellom kl. 03:00 og 09:00",
+	  d: "Mellom kl. 03:00 og 13:00"
+    },
+    correctAnswer: "d"
+  },
+  {
+    question: "Når er skjenking av all alkoholholdig drikke forbudt jf. alkoholloven §4-4?",
+    answers: {
+      a: "Det er ikke forbudt",
+      b: "Mellom kl. 03:00 og 06:00",
+      c: "Mellom kl. 03:00 og 09:00",
+	  d: "Mellom kl. 03:00 og 13:00"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "Hvor lang tid har gjestene på å konsumere alkoholholdig drikke de har kjøpt før skjenketidens utløp?",
+    answers: {
+      a: "15 minutter etter skjenketidens utløp",
+      b: "30 minutter etter skjenketidens utløp",
+      c: "60 minutter etter skjenketidens utløp",
+	  d: "Konsum må opphøre umiddelbart ved skjenketidens utløp"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "Kan gjestene ta med seg skjenket alkohol ut av skjenkingslokalet etter skjenketidens utløp?",
+    answers: {
+      a: "Ja",
+      b: "Hvis de heller den på en flaske",
+      c: "Nei",
+	  d: "Ordensvaktene skal få den til afterparty etter stengetid"
+    },
+    correctAnswer: ""
+  },
+  {
+    question: "Kan kommunestyret inndra bevilling på grunnlag av gjentatt omsetting av narkotika på skjenkestedet jf. alkoholloven §1-8?",
+    answers: {
+      a: "Ja",
+      b: "Kun hvis skjenkestedet har fått 12 prikker i løpet av to år",
+      c: "Nei",
+	  d: "Dette har ingenting med alkoholloven å gjøre"
+    },
+    correctAnswer: "a"
+  },
+  {
+    question: "Kan kommunestyret inndra bevilling på grunnlag av gjentatt diskriminering av gjester jf. alkoholloven §1-8?",
+    answers: {
+      a: "Nei",
+      b: "Kun hvis skjenkestedet har fått 12 prikker i løpet av to år",
+      c: "Ja",
+	  d: "Dette har ingenting med alkoholloven å gjøre"
+    },
+    correctAnswer: "c"
   },
 ]
 
