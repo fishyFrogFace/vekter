@@ -81,7 +81,7 @@ function checkAnswer() {
 }
 
 function endQuiz() {
-    document.getElementById('options').innerHTML = "Dersom du ønsker å ta en ny test kan du laste inn siden på nytt."
+    document.getElementById('options').innerHTML = "Dersom du ønsker å ta en ny test, kan du laste inn siden på nytt."
     document.getElementById('button').innerHTML = ""
     document.getElementById('header2').innerHTML = "Du fikk " + count + " riktige svar av " + (questions-1) + " spørsmål. "
                                                  + "For å bestå må du ha minst " + (questions-1)*0.8 + " riktige svar."
