@@ -1,6 +1,7 @@
 const questions = 21
 var count = 0
 var correct = ""
+var firstQuestion = true //bug that registers first question as wrong, remove this when fixed
 
 alternatives = "<input type=\"radio\" name=\"opt\" id=\"a\"><label id=\"lbla\" for=\"a\">option 1</label><br>"
              + "<input type=\"radio\" name=\"opt\" id=\"b\"><label id=\"lblb\" for=\"b\">option 2</label><br>"
@@ -69,15 +70,19 @@ function makeOptionDiv(answers) {
 }
 
 function checkAnswer() {
-    console.log(correct)
+    response = document.getElementById('response')
     if (document.getElementById(correct).checked) {
         count++
-        console.log("this is correct")
-        alert("Riktig!")
+        response.innerHTML = "Riktig"
+        response.style.color = "green"
         startQuiz()
     } else {
-        console.log("this is wrong")
-        alert("Ikke rett...")
+        if (firstQuestion) {
+            firstQuestion = false
+        } else {
+            response.innerHTML = "Ikke rett"
+            response.style.color = "black"
+        }
         startQuiz()
     }
 }
