@@ -48,7 +48,7 @@ function getRandomElements(amount, lst) {
     }
 }
 
-function startQuiz() {
+function startQuiz(status) {
     console.log("startQuiz: " + elements)
     document.getElementById('options').innerHTML = alternatives
     if (elements.length === 0) {
@@ -73,9 +73,11 @@ function checkAnswer() {
     if (document.getElementById(correct).checked) {
         count++
         console.log("this is correct")
+        alert("Riktig!")
         startQuiz()
     } else {
         console.log("this is wrong")
+        alert("Ikke rett...")
         startQuiz()
     }
 }
