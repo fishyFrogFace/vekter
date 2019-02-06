@@ -2,6 +2,7 @@ const questions = 21
 var count = 0
 var correct = ""
 var firstQuestion = true //bug that registers first question as wrong, remove this when fixed
+var questionCount = 0
 
 alternatives = "<input type=\"radio\" name=\"opt\" id=\"a\"><label id=\"lbla\" for=\"a\">option 1</label><br>"
              + "<input type=\"radio\" name=\"opt\" id=\"b\"><label id=\"lblb\" for=\"b\">option 2</label><br>"
@@ -56,7 +57,8 @@ function startQuiz(status) {
         endQuiz()
     } else {
         const current = elements.pop()
-        document.getElementById('header2').innerHTML = current.question
+        document.getElementById('header2').innerHTML = questionCount + ". " + current.question
+        questionCount++
         makeOptionDiv(current.answers)
         correct = current.correctAnswer
         document.getElementById('btn').innerHTML = "Neste"
@@ -73,14 +75,14 @@ function checkAnswer() {
     response = document.getElementById('response')
     if (document.getElementById(correct).checked) {
         count++
-        response.innerHTML = "Riktig"
+        response.innerHTML = "Status forrige spørsmål: Riktig"
         response.style.color = "green"
         startQuiz()
     } else {
         if (firstQuestion) {
             firstQuestion = false
         } else {
-            response.innerHTML = "Ikke rett"
+            response.innerHTML = "Status forrige spørsmål: Ikke rett"
             response.style.color = "black"
         }
         startQuiz()
