@@ -3055,7 +3055,7 @@ const fire = [
     answers: {
       a: "Flyvebrann, ledning, stråling. strømning",
       b: "Flyvebrann, seilebrann, MDM brann, strømning",
-      c: "åpen brann, lukket brann, vid brann, kort brann",
+      c: "Åpen brann, lukket brann, vid brann, kort brann",
       d: "Ledning, stråling, strømning, seiling",
     },
     correctAnswer: "a"
@@ -3063,10 +3063,10 @@ const fire = [
   {
     question: "Hva vil en brannrøyk alltid inneholde?",
     answers: {
-      a: "Oksygen, brennbart materiale, co2",
-      b: "Faste materialer, vanndamp, gift gasser",
+      a: "Oksygen, brennbart materiale, CO2",
+      b: "Faste materialer, vanndamp, giftgasser",
       c: "Faste materialer (karbon og sot), luft, vanndamp og forbrenningsgasser",
-      d: "Forbrenningsgasser, h2o luft, gift",
+      d: "Forbrenningsgasser, H2O luft, gift",
     },
     correctAnswer: "c"
   },
@@ -3163,7 +3163,7 @@ const fire = [
   {
     question: "Hvordan foregår en risikovurdering for brann?",
     answers: {
-      a: ""grovanalysen" sannsynlighet x konsekvens = risiko",
+      a: "\"grovanalysen\" sannsynlighet x konsekvens = risiko",
       b: "Risiko x risiko= sannsynlighet",
       c: "Risikovurdering kommer ann på hvilken brann det er snakk om",
       d: "Konsekvens x risiko = sannsynlighet",
