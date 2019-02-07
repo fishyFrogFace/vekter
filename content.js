@@ -2369,7 +2369,7 @@ const alcohol = [
       c: "Nei",
 	  d: "Ordensvaktene skal få den til afterparty etter stengetid"
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
     question: "Kan kommunestyret inndra bevilling på grunnlag av gjentatt omsetting av narkotika på skjenkestedet jf. alkoholloven §1-8?",
@@ -2395,84 +2395,84 @@ const alcohol = [
 
 const drugs = [  
   {
-    question: "?",
+    question: "Er narkotika et økende problem i Norge?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Nei, bruk av narkotika blir mindre og mindre",
+      b: "Ja",
+      c: "Ja, men ikke i verden forøvrig",
+	  d: "Nei, det finnes ikke narkotika i Norge"
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Ruser alle brukere seg hver dag?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Vet ikke",
+      b: "Nei, det finnes også rekreasjonsbruk hvor bruket er begrenset til ferie og fest",
+      c: "De fleste som bruker narkotika, er ruset hver dag",
+	  d: "Ja, alle"
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hva er en partypakke?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "En pakke man får i posten med ballonger, servietter og alt man trenger for fest",
+      b: "En partypakke inneholder amfetamin og heroin",
+      c: "En pakke med flere typer rusmidler, slik at man kan ruse seg opp og ned igjen når festen er over",
+	  d: "En pakke med rusmidler som man får på fest"
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Er all bruk av narkotika ulovlig?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Ja, men det er lovlig med bruk av narkotiske legemidler som personen har fått på resept fra lege",
+      b: "Nei",
+      c: "Nei, ikke hvis det er for å behandle en sykdom",
+	  d: "Nei, det er bare besittelse og salg som er ulovlig"
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hvor finner vi ut om et stoff er klassifisert som narkotika?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Narkotikalisten i narkotikaloven",
+      b: "Vaktvirksomhetsloven",
+      c: "Narkotikalisten i forskrift om narkotika",
+	  d: "Legemiddelloven"
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "I hvilke(n) lov(er) er befatning med narkotika omhandlet?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Straffeloven",
+      b: "Legemiddelloven",
+      c: "Alkoholloven",
+	  d: "Legemiddelloven og straffeloven"
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "I hvilke(n) lov(er) er bruk og besittelse av narkotika omhandlet, samt overdragelse av legemidler som ikke betegnes som narkotika?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Straffeloven",
+      b: "Legemiddelloven",
+      c: "Alkoholloven",
+	  d: "Legemiddelloven og straffeloven"
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "I hvilke(n) lov(er) er ulovlig tilvirkning, innførsel, utførsel, erverv, oppbevaring, sending og overdragelse av narkotika omhandlet?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Straffeloven",
+      b: "Legemiddelloven",
+      c: "Alkoholloven",
+	  d: "Legemiddelloven og straffeloven"
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
     question: "?",
