@@ -2999,305 +2999,226 @@ const conflict = [
   },
 ]
 
-const fire = [  {
-    question: "?",
+const fire = [  
+  {
+    question: "Hvilke tre elementer må være tilstedet for at en brann skal oppstå?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Temperatur, brennbart materiale, luft",
+      b: "Varme, oksygen og brennbart materiale",
+      c: "Varme, H2o og brennbart materiale",
+      d: "Brennbart stoff, bensin, og fuel",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hvilket materiale kan slukkes med pulverapparat?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "AFD",
+      b: "CDF",
+      c: "ABC",
+      d: "ABCD",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hvilket brennbart materiale har Bokstaven B?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Brann i brennbare væsker som f.eks. bensin",
+      b: "Brann i metall  som f.eks. svart stål",
+      c: "Brann i frityr",
+      d: "Brann i gasser som f.eks. propan",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva heter de ulike type brannene?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Flammebrann, ildbrann, eksplosjonsbrann",
+      b: "Ulmebrann, glødebrann, og flammebrann",
+      c: "Brann er brann uavhengig av hvilket stoff som brenner.",
+      d: "Hvordan en brann oppstår avhenger av hvilken type materiale som brenner, det vil si at alle branner er forskjellig",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hva er et flammepunkt?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Et flammepunkt er der flammen har tilstrekkelig med oksygen",
+      b: "Et flammepunkt er der flammen er på sitt sterkeste",
+      c: "Et flammepunkt er når man deler flammen inn i kategorier",
+      d: "Et flammepunkt er den laveste temperaturen en brennbar væske kan ha for å avgi tilstrekkelig med gass til å bli antent",
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Hvilke 4 måter kan en brann spres på?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Flyvebrann, ledning, stråling. strømning",
+      b: "Flyvebrann, seilebrann, MDM brann, strømning",
+      c: "åpen brann, lukket brann, vid brann, kort brann",
+      d: "Ledning, stråling, strømning, seiling",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva vil en brannrøyk alltid inneholde?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Oksygen, brennbart materiale, co2",
+      b: "Faste materialer, vanndamp, gift gasser",
+      c: "Faste materialer (karbon og sot), luft, vanndamp og forbrenningsgasser",
+      d: "Forbrenningsgasser, h2o luft, gift",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hvilke klasser er slukkemidlene delt inn i?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "ABCF",
+      b: "ABCDEFG",
+      c: "ABC",
+      d: "ABCG",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Vann kan brukes som slukkemiddel, men hvilken effekt har vannet på brannen?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Vannet er vått så derfor vil brannen slukke",
+      b: "Vann og brann går ikke overens",
+      c: "Vann legger seg som et gasslag på flammen",
+      d: "Vann virker kjølende på brannen",
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Rent vann kan også brukes som slukkemiddel på elektriske anlegg. opptil hvor mange volt kan vann slukke?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "10 000 v",
+      b: "1000 v",
+      c: "100 000 v",
+      d: "532 v",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Det er lagt opp 3 vedlikeholdnivåer for slukkemidler, hvilke?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Service, etterkontroll, kontroll",
+      b: "Service, kontroll, og ettersyn",
+      c: "Kontroll, etterpleie, vasking",
+      d: "Ettersyn, påsyn, vasking",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hva er viktig å ha kjennskap til på et sprinkelanlegg?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Vite hvor stengeventil og tømmeventil er",
+      b: "Vite hvor sprinkelsentral, tømmeventil og stengeventil er",
+      c: "Vite hvor låseventil, skruventil og mekanismeventil er",
+      d: "Vite hvor stengeventilen sitt stengepunkt er",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hvilke tre nivåer trenger man for vedlikehold av automatiske  slukkeranlegg?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Kontroll, vedlikehold, og ettersyn",
+      b: "Kontroll, ettersyn og service",
+      c: "Service og kontroll",
+      d: "Etikett på baksiden, rapportere avik, og ettersyn",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva er et antipanikklys?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Lys som gir deg en beroligende effekt",
+      b: "Lys som lyser opp områder som ikke har lys",
+      c: "Lys som lyser opp områder som ikke har klart definerte rømningsveier",
+      d: "Lys som gjør deg lykkelig",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hva består et automatisk brannalarmanlegg av?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Detektor, sirene, magneter, sentralalarmanlegg, betjeningspanel",
+      b: "Detektor, manuelle meldere, alarmgiver og sentralapparat",
+      c: "Det samme som en vanlig alarm pakke, for vanlige anlegg",
+      d: "Alle alarmpakker er forskjellig",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hvor plasseres et markeringsskilt for rømningsveier?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "I taket",
+      b: "Under døra",
+      c: "Over døra",
+      d: "Der det er nødvendig",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hvordan foregår en risikovurdering for brann?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: ""grovanalysen" sannsynlighet x konsekvens = risiko",
+      b: "Risiko x risiko= sannsynlighet",
+      c: "Risikovurdering kommer ann på hvilken brann det er snakk om",
+      d: "Konsekvens x risiko = sannsynlighet",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Når skal avvik rapporteres ved følge av brudd på rutiner og innstrukser? ",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Minst en gang i mnd",
+      b: "Minst annenhver dag",
+      c: "Når du føler det er nødvendig",
+      d: "Alltid",
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Hva er passivt brannvern?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Passivt brannvern er den branntekniske oppdelingen av bygget",
+      b: "Passivt brannvern er når det ikke er aktivt brannvern",
+      c: "Passivt brannvern er når brannen ikke er farlig, og slukker av seg selv",
+      d: "Passivt brannvern er når konsekvensene av brannen er større en det man har forventet",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva er felles for de fleste branninstrukser?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "De er skrevet av samme brannansvarlig",
+      b: "Den brannansvarlige skal ha få tildelt ansvar, oppgaver og myndighet",
+      c: "De skal inneholde informasjon om varsling, slukking, og redning",
+      d: "De skal inneholde informasjon om varsling, førstehjelp og tiltak",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hva skal man alltid sørge for når det brenner?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Sørge for å tilkalle hjelp",
+      b: "Slukke brannen",
+      c: "Huske å ta med verdifulle gjenstander som mobil, og pc",
+      d: "Behandle alle mennesker som et individ",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva er den farligste røyken?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Den røyken som er hvit og gjennomsiktig",
+      b: "Den røyken som ingen ser men føler med kroppen at den er der",
+      c: "Den svarte tykke røyken",
+      d: "Den røyken som lukter verst",
     },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
 ]
 
