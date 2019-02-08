@@ -1,4 +1,4 @@
-const questions = 21
+var questions = 21
 var count = 0
 var correct = ""
 var firstQuestion = true //bug that registers first question as wrong, remove this when fixed
@@ -15,7 +15,8 @@ function random(max) {
 
 function makeQuiz(set, title) {
     document.getElementById('header1').innerHTML = title
-    document.getElementById('header2').innerHTML = "Det finnes " + set.length + " spørsmål i denne kategorien. Du vil få maksimalt 20 spørsmål"
+    questions = (title === "Alle") ? 81 : 21
+    document.getElementById('header2').innerHTML = "Det finnes " + set.length + " spørsmål i denne kategorien. Du vil få maksimalt " + (questions-1) + " spørsmål"
     //add possibility to choose amount of question, show available amount
     elements = getRandomElements(questions, set)
     document.getElementById('options').innerHTML = ""

@@ -4443,4 +4443,4 @@ const law = [
   },
 ]
 
-const all = []
+const allq = alcohol.concat(drugs).concat(fire)
