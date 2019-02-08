@@ -2475,224 +2475,233 @@ const drugs = [
     correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva slags rusmiddel er det sannsynlig at en person har tatt om de har meget store pupiller?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Sentraldempende, f.eks. heroin",
+      b: "Sentralstimulerende, f.eks. kodein",
+      c: "Sentraldempende, f.eks. LSD",
+	  d: "Sentralstimulerende, f.eks. amfetamin"
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Hva slags rusmiddel er det sannsynlig at en person har tatt om de har meget små pupiller?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Sentraldempende, f.eks. heroin",
+      b: "Sentralstimulerende, f.eks. kodein",
+      c: "Sentraldempende, f.eks. LSD",
+	  d: "Sentralstimulerende, f.eks. amfetamin"
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Finnes det helsepersonell som ruser seg på jobb?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Mange grupper ruser seg for å klare lange arbeidsøkter, men helsepersonell gjør aldri dette",
+      b: "Ja, det er lov jf. legemiddelloven §14-3",
+      c: "Ja, det forekommer at personer ruser seg for å klare lange arbeidsøkter, også helsepersonell",
+	  d: "Nei"
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hvilken av disse er en uaktsom overtredelse av narkotikalovgivningen?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Person som frivillig har tatt MDMA, men det viser seg å være opiumsstoffer",
+      b: "Person som er ruset fordi noen andre har puttet noe i drinken deres",
+      c: "Innførsel av narkotika i en koffert personen ikke vet hva inneholder",
+	  d: "Innførsel av narkotika som er godt gjemt i kofferten"
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hva er doping jf. straffeloven §234?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Det samme som å ruse seg",
+      b: "Stoffer listet opp i forskrift om hva som skal anses som dopingmidler",
+      c: "Bruk av stoffer som kan gi utestenging fra idretten",
+	  d: "Alle stoffer som kan gi prestasjonsfremmende effekt"
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hva er derviatregelen?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Avsnitt av narkotikalisten som inkluderer derivater (liknende stoffer) av stoffer som finnes på listen",
+      b: "Avsnitt i straffeloven som forbyr bruk av derivater (opiumliknende stoff)",
+      c: "En instruks som gir tilgang for vektere til å beslaglegge narkotika",
+	  d: "En forskrift under legemiddelloven som gir politiet tilgang til å kjøpe narkotika"
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva står THC for og hvilken plante finnes dette stoffet i?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Tetrahydrocannabinol, Papaver somniferum",
+      b: "Tetrahydrocarabinkrok, Erythroxylum coca",
+      c: "Tetrahydrocannabinol, Cannabis sativa",
+	  d: "Trange, hyggelige colaflasker, finnes ikke i en plante, det er et ordspråk"
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Kan cannabis injiseres direkte inn i blodårene?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Bare om du løser det opp i appelsinjuice",
+      b: "Ja, dette blir mer og mer vanlig",
+      c: "Nei, dette er umulig",
+	  d: "Det må kokes først, ellers blir det giftig"
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hva kan stemme med tegn på cannabisrus?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Problemer med å holde seg oppreist, omtåket, snøvlete tale, knekk i nakke og knær, tydelig ruset",
+      b: "Latter, stor sannsynlighet for aggresjon, forstørrede pupiller, røde øyne, tørre slimhinner",
+      c: "Høylytt, problemer med å snakke, hukommelsestap, sult, små pupiller",
+	  d: "Latter, økt \"selvinnsikt\", forstørrede pupiller, røde øyne, tørre slimhinner"
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Hva kan stemme med tegn på opioiderus?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Problemer med å holde seg oppreist, omtåket, snøvlete tale, knekk i nakke og knær, tydelig ruset",
+      b: "Latter, stor sannsynlighet for aggresjon, forstørrede pupiller, røde øyne, tørre slimhinner",
+      c: "Høylytt, problemer med å snakke, hukommelsestap, sult, små pupiller",
+	  d: "Latter, økt \"selvinnsikt\", forstørrede pupiller, røde øyne, tørre slimhinner"
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Er all bruk av opioider forbudt?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Ja",
+      b: "Nei, opioider finnes i legemidler og brukes som smertelindrende",
+      c: "Ikke hvis det er kjøpt reseptfritt på dagligvarebutikk",
+	  d: "Ikke hvis man lager det av valmue fra hagen"
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hvordan blir herion oftest tatt?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Sprøytes inn (injiseres), røykes, blandet i cola",
+      b: "Sprøytes inn (injiseres), partypakke, blandet med tobakk",
+      c: "Sprøytes inn (injiseres), røykes, sniffes",
+	  d: "Minusdop, designerdrugs, i Trondheim"
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hvilke stoffer regnes som sentraldempende?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Amfetaminer, cannbinoider, poppers",
+      b: "Barbiturater, benzodiapiner, opioider",
+      c: "Amfetaminer, khat, kokain",
+	  d: "Fleinsopp, LSD, ecstasy, PCP"
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hvilke stoffer regnes som sentralstimulerende?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Amfetaminer, cannbinoider, poppers",
+      b: "Barbiturater, benzodiapiner, opioider",
+      c: "Amfetaminer, khat, kokain",
+	  d: "Fleinsopp, LSD, ecstasy, PCP"
     },
-    correctAnswer: ""
+    correctAnswer: "c"
+  {
+    question: "Hvilke stoffer regnes som hallusinogener?",
+    answers: {
+      a: "Fleinsopp, LSD, ecstasy, PCP, amfetamin",
+      b: "Barbiturater, benzodiapiner, opioider",
+      c: "Amfetaminer, khat, kokain",
+	  d: "Fleinsopp, LSD, ecstasy, PCP"
+    },
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Hva kan stemme med tegn på rus fra sentralstimulerende?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Problemer med å holde seg oppreist, omtåket, snøvlete tale, knekk i nakke og knær, tydelig ruset",
+      b: "Kontinuerlig bevegelse, usammenhengende tale, store pupiller, tett, rennende nese, ofte tynne",
+      c: "Høylytt, problemer med å snakke, hukommelsestap, sult, små pupiller",
+	  d: "Latter, økt \"selvinnsikt\", forstørrede pupiller, røde øyne, tørre slimhinner"
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hva kan stemme med tegn på rus fra sentralstimulerende?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Virkelighetsfjern, kan gi psykotiske trekk, hallusinasjoner, kan likne på sentralstimulerende rus",
+      b: "Virkelighetsfjern, kan gi psykotiske trekk, blek og kald, hallusinasjoner, kan likne på sentraldempende rus",
+      c: "Problemer med å holde seg oppreist, omtåket, snøvlete tale, knekk i nakke og knær, tydelig ruset",
+	  d: "Latter, økt \"selvinnsikt\", forstørrede pupiller, røde øyne, tørre slimhinner"
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva slags førstehjelpstiltak er fordelaktige ved overdose av amfetamin, kokain og ecstasy (MDMA)?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Det er ikke sannsynlig med overdose av disse stoffene",
+      b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevvist person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
+      c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Nalokson), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
+	  d: "Det er ikke sannsynlig med overdose av disse stoffene, men personen kan ha behov for akutt psykiatrisk helsehjelp. Ring 113 eller 112 om fare for seg selv og andre."
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hva slags førstehjelpstiltak er fordelaktige ved overdose av heroin, fentanyl og metadon?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Det er ikke sannsynlig med overdose av disse stoffene",
+      b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevvist person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
+      c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Nalokson), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
+	  d: "Det er ikke sannsynlig med overdose av disse stoffene, men personen kan ha behov for akutt psykiatrisk helsehjelp. Ring 113 eller 112 om fare for seg selv og andre."
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hva slags førstehjelpstiltak er fordelaktige ved overdose av fleinsopp og LSD?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Det er ikke sannsynlig med overdose av disse stoffene",
+      b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevvist person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
+      c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Naloxon), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
+	  d: "Det er ikke sannsynlig med overdose av disse stoffene, men personen kan ha behov for akutt psykiatrisk helsehjelp. Ring 113 eller 112 om fare for seg selv eller andre."
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Hva slags førstehjelpstiltak er fordelaktige ved overdose av cannabis?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Det er ikke sannsynlig med overdose av dette stoffet",
+      b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevvist person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
+      c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Naloxon), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
+	  d: "Det finnes ingen motgift og pustestans er svært sannsynlig"
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hvilke av disse legemidlene er sentraldempende?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Bare Valium",
+      b: "Valium, Rohypnol, Mogadon, Pinex Forte",
+      c: "Ritalin, Concerta, Modiodal, Fenazon-Koffein",
+	  d: "Cipralex, Ibux, Ritalin, Rohypnol"
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
-  {
-    question: "?",
+    {
+    question: "Hvilke av disse legemidlene er sentralstimulerende?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Bare Ritalin",
+      b: "Valium, Rohypnol, Mogadon, Pinex Forte",
+      c: "Ritalin, Concerta, Modiodal, Fenazon-Koffein",
+	  d: "Cipralex, Ibux, Ritalin, Rohypnol"
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
 ]
 
