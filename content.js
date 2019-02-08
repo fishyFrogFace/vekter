@@ -2613,6 +2613,7 @@ const drugs = [
 	  d: "Fleinsopp, LSD, ecstasy, PCP"
     },
     correctAnswer: "c"
+  },
   {
     question: "Hvilke stoffer regnes som hallusinogener?",
     answers: {
@@ -2647,7 +2648,7 @@ const drugs = [
     question: "Hva slags førstehjelpstiltak er fordelaktige ved overdose av amfetamin, kokain og ecstasy (MDMA)?",
     answers: {
       a: "Det er ikke sannsynlig med overdose av disse stoffene",
-      b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevvist person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
+      b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevisst person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
       c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Nalokson), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
 	  d: "Det er ikke sannsynlig med overdose av disse stoffene, men personen kan ha behov for akutt psykiatrisk helsehjelp. Ring 113 eller 112 om fare for seg selv og andre."
     },
@@ -2657,7 +2658,7 @@ const drugs = [
     question: "Hva slags førstehjelpstiltak er fordelaktige ved overdose av heroin, fentanyl og metadon?",
     answers: {
       a: "Det er ikke sannsynlig med overdose av disse stoffene",
-      b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevvist person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
+      b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevisst person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
       c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Nalokson), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
 	  d: "Det er ikke sannsynlig med overdose av disse stoffene, men personen kan ha behov for akutt psykiatrisk helsehjelp. Ring 113 eller 112 om fare for seg selv og andre."
     },
@@ -2667,7 +2668,7 @@ const drugs = [
     question: "Hva slags førstehjelpstiltak er fordelaktige ved overdose av fleinsopp og LSD?",
     answers: {
       a: "Det er ikke sannsynlig med overdose av disse stoffene",
-      b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevvist person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
+      b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevisst person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
       c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Naloxon), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
 	  d: "Det er ikke sannsynlig med overdose av disse stoffene, men personen kan ha behov for akutt psykiatrisk helsehjelp. Ring 113 eller 112 om fare for seg selv eller andre."
     },
@@ -2677,7 +2678,7 @@ const drugs = [
     question: "Hva slags førstehjelpstiltak er fordelaktige ved overdose av cannabis?",
     answers: {
       a: "Det er ikke sannsynlig med overdose av dette stoffet",
-      b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevvist person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
+      b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevisst person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
       c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Naloxon), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
 	  d: "Det finnes ingen motgift og pustestans er svært sannsynlig"
     },
