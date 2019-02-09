@@ -4142,305 +4142,216 @@ const service = [
 
 const law = [
   {
-    question: "?",
+    question: "Hva omhandler alminnelig strafferett?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "De generelle vilkårene som gir allmennheten hjemmel til å straffe noen",
+      b: "De generelle straffereaksjonene en dommer kan gi",
+      c: "De generelle straffevilkårene som må være til stede for å kunne gi den siktede straff",
+      d: "De generelle vilkårene for å kunne straffe noen, og hvilke straffereaksjoner som finnes",
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Hvorfor må vektere kunne strafferett?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "For å blant annet vite hvilken myndighet en vekter har og for at vekteren selv ikke begår straffbare handlinger",
+      b: "Fordi Utdanningsdirektoratet krever det",
+      c: "Fordi vekterfirmaene har dette som ansettelseskrav",
+      d: "Man må ikke kunne strafferett, bare straffrihetsgrunn",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva er en straffeprosess?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Læren om hvilke kriminelle handlinger som fører til straff",
+      b: "En metode politiet bruker for å avdekke kriminelle handlinger",
+      c: "Læren om hvordan en straffeforfølging gjennomføres",
+      d: "En prosess der straffedømte anker sin tildelte straff",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Allmennprevensjon innebærer...",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "At hvermannsens rettigheter blir overholdt i kontakt med vekter",
+      b: "At kunnskapen om straff skal bidra til å holde folk fra å begå straffbare handlinger",
+      c: "At politiet ikke skal kunne gi straff uten dommers avgjørelse",
+      d: "At kunnskapen om straff skal holde dømte fra å begå nye lovbrudd",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Induvidualprevensjon innebærer at",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Straffen skal bidra til at den enkelte lovbryter skal få den nødvendige hjelp til å begå nye lovbrudd",
+      b: "Kunnskap om straffeloven skal skremme enkeltmennesker til å ikke begå lovbrudd",
+      c: "Straffen skal bidra til at den enkelte lovbryter vil avstå fra å begå nye straffbare handlinger",
+      d: "Hvermannsen har de nødvendige kunnskapene om politiets strafferettslige kompetanse",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Den viktigste loven innen strafferett er...",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Selvfølgelig straffeloven",
+      b: "Straffeprosessen",
+      c: "Straffebestemmelsene",
+      d: "Straffeforskriftene",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva heter de praktiske straffrihetsgrunnene?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Det er ingen «praktiske straffrihetsgrunner»",
+      b: "Nødverge, nødrett, selvtekt og samtykke",
+      c: "Nødverge, forsett, selvtekt og nødrett",
+      d: "Hjemmel, forsett, nødrett og nødverge",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Er man fritatt for straff hvis man er rettsuviten?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Nei",
+      b: "Ja",
+      c: "Bare hvis det er vist forenklet forelegg",
+      d: "Bare i forhold til trafikkregler",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva må være til stede for å gi noen straff?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Personen må ha gjort en ulovlig handling",
+      b: "Personen må være tilregnelig",
+      c: "Personen må være tilgjengelig",
+      d: "Personen må ha vist høy uaktsomhet",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hvilke gruppe personer anses som ikke tilregnelig?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Personer under 18 år og berusede personer",
+      b: "Personer under 16 år og gravide",
+      c: "Personer på sterke legemiddeler med resept, personer over 76 år og personer som har sonet en en forlenget fengselsstraff og nettopp kommet ut",
+      d: "Personer under 15, psykotiske personer, personer som er høyt psykisk utviklingshemmet og personer som har sterke bevissthetsforstyrrelser",
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Er det straffbart å gjøre et forsøk på å gjøre en ulovlig handling?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Ja, alltid",
+      b: "Nei",
+      c: "Det er opp til politiet å bestemme",
+      d: "Ja, men ikke på bagatellmessige straffbare handlinger",
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Hva er rettighetstap?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "At man mister retten til å drive bestemte typer virksomhet, eller retten til å oppholde deg på bestemte steder",
+      b: "At man mister retten til å føre motorvogn eller ytre sin mening",
+      c: "At man mister rettigheter som er nedskrevet i menneskerettighetserklæringen",
+      d: "At man mister retten til å anke i domstolene",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva er et forelegg?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Et tilbud fra justisdepartementet om å gjøre opp et straffbart forhold med en bot",
+      b: "Et tilbud fra politiet hvis man har kjørt for fort og kan gjøre det opp med bot istedet for å miste førerrett til motorvogn",
+      c: "At man velger å sone i fengsel istedet for å betale for boten",
+      d: "Et tilbud fra påtalemyndighetene om å gjøre opp et straffbart forhold med en bot",
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Er det tyveri hvis en gjenstand er besittelsesløs?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Ja",
+      b: "Bare hvis gjenstanden har en verdi som er større enn 2500 kr",
+      c: "Så lenge en gjenstand har en større verdi enn 0, er det tyveri",
+      d: "Nei",
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Hva kreves for å straffe noen for tyveri?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "At personen har utvist forsett",
+      b: "At personen har tatt en gjenstand vitende om at det ikke er hans egen",
+      c: "At personen at utvist berettighet",
+      d: "Høyt uaktsomhet",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hvor ligger grensen på \"ubetydelig verdi\"?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "3500 kroner",
+      b: "2500 kroner",
+      c: "2000 kroner",
+      d: "3000 kroner",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Kan en vekter ha rollen som anmelder?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Bare med samtykke fra eventuelt gjerningsperson",
+      b: "Nei",
+      c: "Ja",
+      d: "Bare politi",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Er det en straffbar handling hvis en 14åring stjeler i en butikk?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Ja",
+      b: "Nei",
+      c: "Bare hvis foreldrene gir samtykke",
+      d: "Bare på fersk gjerning og ferske spor",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hvem er det som har bevisbyrden i straffesaker?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Advokaten",
+      b: "Siktede",
+      c: "Påtalemyndighetene",
+      d: "Dommer",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hva er forvaring?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "En tidsbestemt frihetsberøvelse",
+      b: "Fengselsstraff som varer lengre enn 21 år",
+      c: "En ubetinget frihetsberøvelse for å verne tidligere forbrytere ovenfor samfunnet",
+      d: "En tidsubestemt frihetsberøvelse",
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
+
   {
-    question: "?",
+    question: "Hva vil det si å ha hjemmel?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Å ha et grunnlag i instrukser til å fatte et vedtak eller gjennomføre handlinger som andre mennesker må finne seg i og rette seg etter",
+      b: "Å ha et grunnlag i vaktvirksomhetsloven til å gjøre noe som ellers ville være straffbart, som f.eks. selvtekt",
+      c: "Å ha et grunnlag i lov, forskrift eller rettspraksis til å fatte et vedtak eller gjennomføre handlinger som andre mennesker må finne seg i og rette seg etter",
+	  d: "Å sette en person i håndjern"
     },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
 ]
 
-const allq = alcohol.concat(drugs).concat(fire)
+const allq = alcohol.concat(drugs).concat(fire).concat(law)
