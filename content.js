@@ -2607,7 +2607,7 @@ const drugs = [
     correctAnswer: "b"
   },
   {
-    question: "Hva kan stemme med tegn på rus fra sentralstimulerende?",
+    question: "Hva kan stemme med tegn på rus fra hallusinogener?",
     answers: {
       a: "Virkelighetsfjern, kan gi psykotiske trekk, hallusinasjoner, kan likne på sentralstimulerende rus",
       b: "Virkelighetsfjern, kan gi psykotiske trekk, blek og kald, hallusinasjoner, kan likne på sentraldempende rus",
