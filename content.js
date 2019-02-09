@@ -1206,306 +1206,278 @@ const tasks = [  {
   },
 ]
 
-const hse = [  {
-    question: "?",
+const hse = [
+      {
+    question: "Hvor er bestemmelser om lønn regulert med tanke på vekteryrket?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "De er regulert i arbeidsmiljøloven",
+      b: "De er regulert i lov om vaktvirksomhet",
+      c: "De er regulert i vekteroverkomsten mellom Norsk Arbeidsmandsforbund og NHO service og handel",
+      d: "De er regulert i politiloven",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hva er det arbeidsmiljøloven retter seg først og fremst etter:",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Mot yrkesmessig helsevern",
+      b: "Lønn",
+      c: "Førstehjelp",
+      d: "Brannvern",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Arbeidsmiljøloven har gått stadig lengre i å trygge rettighetene for de ansatte på tre hovedområder:",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Arbeidstid, kontrakt og penger",
+      b: "Arbeidsmiljø, arbeidstid og kontraktvern",
+      c: "Kontrakt, leie, helse",
+      d: "Arbeidsmiljø, arbeid, tiltak",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hvordan kan man definere et arbeidsmiljø?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Et arbeidsmiljø er summen av faktorer som påvirker arbeidstaker psykisk, fysisk og sosialt. positivt eller negativt",
+      b: "Et arbeidsmiljø er summen av faktorer som helse, førstehjelp og brannvern",
+      c: "Et arbeidsmiljø er summen av faktorer som psykisk helse, stabilitet, og fysisk helse. positivt eller negativt.",
+      d: "Et arbeidsmiljø er summen av faktorer som fysisk helse, styrke og sosiale ferdigheter",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva har arbeidsgiver et generelt ansvar for at blir fulgt?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Et generelt ansvar for at lovens bestemmelser blir fulgt",
+      b: "Et generelt ansvar for at lov om vaktvirksomhet blir fulgt",
+      c: "Et generelt ansvar for at arbeidsgiverne skal trives på jobb",
+      d: "Alt som omfatter arbeidsmiljøet",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hvilken oppgaver har blant annet verneombudet?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Ivareta arbeidstakers interesser",
+      b: "Ivareta arbeidstakers interesser om saker som angår arbeid. delta på forsamlinger på stortinget, ta folk som ikke bruker hjelm.",
+      c: "Ivareta arbeidstakerens interesser som angår arbeidsmiljøet, delta på arbeidstilsynets inspeksjoner, fremlegge relevante rapporter for ledelsen",
+      d: "Ivareta HMS på arbeidsplassen, sørge for at alle på jobben leser jevnlig på instrukser",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hva er blant annet oppgavene til en arbeidstaker",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Vaske gulvet til sjefen, smile vær gang man møter noen på jobb.",
+      b: "Bruke pålagt verneutstyr, bidra til løsninger, og stanse arbeidet om man mener det er fare for liv og helse",
+      c: "Stanse farlig arbeid, stanse noe som er fare for liv, og bidra til instrukser for eks brannvern",
+      d: "D)oppgavene til en arbeidstaker kommer ann på stillingen og arbeidet",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hva står AMU for",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Almennmannsforbund",
+      b: "Almenn undersøkelse",
+      c: "Arbeidsmiljøutvalg",
+      d: "Alle må undervises",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hvor mange ansatte må det være for å oprette AMU?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "500",
+      b: "2 (mellom 2-14 om det er nødvendig)",
+      c: "50 (mellom 20-50 kan hver av partene kreve at det opprettes et slikt utvalg)",
+      d: "50 (ikke mer eler mindre )",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hva er en av AMU sine plikter?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Ivareta rettsikkerheten til arbeidstaker",
+      b: "Til å aktivt overvåke arbeidsmiljøsituasjonen i virksomheten til enhver tid",
+      c: "Stoppe farlig arbeid",
+      d: "Sørge for at enhver person får de han trenger på jobben",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hva er beregnet som nattearbeid?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "2100-0600",
+      b: "2200-0700",
+      c: "C)2400-1200",
+      d: "D)2135-0640",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hvor mange timer er max alminnelig arbeidstid, uten overtidsbetaling?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "8 timer i løpet av 24 timer",
+      b: "13 timer i løpet av 24 timer",
+      c: "9 timer i løpet av 24 timer",
+      d: "8,5 timer i løpet av 24 timer",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hvor mange timer er max arbeidstid?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "8 timer i løpet av 24 timer",
+      b: "13 timer i løpet av 24 timer",
+      c: "9 timer i løpet av 24 timer",
+      d: "8,5 timer i løpet av 24 timer",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hvor mange timer er max alminnelig arbeidstid, uten overtidsbetaling?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "33,6 timer i løpet av 7 dager",
+      b: "37,5 timer i løpet av 7 dager",
+      c: "40 timer i løpet av 7 dager",
+      d: "48 timer i løpet av 7 dager",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hvor mange timer er max arbeidstid?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "33,6 timer i løpet av 7 dager",
+      b: "37,5 timer i løpet av 7 dager",
+      c: "40 timer i løpet av 7 dager",
+      d: "48 timer i løpet av 7 dager",
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Hvor mange timer skal man ha fri mellom vakter (hos samme arbeidsgiver)?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "13 timer",
+      b: "9 timer",
+      c: "11 timer",
+      d: "16 timer",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hva er merarbeid?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Der arbeidstiden går utover avtale men ikke alminnelig arbeidstid",
+      b: "Du jobber hele tiden uten øking i lønn",
+      c: "Arbeidsgiver ber deg jobbe mer enn du har kapasitet til",
+      d: "Du jobber mer enn det det kontrakten sier",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva er minstetillegget for overtidsbetaling?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "100%",
+      b: "40%",
+      c: "2%",
+      d: "30%",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hva er internkontroll?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Kontroll som skjer innad i firmaet for å ivareta HMS",
+      b: "Kontroll som kunn sjekker brannvern",
+      c: "Kontroll av ansatte",
+      d: "Kontroll av de ansattes mobilbruk",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Hva er de mest relevante lovene man ser etter i en internkontroll",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Alkoholloven, lov om vaktvirksomhet, arbeidsmiljøloven",
+      b: "Alkoholloven, skjenkeloven, diskrimineringsloven",
+      c: "Arbeidsmiljøloven, brann og eksplosjonsvernsloven, arbeidsplassmiljøloven",
+      d: "Arbeidsmiljøloven, brann og eksplosjonsvernsloven, forurensningsloven, sivilbeskyttelseloven, el-tilsynsloven",
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Når har arbeidstakere krav på pause?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Når de er sultne",
+      b: "Om vakten overskrider 5 1/2 time",
+      c: "Om vakten overskrider 6 timer",
+      d: "Etter 5 timer",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hva er overtidsarbeid?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Det arbeidet som går utover fri dagene i helgene",
+      b: "Det arbeidet som går utover den alminnelige arbeidstiden",
+      c: "Det arbeidet som arbeidsgiver mener arbeidstaker burde gjennomføre",
+      d: "Det arbeidet som gir høyere lønn",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hva er en fagforening?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Et fag som er inndelt i foreninger",
+      b: "En forening som dekker store geografiske områder, som blant annet et fylke",
+      c: "En sammenslutting av arbeidstakere innenfor samme fag",
+      d: "En sammensetting av arbeidstakere innen et fagforbund",
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?",
+    question: "Hva er den største grunnen til at folk i Norge i dag blir sykemeldt?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Muskel- og beinplager",
+      b: "Leddplager",
+      c: "Det varierer veldig fra yrke til yrke",
+      d: "Muskel- og skjelettplager",
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?",
+    question: "Kan man inngå avtaler som har bedre betingelser enn det arbeidsmiljøloven bestemmer?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Ja",
+      b: "Nei",
+      c: "Kun med enkelte unntak",
+      d: "Kun med tillatelse fra arbeidstilsynet",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?",
+    question: "Kan man inngå avtaler som har dårligere betingelser enn det arbeidsmiljøloven bestemmer?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Ja",
+      b: "Nei",
+      c: "Kun med enkelte unntak",
+      d: "Kun med tillatelse fra arbeidstilsynet",
     },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
-    question: "?",
+    question: "Hva menes med begrepet arbeidstid?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
+      a: "Den tiden arbeidstaker står for disposisjon for arbeidsgiver",
+      b: "Den tiden arbeidsgiver står til disposisjon for arbeidstaker",
+      c: "Den tiden man er opptatt på arbeid",
+      d: "Den tiden man bruker på arbeidet",
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
-  {
-    question: "?",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-	  d: ""
-    },
-    correctAnswer: ""
-  },
+
 ]
 
 const preparedness = [  {
@@ -2597,7 +2569,7 @@ const drugs = [
   {
     question: "Hvilke stoffer regnes som sentraldempende?",
     answers: {
-      a: "Amfetaminer, cannbinoider, poppers",
+      a: "Amfetaminer, cannabinoider, poppers",
       b: "Barbiturater, benzodiapiner, opioider",
       c: "Amfetaminer, khat, kokain",
 	  d: "Fleinsopp, LSD, ecstasy, PCP"
@@ -4354,4 +4326,4 @@ const law = [
   },
 ]
 
-const allq = alcohol.concat(drugs).concat(fire).concat(law)
+const allq = alcohol.concat(drugs).concat(fire).concat(law).concat(hse)
