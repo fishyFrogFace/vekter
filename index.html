@@ -5,38 +5,114 @@
 -->
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Vekterutdanning quiz</title>
-    <link rel="stylesheet" href="./main.css">
-	<script type="text/javascript" src="./content.js"></script>
+    <link rel="stylesheet" href="./main.css" />
+    <script type="text/javascript" src="./content.js"></script>
     <script type="text/javascript" src="./quiz.js" async></script>
-    <link rel="shortcut icon" type="image/svg" href="./keys.ico"/>
+    <link rel="shortcut icon" type="image/svg" href="./keys.ico" />
   </head>
   <body>
     <div id="main-block">
-        <h1 id="header1">Velg fag:</h1>
-        <p id="header2"></p>
-        <div id="options">
-            <ul>
-                <li><a href=# onclick="makeQuiz(threat, 'Trusselbildet');return false;">Trusselbildet</a></li>
-                <li><a href=# onclick="makeQuiz(risk, 'Risikovurdering');return false;">Risikovurdering</a></li>
-                <li><a href=# onclick="makeQuiz(securing, 'Sikringstiltak');return false;">Sikringstiltak</a></li>
-                <li><a href=# onclick="makeQuiz(tasks, 'Vektertjenester og -oppgaver');return false;">Vektertjenester og -oppgaver</a></li>
-                <li><a href=# onclick="makeQuiz(hse, 'HMS og arbeidsmiljøloven');return false;">HMS og arbeidsmiljøloven</a></li>
-                <li><a href=# onclick="makeQuiz(preparedness, 'Beredskapsplanlegging');return false;">Beredskapsplanlegging</a></li>
-                <li><a href=# onclick="makeQuiz(alcohol, 'Alkoholloven og bevillingssystemet');return false;">Alkoholloven og bevillingssystemet</a></li>
-                <li><a href=# onclick="makeQuiz(drugs, 'Rusmidler');return false;">Rusmidler</a></li>
-                <li><a href=# onclick="makeQuiz(conflict, 'Kommunikasjon og konflikthåndtering');return false;">Kommunikasjon og konflikthåndtering</a></li>
-                <li><a href=# onclick="makeQuiz(fire, 'Brannvern');return false;">Brannvern</a></li>
-                <li><a href=# onclick="makeQuiz(firstaid, 'Førstehjelp');return false;">Førstehjelp</a></li>
-                <li><a href=# onclick="makeQuiz(ethics, 'Etikk');return false;">Etikk</a></li>
-                <li><a href=# onclick="makeQuiz(service, 'Service, kundebehandling og kvalitet');return false;">Service, kundebehandling og kvalitet</a></li>
-                <li><a href=# onclick="makeQuiz(law, 'Jus');return false;">Jus</a></li>
-                <li><a href=# onclick="makeQuiz(allq, 'Alle');return false;">Alle</a></li>
-            </ul>
-        </div>
-        <div id="button"></div>
-        <div id="response"></div>
+      <h1 id="header1">Velg fag:</h1>
+      <p id="header2"></p>
+      <div id="options">
+        <ul>
+          <li>
+            <a
+              href="#"
+              onclick="makeQuiz(threat, 'Trusselbildet');return false;"
+              >Trusselbildet</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="makeQuiz(risk, 'Risikovurdering');return false;"
+              >Risikovurdering</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="makeQuiz(securing, 'Sikringstiltak');return false;"
+              >Sikringstiltak</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="makeQuiz(tasks, 'Vektertjenester og -oppgaver');return false;"
+              >Vektertjenester og -oppgaver</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="makeQuiz(hse, 'HMS og arbeidsmiljøloven');return false;"
+              >HMS og arbeidsmiljøloven</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="makeQuiz(preparedness, 'Beredskapsplanlegging');return false;"
+              >Beredskapsplanlegging</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="makeQuiz(alcohol, 'Alkoholloven og bevillingssystemet');return false;"
+              >Alkoholloven og bevillingssystemet</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="makeQuiz(drugs, 'Rusmidler');return false;"
+              >Rusmidler</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="makeQuiz(conflict, 'Kommunikasjon og konflikthåndtering');return false;"
+              >Kommunikasjon og konflikthåndtering</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="makeQuiz(fire, 'Brannvern');return false;"
+              >Brannvern</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="makeQuiz(firstaid, 'Førstehjelp');return false;"
+              >Førstehjelp</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="makeQuiz(ethics, 'Etikk');return false;"
+              >Etikk</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="makeQuiz(service, 'Service, kundebehandling og kvalitet');return false;"
+              >Service, kundebehandling og kvalitet</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="makeQuiz(law, 'Jus');return false;">Jus</a>
+          </li>
+          <li>
+            <a href="#" onclick="makeQuiz(allq, 'Alle');return false;">Alle</a>
+          </li>
+        </ul>
+      </div>
+      <div id="button"></div>
+      <div id="response"></div>
     </div>
   </body>
 </html>

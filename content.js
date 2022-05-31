@@ -1,12 +1,13 @@
-const threat = [  {
+const threat = [
+  {
     question: "?",
     answers: {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -14,9 +15,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -24,9 +25,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -34,9 +35,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -44,9 +45,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -54,9 +55,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -64,9 +65,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -74,9 +75,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -84,9 +85,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -94,9 +95,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -104,9 +105,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -114,9 +115,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -124,9 +125,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -134,9 +135,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -144,9 +145,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -154,9 +155,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -164,9 +165,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -174,9 +175,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -184,9 +185,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -194,9 +195,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -204,9 +205,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -214,9 +215,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -224,9 +225,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -234,9 +235,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -244,9 +245,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -254,9 +255,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -264,9 +265,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -274,9 +275,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -284,9 +285,9 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -294,21 +295,22 @@ const threat = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
-]
+];
 
-const risk = [  {
+const risk = [
+  {
     question: "?",
     answers: {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -316,9 +318,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -326,9 +328,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -336,9 +338,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -346,9 +348,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -356,9 +358,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -366,9 +368,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -376,9 +378,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -386,9 +388,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -396,9 +398,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -406,9 +408,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -416,9 +418,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -426,9 +428,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -436,9 +438,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -446,9 +448,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -456,9 +458,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -466,9 +468,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -476,9 +478,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -486,9 +488,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -496,9 +498,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -506,9 +508,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -516,9 +518,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -526,9 +528,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -536,9 +538,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -546,9 +548,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -556,9 +558,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -566,9 +568,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -576,9 +578,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -586,9 +588,9 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -596,21 +598,22 @@ const risk = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
-]
+];
 
-const securing = [  {
+const securing = [
+  {
     question: "?",
     answers: {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -618,9 +621,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -628,9 +631,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -638,9 +641,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -648,9 +651,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -658,9 +661,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -668,9 +671,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -678,9 +681,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -688,9 +691,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -698,9 +701,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -708,9 +711,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -718,9 +721,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -728,9 +731,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -738,9 +741,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -748,9 +751,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -758,9 +761,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -768,9 +771,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -778,9 +781,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -788,9 +791,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -798,9 +801,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -808,9 +811,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -818,9 +821,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -828,9 +831,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -838,9 +841,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -848,9 +851,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -858,9 +861,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -868,9 +871,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -878,9 +881,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -888,9 +891,9 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -898,21 +901,22 @@ const securing = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
-]
+];
 
-const tasks = [  {
+const tasks = [
+  {
     question: "?",
     answers: {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -920,9 +924,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -930,9 +934,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -940,9 +944,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -950,9 +954,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -960,9 +964,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -970,9 +974,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -980,9 +984,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -990,9 +994,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1000,9 +1004,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1010,9 +1014,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1020,9 +1024,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1030,9 +1034,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1040,9 +1044,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1050,9 +1054,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1060,9 +1064,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1070,9 +1074,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1080,9 +1084,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1090,9 +1094,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1100,9 +1104,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1110,9 +1114,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1120,9 +1124,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1130,9 +1134,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1140,9 +1144,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1150,9 +1154,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1160,9 +1164,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1170,9 +1174,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1180,9 +1184,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1190,9 +1194,9 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1200,14 +1204,14 @@ const tasks = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
-]
+];
 
 const hse = [
-      {
+  {
     question: "Hvor er bestemmelser om lønn regulert med tanke på vekteryrket?",
     answers: {
       a: "De er regulert i arbeidsmiljøloven",
@@ -1215,7 +1219,7 @@ const hse = [
       c: "De er regulert i vekteroverkomsten mellom Norsk Arbeidsmandsforbund og NHO service og handel",
       d: "De er regulert i politiloven",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hva er det arbeidsmiljøloven retter seg først og fremst etter:",
@@ -1225,17 +1229,18 @@ const hse = [
       c: "Førstehjelp",
       d: "Brannvern",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Arbeidsmiljøloven har gått stadig lengre i å trygge rettighetene for de ansatte på tre hovedområder:",
+    question:
+      "Arbeidsmiljøloven har gått stadig lengre i å trygge rettighetene for de ansatte på tre hovedområder:",
     answers: {
       a: "Arbeidstid, kontrakt og penger",
       b: "Arbeidsmiljø, arbeidstid og kontraktvern",
       c: "Kontrakt, leie, helse",
       d: "Arbeidsmiljø, arbeid, tiltak",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hvordan kan man definere et arbeidsmiljø?",
@@ -1245,7 +1250,7 @@ const hse = [
       c: "Et arbeidsmiljø er summen av faktorer som psykisk helse, stabilitet, og fysisk helse. positivt eller negativt.",
       d: "Et arbeidsmiljø er summen av faktorer som fysisk helse, styrke og sosiale ferdigheter",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hva har arbeidsgiver et generelt ansvar for at blir fulgt?",
@@ -1255,7 +1260,7 @@ const hse = [
       c: "Et generelt ansvar for at arbeidsgiverne skal trives på jobb",
       d: "Alt som omfatter arbeidsmiljøet",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hvilken oppgaver har blant annet verneombudet?",
@@ -1265,7 +1270,7 @@ const hse = [
       c: "Ivareta arbeidstakerens interesser som angår arbeidsmiljøet, delta på arbeidstilsynets inspeksjoner, fremlegge relevante rapporter for ledelsen",
       d: "Ivareta HMS på arbeidsplassen, sørge for at alle på jobben leser jevnlig på instrukser",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hva er blant annet oppgavene til en arbeidstaker",
@@ -1275,7 +1280,7 @@ const hse = [
       c: "Stanse farlig arbeid, stanse noe som er fare for liv, og bidra til instrukser for eks brannvern",
       d: "D)oppgavene til en arbeidstaker kommer ann på stillingen og arbeidet",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva står AMU for",
@@ -1285,7 +1290,7 @@ const hse = [
       c: "Arbeidsmiljøutvalg",
       d: "Alle må undervises",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvor mange ansatte må det være for å oprette AMU?",
@@ -1295,7 +1300,7 @@ const hse = [
       c: "50 (mellom 20-50 kan hver av partene kreve at det opprettes et slikt utvalg)",
       d: "50 (ikke mer eler mindre )",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hva er en av AMU sine plikter?",
@@ -1305,7 +1310,7 @@ const hse = [
       c: "Stoppe farlig arbeid",
       d: "Sørge for at enhver person får de han trenger på jobben",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva er beregnet som nattearbeid?",
@@ -1315,17 +1320,18 @@ const hse = [
       c: "C)2400-1200",
       d: "D)2135-0640",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Hvor mange timer er max alminnelig arbeidstid, uten overtidsbetaling?",
+    question:
+      "Hvor mange timer er max alminnelig arbeidstid, uten overtidsbetaling?",
     answers: {
       a: "8 timer i løpet av 24 timer",
       b: "13 timer i løpet av 24 timer",
       c: "9 timer i løpet av 24 timer",
       d: "8,5 timer i løpet av 24 timer",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvor mange timer er max arbeidstid?",
@@ -1335,17 +1341,18 @@ const hse = [
       c: "9 timer i løpet av 24 timer",
       d: "8,5 timer i løpet av 24 timer",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
-    question: "Hvor mange timer er max alminnelig arbeidstid, uten overtidsbetaling?",
+    question:
+      "Hvor mange timer er max alminnelig arbeidstid, uten overtidsbetaling?",
     answers: {
       a: "33,6 timer i løpet av 7 dager",
       b: "37,5 timer i løpet av 7 dager",
       c: "40 timer i løpet av 7 dager",
       d: "48 timer i løpet av 7 dager",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvor mange timer er max arbeidstid?",
@@ -1355,17 +1362,18 @@ const hse = [
       c: "40 timer i løpet av 7 dager",
       d: "48 timer i løpet av 7 dager",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
-    question: "Hvor mange timer skal man ha fri mellom vakter (hos samme arbeidsgiver)?",
+    question:
+      "Hvor mange timer skal man ha fri mellom vakter (hos samme arbeidsgiver)?",
     answers: {
       a: "13 timer",
       b: "9 timer",
       c: "11 timer",
       d: "16 timer",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hva er merarbeid?",
@@ -1375,7 +1383,7 @@ const hse = [
       c: "Arbeidsgiver ber deg jobbe mer enn du har kapasitet til",
       d: "Du jobber mer enn det det kontrakten sier",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hva er minstetillegget for overtidsbetaling?",
@@ -1385,7 +1393,7 @@ const hse = [
       c: "2%",
       d: "30%",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva er internkontroll?",
@@ -1395,17 +1403,18 @@ const hse = [
       c: "Kontroll av ansatte",
       d: "Kontroll av de ansattes mobilbruk",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Hva er de mest relevante lovene man ser etter i en internkontroll",
+    question:
+      "Hva er de mest relevante lovene man ser etter i en internkontroll",
     answers: {
       a: "Alkoholloven, lov om vaktvirksomhet, arbeidsmiljøloven",
       b: "Alkoholloven, skjenkeloven, diskrimineringsloven",
       c: "Arbeidsmiljøloven, brann og eksplosjonsvernsloven, arbeidsplassmiljøloven",
       d: "Arbeidsmiljøloven, brann og eksplosjonsvernsloven, forurensningsloven, sivilbeskyttelseloven, el-tilsynsloven",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Når har arbeidstakere krav på pause?",
@@ -1415,7 +1424,7 @@ const hse = [
       c: "Om vakten overskrider 6 timer",
       d: "Etter 5 timer",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva er overtidsarbeid?",
@@ -1425,7 +1434,7 @@ const hse = [
       c: "Det arbeidet som arbeidsgiver mener arbeidstaker burde gjennomføre",
       d: "Det arbeidet som gir høyere lønn",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva er en fagforening?",
@@ -1435,37 +1444,40 @@ const hse = [
       c: "En sammenslutting av arbeidstakere innenfor samme fag",
       d: "En sammensetting av arbeidstakere innen et fagforbund",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
-    question: "Hva er den største grunnen til at folk i Norge i dag blir sykemeldt?",
+    question:
+      "Hva er den største grunnen til at folk i Norge i dag blir sykemeldt?",
     answers: {
       a: "Muskel- og beinplager",
       b: "Leddplager",
       c: "Det varierer veldig fra yrke til yrke",
       d: "Muskel- og skjelettplager",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
-    question: "Kan man inngå avtaler som har bedre betingelser enn det arbeidsmiljøloven bestemmer?",
+    question:
+      "Kan man inngå avtaler som har bedre betingelser enn det arbeidsmiljøloven bestemmer?",
     answers: {
       a: "Ja",
       b: "Nei",
       c: "Kun med enkelte unntak",
       d: "Kun med tillatelse fra arbeidstilsynet",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Kan man inngå avtaler som har dårligere betingelser enn det arbeidsmiljøloven bestemmer?",
+    question:
+      "Kan man inngå avtaler som har dårligere betingelser enn det arbeidsmiljøloven bestemmer?",
     answers: {
       a: "Ja",
       b: "Nei",
       c: "Kun med enkelte unntak",
       d: "Kun med tillatelse fra arbeidstilsynet",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva menes med begrepet arbeidstid?",
@@ -1475,20 +1487,20 @@ const hse = [
       c: "Den tiden man er opptatt på arbeid",
       d: "Den tiden man bruker på arbeidet",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
+];
 
-]
-
-const preparedness = [  {
+const preparedness = [
+  {
     question: "?",
     answers: {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1496,9 +1508,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1506,9 +1518,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1516,9 +1528,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1526,9 +1538,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1536,9 +1548,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1546,9 +1558,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1556,9 +1568,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1566,9 +1578,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1576,9 +1588,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1586,9 +1598,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1596,9 +1608,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1606,9 +1618,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1616,9 +1628,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1626,9 +1638,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1636,9 +1648,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1646,9 +1658,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1656,9 +1668,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1666,9 +1678,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1676,9 +1688,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1686,9 +1698,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1696,9 +1708,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1706,9 +1718,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1716,9 +1728,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1726,9 +1738,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1736,9 +1748,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1746,9 +1758,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1756,9 +1768,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1766,9 +1778,9 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -1776,11 +1788,11 @@ const preparedness = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
-]
+];
 
 const alcohol = [
   {
@@ -1789,9 +1801,9 @@ const alcohol = [
       a: "Drikk med alkoholinnhold over 0,7 volumprosent",
       b: "Drikk med alkoholinnhold over 2,5 volumprosent",
       c: "Drikk med alkoholinnhold under 2,5 volumprosent",
-	  d: "Drikk med alkoholinnhold over 4,7 volumprosent"
+      d: "Drikk med alkoholinnhold over 4,7 volumprosent",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva er formålet med alkoholloven jf. alkoholloven §1-1?",
@@ -1799,9 +1811,9 @@ const alcohol = [
       a: "Å begrense de samfunnsmessige og individuelle skadene som alkoholbruk kan innebære",
       b: "Å begrense de samfunnsmessige og individuelle fordelene som alkoholbruk kan innebære",
       c: "Å sørge for at det blir vanskelig å få tak i alkohol",
-      d: "Å sørge for at staten får inn mest mulig penger i form av avgifter"
+      d: "Å sørge for at staten får inn mest mulig penger i form av avgifter",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Sikter alkoholloven på å begrense forbruket av alkohol?",
@@ -1809,19 +1821,19 @@ const alcohol = [
       a: "Ja",
       b: "Ja, men ikke på bekostning av avgifter",
       c: "Nei",
-      d: "Kanskje"
+      d: "Kanskje",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
-    {
+  {
     question: "Hvem gir ut bevilling?",
     answers: {
       a: "Vinmonopolet",
       b: "Politiet",
       c: "Kommunen",
-	  d: "Ordføreren"
+      d: "Ordføreren",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvem gjennomfører kontroll av salgs- og skjenkesteder?",
@@ -1829,69 +1841,74 @@ const alcohol = [
       a: "Nokas",
       b: "Kommunen",
       c: "Securitas",
-	  d: "Alle har et ansvar for å kontrollere salgs- og skjenkesteder"
+      d: "Alle har et ansvar for å kontrollere salgs- og skjenkesteder",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
-    {
+  {
     question: "Hva vil det si å utføre målrettede kontroller?",
     answers: {
       a: "Å kontrollere med et mål",
       b: "Å utføre kontroller på steder og tidspunkter der risikoen er størst for brudd på alkoholloven",
       c: "Å bruke ordensvaktene på stedet til å utføre flere kontroller der brudd på alkoholloven har skjedd tidligere",
-	  d: "At politiet kontrollerer etter stengetid"
+      d: "At politiet kontrollerer etter stengetid",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
-    question: "Hvor mange kontroller skal et skjenkested minst ha i året jf. alkoholforskriften §9-7?",
+    question:
+      "Hvor mange kontroller skal et skjenkested minst ha i året jf. alkoholforskriften §9-7?",
     answers: {
       a: "3",
       b: "5",
       c: "1",
-	  d: "Tre ganger så mange som antall gjester i gjennomsnitt"
+      d: "Tre ganger så mange som antall gjester i gjennomsnitt",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
-    {
-    question: "Hvor mange kontroller skal kommunen gjennomføre i året jf. alkoholforskriften §9-7?",
+  {
+    question:
+      "Hvor mange kontroller skal kommunen gjennomføre i året jf. alkoholforskriften §9-7?",
     answers: {
       a: "3",
       b: "Like mange som antallet skjenkesteder i kommunen",
       c: "Like mange som antallet salgs- og skjenkesteder i kommunen",
-	  d: "Tre ganger så mange som antallet salgs- og skjenkesteder i kommunen"
+      d: "Tre ganger så mange som antallet salgs- og skjenkesteder i kommunen",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
-    question: "Hva skal det legges særlig vekt på ved en kontroll jf. alkoholforskriften §9-4?",
+    question:
+      "Hva skal det legges særlig vekt på ved en kontroll jf. alkoholforskriften §9-4?",
     answers: {
       a: "Salgs- og skjenketider, aldersgrensebestemmelser og ingen skjenking til personer som er åpenbart påvirket",
       b: "At de ansatte ikke drikker alkohol, alkoholfrie alternativer og aldersgrensebestemmelser",
       c: "Salgs- og skjenketider, aldersgrensebestemmelser og at det finnes tilstrekkelig mange ordensvakter",
-      d: "At alle ansatte er under 18 år"
+      d: "At alle ansatte er under 18 år",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Hva er kravene til en salgs- og skjenkekontrollør jf. alkoholforskriften §5-1?",
+    question:
+      "Hva er kravene til en salgs- og skjenkekontrollør jf. alkoholforskriften §5-1?",
     answers: {
       a: "Vekterutdanning",
       b: "Ingen krav til opplæring",
       c: "Vekterutdanning og bestått kunnskapsprøve for kontrollører",
-	  d: "Bestått kunnskapsprøve for kontrollører"
+      d: "Bestått kunnskapsprøve for kontrollører",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
-    question: "Hvor mange kontrollører må man være på kontroll av skjenkested jf. alkoholforskriften §9-5?",
+    question:
+      "Hvor mange kontrollører må man være på kontroll av skjenkested jf. alkoholforskriften §9-5?",
     answers: {
       a: "3",
       b: "2",
       c: "En kontrollør og en fra politiet, siden kontrollør ikke har politimyndighet",
-	  d: "1"
+      d: "1",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hvor mange kontrollører må man være på kontroll av salgssted?",
@@ -1899,19 +1916,20 @@ const alcohol = [
       a: "1",
       b: "2",
       c: "En kontrollør og en fra politiet, siden kontrollør ikke har politimyndighet",
-	  d: "3"
+      d: "3",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Hvorfor må man være to kontrollører ved kontroll av skjenkested?",
+    question:
+      "Hvorfor må man være to kontrollører ved kontroll av skjenkested?",
     answers: {
       a: "Det må ikke være to kontrollører ved kontroll av sjenkested",
       b: "Observasjoner fra to kontrollører har større bevismessig verdi, bedre rettssikkerhet for bevillingshaver og øker sjansene for at en av dem er edru",
       c: "Observasjoner fra to kontrollører har større bevismessig verdi, bedre rettssikkerhet for bevillingshaver og øker sjansene for å avdekke lovbrudd",
-	  d: "Fordi dette står i loven"
+      d: "Fordi dette står i loven",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvorfor må man være to kontrollører ved kontroll av salgssted?",
@@ -1919,9 +1937,9 @@ const alcohol = [
       a: "Det må ikke være to kontrollører ved kontroll av salgssted",
       b: "Observasjoner fra to kontrollører har større bevismessig verdi, bedre rettssikkerhet for bevillingshaver og øker sjansene for at en av dem er edru",
       c: "Observasjoner fra to kontrollører har større bevismessig verdi, bedre rettssikkerhet for bevillingshaver og øker sjansene for å avdekke lovbrudd",
-	  d: "Fordi dette står i loven"
+      d: "Fordi dette står i loven",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hva er en åpen kontroll?",
@@ -1929,9 +1947,9 @@ const alcohol = [
       a: "En kontroll der alle skap må åpnes",
       b: "En kontroll der ansvarshavende legitimerer seg til kontrollørene når de ankommer salgs- eller skjenkestedet",
       c: "En kontroll av at alle flasker som selges på et skjenkested er åpne",
-	  d: "En kontroll der kontrollørene legitimerer seg til ordensvakt eller ansvarshavende når de ankommer salgs- eller skjenkestedet"
+      d: "En kontroll der kontrollørene legitimerer seg til ordensvakt eller ansvarshavende når de ankommer salgs- eller skjenkestedet",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hva er hensikten med en åpen kontroll?",
@@ -1939,9 +1957,9 @@ const alcohol = [
       a: "Å bedre rettssikkerheten til bevillingshaver",
       b: "F.eks. å kunne gjennomføre en kontroll selv om lokalet er fullt eller det er lang kø",
       c: "Åpen kontroll har liten hensikt, da ordensvakter og bartendere vil gjemme unna lovbrudd om de vet at kontrolløren er der",
-	  d: "Åpen kontroll er ikke lov jf. alkoholforskriften §9-14"
+      d: "Åpen kontroll er ikke lov jf. alkoholforskriften §9-14",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva er en anonym kontroll?",
@@ -1949,9 +1967,9 @@ const alcohol = [
       a: "En kontroll der bevillingshaver ikke får vite at de er kontrollert før sanksjoner kommer i posten",
       b: "En kontroll der kontrollørene legitimerer seg til ordensvakt eller ansvarshavende når de ankommer salgs- eller skjenkestedet",
       c: "En kontroll der kontrollører betaler inngangspenger og går inn på stedet som en vanlig gjest",
-	  d: "Anonym kontroll er ikke lov jf. alkoholforskriften §9-14"
+      d: "Anonym kontroll er ikke lov jf. alkoholforskriften §9-14",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Må kontrollører av salgs- og sjenkesteder legitimere seg?",
@@ -1959,9 +1977,9 @@ const alcohol = [
       a: "Ja, de må alltid legitimere seg til ordensvakt eller ansvarshavende når de ankommer salgs- eller skjenkestedet",
       b: "Ja, de må alltid legitimere seg til ordensvakt eller ansvarshavende når de forlater salgs- eller skjenkestedet",
       c: "Nei, ikke ved anonym kontroll, da får ansvarshavende brev fra kommunen i ettertid",
-	  d: "Ja, de må alltid legitimere seg til ansvarshavende når de forlater salgs- eller skjenkestedet og redegjøre for sitt inntrykk av stedet"
+      d: "Ja, de må alltid legitimere seg til ansvarshavende når de forlater salgs- eller skjenkestedet og redegjøre for sitt inntrykk av stedet",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hva skjer i etterkant av en salgs- eller skjenkekontroll?",
@@ -1969,9 +1987,9 @@ const alcohol = [
       a: "Kontrollører skal sende en rapport innen en uke til bevillingshaver.",
       b: "Politiet skal sende en rapport innen en uke til bevillingshaver.",
       c: "Kommunen skal sende en rapport innen en uke til bevillingshaver.",
-	  d: "Kommunen skal sende en rapport innen en uke til bevillingshaver. Bevillingshaver skal ha mulighet til å forklare seg til kommunen innen to uker."
+      d: "Kommunen skal sende en rapport innen en uke til bevillingshaver. Bevillingshaver skal ha mulighet til å forklare seg til kommunen innen to uker.",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hva er en samordnet kontroll?",
@@ -1979,9 +1997,9 @@ const alcohol = [
       a: "En kontroll gjennom Samordna opptak",
       b: "Når politiet trenger bistand og kaller inn brannvesenet",
       c: "En planlagt aksjon der flere instanser gjennømfører kontroll samtidig",
-	  d: "En planlagt aksjon hvor man varsler bevillingshaver på forhånd"
+      d: "En planlagt aksjon hvor man varsler bevillingshaver på forhånd",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvilke instanser kan møte på en samordnet kontroll?",
@@ -1989,9 +2007,9 @@ const alcohol = [
       a: "Politi, brannvesen, tollvesen, Skatteetaten, Mattilsynet, skjenkekontroll",
       b: "Politi, brannvesen, tollvesen, Skatteetaten, Mattilsynet, men ikke skjenkekontroll",
       c: "Bare private kontrollorganer",
-	  d: "Politi, brannvesen, småtroll, Skatteetaten, Mattilsynet, skjenkekontroll"
+      d: "Politi, brannvesen, småtroll, Skatteetaten, Mattilsynet, skjenkekontroll",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hvem skal gis bevilling jf. alkoholloven §1-4b?",
@@ -1999,29 +2017,31 @@ const alcohol = [
       a: "Julenissen",
       b: "Den som har det juridiske og økonomiske ansvaret for bedriften",
       c: "Den som har det ansvaret for ordensvaktene i bedriften",
-	  d: "Den som er på stedet oftest"
+      d: "Den som er på stedet oftest",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
-    question: "Må hvert salgs- og skjenkested ha egen bevilling jf. alkoholloven §3-1 og §4-2?",
+    question:
+      "Må hvert salgs- og skjenkested ha egen bevilling jf. alkoholloven §3-1 og §4-2?",
     answers: {
       a: "Ja",
       b: "Nei",
       c: "Nei, ikke hvis de har samme eier",
-	  d: "Bare skjenkesteder"
+      d: "Bare skjenkesteder",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Hvilke krav er det til den som er oppført som styrer på en bevilling?",
+    question:
+      "Hvilke krav er det til den som er oppført som styrer på en bevilling?",
     answers: {
       a: "Må være daglig leder",
       b: "Må være over 20 år, ha uklanderlig vandel",
       c: "Må være over 25 år, ha plettfri vandel",
-	  d: "Må være over 20 år, ha uklanderlig vandel og har det daglige ansvaret for salg eller skjenking"
+      d: "Må være over 20 år, ha uklanderlig vandel og har det daglige ansvaret for salg eller skjenking",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hvem kan inndra en bevilling?",
@@ -2029,9 +2049,9 @@ const alcohol = [
       a: "Skjenkekontrollør",
       b: "Politiet",
       c: "Kommunen",
-	  d: "Vektere"
+      d: "Vektere",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hva slags sanksjoner gir 12 prikker i løpet av to år?",
@@ -2039,9 +2059,9 @@ const alcohol = [
       a: "Bevilling inndras og stedet kan ikke få ny bevilling på 5 år",
       b: "Bevilling inndras permanent",
       c: "Bevilling inndras i én uke",
-	  d: "Man trenger flere prikker for at det skal bli sanksjoner"
+      d: "Man trenger flere prikker for at det skal bli sanksjoner",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvilken av disse gir åtte prikker?",
@@ -2049,9 +2069,9 @@ const alcohol = [
       a: "Brudd på kravet om alkoholfrie alternativer jf. alkoholforskriften §4-6",
       b: "Gjentatt diskriminering jf. alkoholloven §1-8",
       c: "Salg og utlevering til person som er åpenbart påvirket jf. alkoholforskriften §4-2",
-	  d: "Brudd på bistandsplikten jf. alkoholforskriften §4-1"
+      d: "Brudd på bistandsplikten jf. alkoholforskriften §4-1",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hvilken av disse gir fire prikker?",
@@ -2059,9 +2079,9 @@ const alcohol = [
       a: "Brudd på kravet om alkoholfrie alternativer jf. alkoholforskriften §4-6",
       b: "Gjentatt diskriminering jf. alkoholloven §1-8",
       c: "Salg og utlevering til person som er åpenbart påvirket jf. alkoholforskriften §4-2",
-	  d: "Brudd på bistandsplikten jf. alkoholforskriften §4-1"
+      d: "Brudd på bistandsplikten jf. alkoholforskriften §4-1",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvilken av disse gir to prikker?",
@@ -2069,9 +2089,9 @@ const alcohol = [
       a: "Brudd på kravet om alkoholfrie alternativer jf. alkoholforskriften §4-6",
       b: "Gjentatt diskriminering jf. alkoholloven §1-8",
       c: "Salg og utlevering til person som er åpenbart påvirket jf. alkoholforskriften §4-2",
-	  d: "Brudd på bistandsplikten jf. alkoholforskriften §4-1"
+      d: "Brudd på bistandsplikten jf. alkoholforskriften §4-1",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hvilken av disse gir én prikk?",
@@ -2079,19 +2099,20 @@ const alcohol = [
       a: "Brudd på kravet om alkoholfrie alternativer jf. alkoholforskriften §4-6",
       b: "Gjentatt diskriminering jf. alkoholloven §1-8",
       c: "Salg og utlevering til person som er åpenbart påvirket jf. alkoholforskriften §4-2",
-	  d: "Brudd på bistandsplikten jf. alkoholforskriften §4-1"
+      d: "Brudd på bistandsplikten jf. alkoholforskriften §4-1",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
-    {
-    question: "Krever alkoholloven at salgs- og sjenkesteder skal ha et internkontrollsystem?",
+  {
+    question:
+      "Krever alkoholloven at salgs- og sjenkesteder skal ha et internkontrollsystem?",
     answers: {
       a: "Nei",
       b: "Nei, dette er noe kommunen kan kreve hvis det er nødvendig",
       c: "Ja, dersom det er flere enn 10 ansatte i bedriften",
-	  d: "Ja"
+      d: "Ja",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Kan politiet stenge et sted som driver salg- eller skjenking?",
@@ -2099,9 +2120,9 @@ const alcohol = [
       a: "Nei",
       b: "Ja, dersom stedet ikke har bevilling. I tillegg kan de stenge opp til 12 dager for å hindre forstyrrelse av offentlig ro og orden, ivareta sikkerhet eller avverge/stanse lovbrudd.",
       c: "Nei, dette må kommunen gjøre",
-	  d: "Ja, dersom stedet ikke har bevilling. I tillegg kan de stenge opp til 2 dager for å hindre forstyrrelse av offentlig ro og orden, ivareta sikkerhet eller avverge/stanse lovbrudd."
+      d: "Ja, dersom stedet ikke har bevilling. I tillegg kan de stenge opp til 2 dager for å hindre forstyrrelse av offentlig ro og orden, ivareta sikkerhet eller avverge/stanse lovbrudd.",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hvilke straffer kan man få for brudd på alkoholloven?",
@@ -2109,9 +2130,9 @@ const alcohol = [
       a: "Ingen straff",
       b: "Kun inndragelse av bevilling",
       c: "Bøter og/eller fengsel og dermed miste mulighetene for å få bevilling",
-	  d: "Ordensvakten har ansvaret og vil få bøter og/eller fengsel, uansett hvem som bryter loven"
+      d: "Ordensvakten har ansvaret og vil få bøter og/eller fengsel, uansett hvem som bryter loven",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvilke drikker finnes i gruppe 3?",
@@ -2119,9 +2140,9 @@ const alcohol = [
       a: "Drikke med 4,7-22 volumprosent alkohol",
       b: "Drikke med 22-60 volumprosent alkohol",
       c: "Drikke med 0,7-2,5 volumprosent alkohol",
-	  d: "Drikke med 2,5-4,7 volumprosent alkohol"
+      d: "Drikke med 2,5-4,7 volumprosent alkohol",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hvilke drikker finnes i gruppe 2?",
@@ -2129,9 +2150,9 @@ const alcohol = [
       a: "Drikke med 4,7-22 volumprosent alkohol",
       b: "Drikke med 22-60 volumprosent alkohol",
       c: "Drikke med 0,7-2,5 volumprosent alkohol",
-	  d: "Drikke med 2,5-4,7 volumprosent alkohol"
+      d: "Drikke med 2,5-4,7 volumprosent alkohol",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hvilke drikker finnes i gruppe 1?",
@@ -2139,9 +2160,9 @@ const alcohol = [
       a: "Drikke med 4,7-22 volumprosent alkohol",
       b: "Drikke med 22-60 volumprosent alkohol",
       c: "Drikke med 0,7-2,5 volumprosent alkohol",
-	  d: "Drikke med 2,5-4,7 volumprosent alkohol"
+      d: "Drikke med 2,5-4,7 volumprosent alkohol",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hvilke drikker regnes som alkoholsvake?",
@@ -2149,79 +2170,85 @@ const alcohol = [
       a: "Drikke med 4,7-22 volumprosent alkohol",
       b: "Drikke med 22-60 volumprosent alkohol",
       c: "Drikke med 0,7-2,5 volumprosent alkohol",
-	  d: "Drikke med 2,5-4,7 volumprosent alkohol"
+      d: "Drikke med 2,5-4,7 volumprosent alkohol",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
-    question: "Hva er aldersgrensen for salg, skjenking og kjøp av alkoholholdig drikke i gruppe 1 og gruppe 2?",
+    question:
+      "Hva er aldersgrensen for salg, skjenking og kjøp av alkoholholdig drikke i gruppe 1 og gruppe 2?",
     answers: {
       a: "18 år",
       b: "15 år",
       c: "20 år",
-	  d: "Ingen aldersgrense"
+      d: "Ingen aldersgrense",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Hva er aldersgrensen for salg, skjenking og kjøp av alkoholholdig drikke i gruppe 3?",
+    question:
+      "Hva er aldersgrensen for salg, skjenking og kjøp av alkoholholdig drikke i gruppe 3?",
     answers: {
       a: "18 år",
       b: "15 år",
       c: "20 år",
-	  d: "Ingen aldersgrense"
+      d: "Ingen aldersgrense",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
-    question: "Regnes det som skjenking om en mindreårig drikker medbrakt alkohol?",
+    question:
+      "Regnes det som skjenking om en mindreårig drikker medbrakt alkohol?",
     answers: {
       a: "Nei",
       b: "Ja, all konsum på skjenkestedet regnes som skjenking",
       c: "Ja, så lenge personen har vært på skjenkestedet samme kveld som de drikker",
-	  d: "Nei, kun hvis alkoholen har blitt solgt på skjenkestedet"
+      d: "Nei, kun hvis alkoholen har blitt solgt på skjenkestedet",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
-    {
+  {
     question: "Hva er forbudt jf. alkoholloven §8-11?",
     answers: {
       a: "Å bistå personer som er åpenbart påvirket og ikke klarer seg selv",
       b: "Å vise bort personer som er åpenbart påvirket",
       c: "Å skjenke alkohol til personer som er åpenbart påvirket av rusmidler eller skjenke på en slik måte at de kan antas å bli det",
-	  d: "Å spise mat mens man lager en drink"
+      d: "Å spise mat mens man lager en drink",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
-    question: "Kan en person som er åpenbart påvirket oppholde seg på et sjenkested jf. alkoholforskriften §4-1?",
+    question:
+      "Kan en person som er åpenbart påvirket oppholde seg på et sjenkested jf. alkoholforskriften §4-1?",
     answers: {
       a: "Ja, selvfølgelig",
       b: "Bare om de ikke drikker",
       c: "Bare om de spiser brød",
-	  d: "Nei"
+      d: "Nei",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
-    question: "Hvem står ansvarlig for at åpenbart påvirkede gjester blir fjernet?",
+    question:
+      "Hvem står ansvarlig for at åpenbart påvirkede gjester blir fjernet?",
     answers: {
       a: "Ordensvaktene",
       b: "Bevillingshaver",
       c: "Politiet",
-	  d: "Kommunen"
+      d: "Kommunen",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
-    question: "Kan det serveres alkohol til de som sitter sammen med en åpenbart beruset person?",
+    question:
+      "Kan det serveres alkohol til de som sitter sammen med en åpenbart beruset person?",
     answers: {
       a: "Ja, hvis de passer godt på de(n) som er åpenbart påvirket",
       b: "Nei",
       c: "Bare om det er flere edru personer rundt bordet",
-	  d: "I slike tilfeller må hele gjengen forlate lokalet"
+      d: "I slike tilfeller må hele gjengen forlate lokalet",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva menes med rusmidler i alkoholloven forstand?",
@@ -2229,9 +2256,9 @@ const alcohol = [
       a: "Bare alkohol",
       b: "Alkohol, narkotika, alle rusmidler",
       c: "Bare narkotika",
-	  d: "Legemiddel"
+      d: "Legemiddel",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva vil det si å være åpenbart påvirket av alkohol?",
@@ -2239,29 +2266,31 @@ const alcohol = [
       a: "Oppstemt, færre hemninger, mer pratsom, hever stemmen",
       b: "Uoppmerksom, vanskeligheter med å feste blikket, snakker utydelig, ofte høyrøstet, problemer med å gå rett, kan virke forstyrrende på andre gjester",
       c: "Ler høyt, drikker vann, sitter stille på en stol, snakker rolig og tydelig",
-	  d: "Danser eller synger"
+      d: "Danser eller synger",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
-    question: "Hva bør man gjøre om en person som er åpenbart påvirket av rusmidler vil komme inn på et skjenkested?",
+    question:
+      "Hva bør man gjøre om en person som er åpenbart påvirket av rusmidler vil komme inn på et skjenkested?",
     answers: {
       a: "Pågripe dem",
       b: "Ringe politiet",
       c: "La dem komme inn, slik at man kan passe på dem",
-	  d: "Nekte dem adgang"
+      d: "Nekte dem adgang",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
-    question: "Hva innebærer bevillingshaverens bistandsplikt jf. alkoholforskriften §4-1?",
+    question:
+      "Hva innebærer bevillingshaverens bistandsplikt jf. alkoholforskriften §4-1?",
     answers: {
       a: "En plikt til å bare selge eller skjenke alkohol til personer over 18 år",
       b: "En plikt til å bistå påvirkede personer til å komme seg ut av lokalet, f.eks. ved å støtte dem ut",
       c: "En plikt til å hjelpe påvirkede personer som er ute av stand til å hjelpe seg selv, f.eks. ved å ringe etter taxi eller politi",
-	  d: "En plikt til å bistå ordensvaktene"
+      d: "En plikt til å bistå ordensvaktene",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hva innebærer krav om forsvarlig drift jf. alkoholloven §4-7?",
@@ -2269,112 +2298,121 @@ const alcohol = [
       a: "At salg og skjenking av alkoholholdig drikk må foregå innenfor alkohollovens system og til enhver tid utøves på en forsvarlig måte",
       b: "At salg og skjenking av alkoholholdig drikk må foregå utenfor alkohollovens system og til enhver tid utøves på en forsvarlig måte",
       c: "At det finnes rutiner synlig bak baren som alle ansatte har tilgang til",
-	  d: "At bevillingshaver er over 20 år og har uklanderlig vandel"
+      d: "At bevillingshaver er over 20 år og har uklanderlig vandel",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Har kommunen rett på tilgang til lokalene til salgs- og skjenkested?",
+    question:
+      "Har kommunen rett på tilgang til lokalene til salgs- og skjenkested?",
     answers: {
       a: "Nei",
       b: "Ja, før og etter stengetid. Hindring av slik tilgang er forbudt jf. alkoholloven §1-9",
       c: "Ja, både før, under og etter stengetid. Hindring av slik tilgang er forbudt jf. alkoholloven §1-9",
-	  d: "Ja, men bare hovedlokalet. Hindring av slik tilgang er forbudt jf. alkoholloven §1-9"
+      d: "Ja, men bare hovedlokalet. Hindring av slik tilgang er forbudt jf. alkoholloven §1-9",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
-    question: "Kan gjestene ta med seg medbrakt inn på et skjenkested jf. alkoholloven §4-4?",
+    question:
+      "Kan gjestene ta med seg medbrakt inn på et skjenkested jf. alkoholloven §4-4?",
     answers: {
       a: "Nei, kun på salgssted",
       b: "Ja",
       c: "Nei",
-	  d: "Ja, men det kan ikke konsumeres inne på skjenkestedet"
+      d: "Ja, men det kan ikke konsumeres inne på skjenkestedet",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
-    question: "Kan gjestene ta med seg alkohol ut fra et skjenkested jf. alkoholloven §4-4?",
+    question:
+      "Kan gjestene ta med seg alkohol ut fra et skjenkested jf. alkoholloven §4-4?",
     answers: {
       a: "Nei",
       b: "Ja, hvis de må rekke bussen",
       c: "Ja, hvis alkoholen ikke er kjøpt på stedet",
-	  d: "Bare hvis de skal ut for å røyke og komme inn igjen"
+      d: "Bare hvis de skal ut for å røyke og komme inn igjen",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
-    question: "Når er skjenking av alkoholholdig drikke i gruppe 3 forbudt jf. alkoholloven §4-4?",
+    question:
+      "Når er skjenking av alkoholholdig drikke i gruppe 3 forbudt jf. alkoholloven §4-4?",
     answers: {
       a: "Det er ikke forbudt",
       b: "Mellom kl. 03:00 og 06:00",
       c: "Mellom kl. 03:00 og 09:00",
-	  d: "Mellom kl. 03:00 og 13:00"
+      d: "Mellom kl. 03:00 og 13:00",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
-    question: "Når er skjenking av all alkoholholdig drikke forbudt jf. alkoholloven §4-4?",
+    question:
+      "Når er skjenking av all alkoholholdig drikke forbudt jf. alkoholloven §4-4?",
     answers: {
       a: "Det er ikke forbudt",
       b: "Mellom kl. 03:00 og 06:00",
       c: "Mellom kl. 03:00 og 09:00",
-	  d: "Mellom kl. 03:00 og 13:00"
+      d: "Mellom kl. 03:00 og 13:00",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
-    question: "Hvor lang tid har gjestene på å konsumere alkoholholdig drikke de har kjøpt før skjenketidens utløp?",
+    question:
+      "Hvor lang tid har gjestene på å konsumere alkoholholdig drikke de har kjøpt før skjenketidens utløp?",
     answers: {
       a: "15 minutter etter skjenketidens utløp",
       b: "30 minutter etter skjenketidens utløp",
       c: "60 minutter etter skjenketidens utløp",
-	  d: "Konsum må opphøre umiddelbart ved skjenketidens utløp"
+      d: "Konsum må opphøre umiddelbart ved skjenketidens utløp",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
-    question: "Kan gjestene ta med seg skjenket alkohol ut av skjenkingslokalet etter skjenketidens utløp?",
+    question:
+      "Kan gjestene ta med seg skjenket alkohol ut av skjenkingslokalet etter skjenketidens utløp?",
     answers: {
       a: "Ja",
       b: "Hvis de heller den på en flaske",
       c: "Nei",
-	  d: "Ordensvaktene skal få den til afterparty etter stengetid"
+      d: "Ordensvaktene skal få den til afterparty etter stengetid",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
-    question: "Kan kommunestyret inndra bevilling på grunnlag av gjentatt omsetting av narkotika på skjenkestedet jf. alkoholloven §1-8?",
+    question:
+      "Kan kommunestyret inndra bevilling på grunnlag av gjentatt omsetting av narkotika på skjenkestedet jf. alkoholloven §1-8?",
     answers: {
       a: "Ja",
       b: "Kun hvis skjenkestedet har fått 12 prikker i løpet av to år",
       c: "Nei",
-	  d: "Dette har ingenting med alkoholloven å gjøre"
+      d: "Dette har ingenting med alkoholloven å gjøre",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Kan kommunestyret inndra bevilling på grunnlag av gjentatt diskriminering av gjester jf. alkoholloven §1-8?",
+    question:
+      "Kan kommunestyret inndra bevilling på grunnlag av gjentatt diskriminering av gjester jf. alkoholloven §1-8?",
     answers: {
       a: "Nei",
       b: "Kun hvis skjenkestedet har fått 12 prikker i løpet av to år",
       c: "Ja",
-	  d: "Dette har ingenting med alkoholloven å gjøre"
+      d: "Dette har ingenting med alkoholloven å gjøre",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
-]
+];
 
-const drugs = [  
+const drugs = [
   {
     question: "Er narkotika et økende problem i Norge?",
     answers: {
       a: "Nei, bruk av narkotika blir mindre og mindre",
       b: "Ja",
       c: "Ja, men ikke i verden forøvrig",
-	  d: "Nei, det finnes ikke narkotika i Norge"
+      d: "Nei, det finnes ikke narkotika i Norge",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Ruser alle brukere seg hver dag?",
@@ -2382,9 +2420,9 @@ const drugs = [
       a: "Vet ikke",
       b: "Nei, det finnes også rekreasjonsbruk hvor bruket er begrenset til ferie og fest",
       c: "De fleste som bruker narkotika, er ruset hver dag",
-	  d: "Ja, alle"
+      d: "Ja, alle",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva er en partypakke?",
@@ -2392,9 +2430,9 @@ const drugs = [
       a: "En pakke man får i posten med ballonger, servietter og alt man trenger for fest",
       b: "En partypakke inneholder amfetamin og heroin",
       c: "En pakke med flere typer rusmidler, slik at man kan ruse seg opp og ned igjen når festen er over",
-	  d: "En pakke med rusmidler som man får på fest"
+      d: "En pakke med rusmidler som man får på fest",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Er all bruk av narkotika ulovlig?",
@@ -2402,9 +2440,9 @@ const drugs = [
       a: "Ja, men det er lovlig med bruk av narkotiske legemidler som personen har fått på resept fra lege",
       b: "Nei",
       c: "Nei, ikke hvis det er for å behandle en sykdom",
-	  d: "Nei, det er bare besittelse og salg som er ulovlig"
+      d: "Nei, det er bare besittelse og salg som er ulovlig",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hvor finner vi ut om et stoff er klassifisert som narkotika?",
@@ -2412,9 +2450,9 @@ const drugs = [
       a: "Narkotikalisten i narkotikaloven",
       b: "Vaktvirksomhetsloven",
       c: "Narkotikalisten i forskrift om narkotika",
-	  d: "Legemiddelloven"
+      d: "Legemiddelloven",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "I hvilke(n) lov(er) er befatning med narkotika omhandlet?",
@@ -2422,49 +2460,53 @@ const drugs = [
       a: "Straffeloven",
       b: "Legemiddelloven",
       c: "Alkoholloven",
-	  d: "Legemiddelloven og straffeloven"
+      d: "Legemiddelloven og straffeloven",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
-    question: "I hvilke(n) lov(er) er bruk og besittelse av narkotika omhandlet, samt overdragelse av legemidler som ikke betegnes som narkotika?",
+    question:
+      "I hvilke(n) lov(er) er bruk og besittelse av narkotika omhandlet, samt overdragelse av legemidler som ikke betegnes som narkotika?",
     answers: {
       a: "Straffeloven",
       b: "Legemiddelloven",
       c: "Alkoholloven",
-	  d: "Legemiddelloven og straffeloven"
+      d: "Legemiddelloven og straffeloven",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
-    question: "I hvilke(n) lov(er) er ulovlig tilvirkning, innførsel, utførsel, erverv, oppbevaring, sending og overdragelse av narkotika omhandlet?",
+    question:
+      "I hvilke(n) lov(er) er ulovlig tilvirkning, innførsel, utførsel, erverv, oppbevaring, sending og overdragelse av narkotika omhandlet?",
     answers: {
       a: "Straffeloven",
       b: "Legemiddelloven",
       c: "Alkoholloven",
-	  d: "Legemiddelloven og straffeloven"
+      d: "Legemiddelloven og straffeloven",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Hva slags rusmiddel er det sannsynlig at en person har tatt om de har meget store pupiller?",
+    question:
+      "Hva slags rusmiddel er det sannsynlig at en person har tatt om de har meget store pupiller?",
     answers: {
       a: "Sentraldempende, f.eks. heroin",
       b: "Sentralstimulerende, f.eks. kodein",
       c: "Sentraldempende, f.eks. LSD",
-	  d: "Sentralstimulerende, f.eks. amfetamin"
+      d: "Sentralstimulerende, f.eks. amfetamin",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
-    question: "Hva slags rusmiddel er det sannsynlig at en person har tatt om de har meget små pupiller?",
+    question:
+      "Hva slags rusmiddel er det sannsynlig at en person har tatt om de har meget små pupiller?",
     answers: {
       a: "Sentraldempende, f.eks. heroin",
       b: "Sentralstimulerende, f.eks. kodein",
       c: "Sentraldempende, f.eks. LSD",
-	  d: "Sentralstimulerende, f.eks. amfetamin"
+      d: "Sentralstimulerende, f.eks. amfetamin",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Finnes det helsepersonell som ruser seg på jobb?",
@@ -2472,19 +2514,20 @@ const drugs = [
       a: "Mange grupper ruser seg for å klare lange arbeidsøkter, men helsepersonell gjør aldri dette",
       b: "Ja, det er lov jf. legemiddelloven §14-3",
       c: "Ja, det forekommer at personer ruser seg for å klare lange arbeidsøkter, også helsepersonell",
-	  d: "Nei"
+      d: "Nei",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
-    question: "Hvilken av disse er en uaktsom overtredelse av narkotikalovgivningen?",
+    question:
+      "Hvilken av disse er en uaktsom overtredelse av narkotikalovgivningen?",
     answers: {
       a: "Person som frivillig har tatt MDMA, men det viser seg å være opiumsstoffer",
       b: "Person som er ruset fordi noen andre har puttet noe i drinken deres",
       c: "Innførsel av narkotika i en koffert personen ikke vet hva inneholder",
-	  d: "Innførsel av narkotika som er godt gjemt i kofferten"
+      d: "Innførsel av narkotika som er godt gjemt i kofferten",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hva er doping jf. straffeloven §234?",
@@ -2492,9 +2535,9 @@ const drugs = [
       a: "Det samme som å ruse seg",
       b: "Stoffer listet opp i forskrift om hva som skal anses som dopingmidler",
       c: "Bruk av stoffer som kan gi utestenging fra idretten",
-	  d: "Alle stoffer som kan gi prestasjonsfremmende effekt"
+      d: "Alle stoffer som kan gi prestasjonsfremmende effekt",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva er derviatregelen?",
@@ -2502,9 +2545,9 @@ const drugs = [
       a: "Avsnitt av narkotikalisten som inkluderer derivater (liknende stoffer) av stoffer som finnes på listen",
       b: "Avsnitt i straffeloven som forbyr bruk av derivater (opiumliknende stoff)",
       c: "En instruks som gir tilgang for vektere til å beslaglegge narkotika",
-	  d: "En forskrift under legemiddelloven som gir politiet tilgang til å kjøpe narkotika"
+      d: "En forskrift under legemiddelloven som gir politiet tilgang til å kjøpe narkotika",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hva står THC for og hvilken plante finnes dette stoffet i?",
@@ -2512,9 +2555,9 @@ const drugs = [
       a: "Tetrahydrocannabinol, Papaver somniferum",
       b: "Tetrahydrocarabinkrok, Erythroxylum coca",
       c: "Tetrahydrocannabinol, Cannabis sativa",
-	  d: "Trange, hyggelige colaflasker, finnes ikke i en plante, det er et ordspråk"
+      d: "Trange, hyggelige colaflasker, finnes ikke i en plante, det er et ordspråk",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Kan cannabis injiseres direkte inn i blodårene?",
@@ -2522,9 +2565,9 @@ const drugs = [
       a: "Bare om du løser det opp i appelsinjuice",
       b: "Ja, dette blir mer og mer vanlig",
       c: "Nei, dette er umulig",
-	  d: "Det må kokes først, ellers blir det giftig"
+      d: "Det må kokes først, ellers blir det giftig",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hva kan stemme med tegn på cannabisrus?",
@@ -2532,9 +2575,9 @@ const drugs = [
       a: "Problemer med å holde seg oppreist, omtåket, snøvlete tale, knekk i nakke og knær, tydelig ruset",
       b: "Latter, stor sannsynlighet for aggresjon, forstørrede pupiller, røde øyne, tørre slimhinner",
       c: "Høylytt, problemer med å snakke, hukommelsestap, sult, små pupiller",
-	  d: "Latter, økt \"selvinnsikt\", forstørrede pupiller, røde øyne, tørre slimhinner"
+      d: 'Latter, økt "selvinnsikt", forstørrede pupiller, røde øyne, tørre slimhinner',
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hva kan stemme med tegn på opioiderus?",
@@ -2542,9 +2585,9 @@ const drugs = [
       a: "Problemer med å holde seg oppreist, omtåket, snøvlete tale, knekk i nakke og knær, tydelig ruset",
       b: "Latter, stor sannsynlighet for aggresjon, forstørrede pupiller, røde øyne, tørre slimhinner",
       c: "Høylytt, problemer med å snakke, hukommelsestap, sult, små pupiller",
-	  d: "Latter, økt \"selvinnsikt\", forstørrede pupiller, røde øyne, tørre slimhinner"
+      d: 'Latter, økt "selvinnsikt", forstørrede pupiller, røde øyne, tørre slimhinner',
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Er all bruk av opioider forbudt?",
@@ -2552,9 +2595,9 @@ const drugs = [
       a: "Ja",
       b: "Nei, opioider finnes i legemidler og brukes som smertelindrende",
       c: "Ikke hvis det er kjøpt reseptfritt på dagligvarebutikk",
-	  d: "Ikke hvis man lager det av valmue fra hagen"
+      d: "Ikke hvis man lager det av valmue fra hagen",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hvordan blir herion oftest tatt?",
@@ -2562,9 +2605,9 @@ const drugs = [
       a: "Sprøytes inn (injiseres), røykes, blandet i cola",
       b: "Sprøytes inn (injiseres), partypakke, blandet med tobakk",
       c: "Sprøytes inn (injiseres), røykes, sniffes",
-	  d: "Minusdop, designerdrugs, i Trondheim"
+      d: "Minusdop, designerdrugs, i Trondheim",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvilke stoffer regnes som sentraldempende?",
@@ -2572,9 +2615,9 @@ const drugs = [
       a: "Amfetaminer, cannabinoider, poppers",
       b: "Barbiturater, benzodiapiner, opioider",
       c: "Amfetaminer, khat, kokain",
-	  d: "Fleinsopp, LSD, ecstasy, PCP"
+      d: "Fleinsopp, LSD, ecstasy, PCP",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hvilke stoffer regnes som sentralstimulerende?",
@@ -2582,9 +2625,9 @@ const drugs = [
       a: "Amfetaminer, cannbinoider, poppers",
       b: "Barbiturater, benzodiapiner, opioider",
       c: "Amfetaminer, khat, kokain",
-	  d: "Fleinsopp, LSD, ecstasy, PCP"
+      d: "Fleinsopp, LSD, ecstasy, PCP",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvilke stoffer regnes som hallusinogener?",
@@ -2592,9 +2635,9 @@ const drugs = [
       a: "Fleinsopp, LSD, ecstasy, PCP, amfetamin",
       b: "Barbiturater, benzodiapiner, opioider",
       c: "Amfetaminer, khat, kokain",
-	  d: "Fleinsopp, LSD, ecstasy, PCP"
+      d: "Fleinsopp, LSD, ecstasy, PCP",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hva kan stemme med tegn på rus fra sentralstimulerende?",
@@ -2602,9 +2645,9 @@ const drugs = [
       a: "Problemer med å holde seg oppreist, omtåket, snøvlete tale, knekk i nakke og knær, tydelig ruset",
       b: "Kontinuerlig bevegelse, usammenhengende tale, store pupiller, tett, rennende nese, ofte tynne",
       c: "Høylytt, problemer med å snakke, hukommelsestap, sult, små pupiller",
-	  d: "Latter, økt \"selvinnsikt\", forstørrede pupiller, røde øyne, tørre slimhinner"
+      d: 'Latter, økt "selvinnsikt", forstørrede pupiller, røde øyne, tørre slimhinner',
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva kan stemme med tegn på rus fra hallusinogener?",
@@ -2612,49 +2655,53 @@ const drugs = [
       a: "Virkelighetsfjern, kan gi psykotiske trekk, hallusinasjoner, kan likne på sentralstimulerende rus",
       b: "Virkelighetsfjern, kan gi psykotiske trekk, blek og kald, hallusinasjoner, kan likne på sentraldempende rus",
       c: "Problemer med å holde seg oppreist, omtåket, snøvlete tale, knekk i nakke og knær, tydelig ruset",
-	  d: "Latter, økt \"selvinnsikt\", forstørrede pupiller, røde øyne, tørre slimhinner"
+      d: 'Latter, økt "selvinnsikt", forstørrede pupiller, røde øyne, tørre slimhinner',
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Hva slags førstehjelpstiltak er fordelaktige ved overdose av amfetamin, kokain og ecstasy (MDMA)?",
+    question:
+      "Hva slags førstehjelpstiltak er fordelaktige ved overdose av amfetamin, kokain og ecstasy (MDMA)?",
     answers: {
       a: "Det er ikke sannsynlig med overdose av disse stoffene",
       b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevisst person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
       c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Nalokson), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
-	  d: "Det er ikke sannsynlig med overdose av disse stoffene, men personen kan ha behov for akutt psykiatrisk helsehjelp. Ring 113 eller 112 om fare for seg selv og andre."
+      d: "Det er ikke sannsynlig med overdose av disse stoffene, men personen kan ha behov for akutt psykiatrisk helsehjelp. Ring 113 eller 112 om fare for seg selv og andre.",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
-    question: "Hva slags førstehjelpstiltak er fordelaktige ved overdose av heroin, fentanyl og metadon?",
+    question:
+      "Hva slags førstehjelpstiltak er fordelaktige ved overdose av heroin, fentanyl og metadon?",
     answers: {
       a: "Det er ikke sannsynlig med overdose av disse stoffene",
       b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevisst person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
       c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Nalokson), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
-	  d: "Det er ikke sannsynlig med overdose av disse stoffene, men personen kan ha behov for akutt psykiatrisk helsehjelp. Ring 113 eller 112 om fare for seg selv og andre."
+      d: "Det er ikke sannsynlig med overdose av disse stoffene, men personen kan ha behov for akutt psykiatrisk helsehjelp. Ring 113 eller 112 om fare for seg selv og andre.",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
-    question: "Hva slags førstehjelpstiltak er fordelaktige ved overdose av fleinsopp og LSD?",
+    question:
+      "Hva slags førstehjelpstiltak er fordelaktige ved overdose av fleinsopp og LSD?",
     answers: {
       a: "Det er ikke sannsynlig med overdose av disse stoffene",
       b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevisst person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
       c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Naloxon), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
-	  d: "Det er ikke sannsynlig med overdose av disse stoffene, men personen kan ha behov for akutt psykiatrisk helsehjelp. Ring 113 eller 112 om fare for seg selv eller andre."
+      d: "Det er ikke sannsynlig med overdose av disse stoffene, men personen kan ha behov for akutt psykiatrisk helsehjelp. Ring 113 eller 112 om fare for seg selv eller andre.",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
-    question: "Hva slags førstehjelpstiltak er fordelaktige ved overdose av cannabis?",
+    question:
+      "Hva slags førstehjelpstiltak er fordelaktige ved overdose av cannabis?",
     answers: {
       a: "Det er ikke sannsynlig med overdose av dette stoffet",
       b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevisst person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
       c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Naloxon), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
-	  d: "Det finnes ingen motgift og pustestans er svært sannsynlig"
+      d: "Det finnes ingen motgift og pustestans er svært sannsynlig",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hvilke av disse legemidlene er sentraldempende?",
@@ -2662,21 +2709,21 @@ const drugs = [
       a: "Bare Valium",
       b: "Valium, Rohypnol, Mogadon, Pinex Forte",
       c: "Ritalin, Concerta, Modiodal, Fenazon-Koffein",
-	  d: "Cipralex, Ibux, Ritalin, Rohypnol"
+      d: "Cipralex, Ibux, Ritalin, Rohypnol",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
-    {
+  {
     question: "Hvilke av disse legemidlene er sentralstimulerende?",
     answers: {
       a: "Bare Ritalin",
       b: "Valium, Rohypnol, Mogadon, Pinex Forte",
       c: "Ritalin, Concerta, Modiodal, Fenazon-Koffein",
-	  d: "Cipralex, Ibux, Ritalin, Rohypnol"
+      d: "Cipralex, Ibux, Ritalin, Rohypnol",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
-]
+];
 
 const conflict = [
   {
@@ -2685,9 +2732,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2695,9 +2742,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2705,9 +2752,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2715,9 +2762,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2725,9 +2772,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2735,9 +2782,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2745,9 +2792,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2755,9 +2802,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2765,9 +2812,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2775,9 +2822,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2785,9 +2832,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2795,9 +2842,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2805,9 +2852,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2815,9 +2862,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2825,9 +2872,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2835,9 +2882,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2845,9 +2892,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2855,9 +2902,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2865,9 +2912,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2875,9 +2922,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2885,9 +2932,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2895,9 +2942,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2905,9 +2952,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2915,9 +2962,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2925,9 +2972,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2935,9 +2982,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2945,9 +2992,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2955,9 +3002,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2965,9 +3012,9 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -2975,22 +3022,23 @@ const conflict = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
-]
+];
 
-const fire = [  
+const fire = [
   {
-    question: "Hvilke tre elementer må være tilstedet for at en brann skal oppstå?",
+    question:
+      "Hvilke tre elementer må være tilstedet for at en brann skal oppstå?",
     answers: {
       a: "Temperatur, brennbart materiale, luft",
       b: "Varme, oksygen og brennbart materiale",
       c: "Varme, H2o og brennbart materiale",
       d: "Brennbart stoff, bensin, og fuel",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hvilket materiale kan slukkes med pulverapparat?",
@@ -3000,7 +3048,7 @@ const fire = [
       c: "ABC",
       d: "ABCD",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvilket brennbart materiale har Bokstaven B?",
@@ -3010,7 +3058,7 @@ const fire = [
       c: "Brann i frityr",
       d: "Brann i gasser som f.eks. propan",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hva heter de ulike type brannene?",
@@ -3020,7 +3068,7 @@ const fire = [
       c: "Brann er brann uavhengig av hvilket stoff som brenner.",
       d: "Hvordan en brann oppstår avhenger av hvilken type materiale som brenner, det vil si at alle branner er forskjellig",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva er et flammepunkt?",
@@ -3030,7 +3078,7 @@ const fire = [
       c: "Et flammepunkt er når man deler flammen inn i kategorier",
       d: "Et flammepunkt er den laveste temperaturen en brennbar væske kan ha for å avgi tilstrekkelig med gass til å bli antent",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hvilke 4 måter kan en brann spres på?",
@@ -3040,7 +3088,7 @@ const fire = [
       c: "Åpen brann, lukket brann, vid brann, kort brann",
       d: "Ledning, stråling, strømning, seiling",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hva vil en brannrøyk alltid inneholde?",
@@ -3050,7 +3098,7 @@ const fire = [
       c: "Faste materialer (karbon og sot), luft, vanndamp og forbrenningsgasser",
       d: "Forbrenningsgasser, H2O luft, gift",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvilke klasser er slukkemidlene delt inn i?",
@@ -3060,27 +3108,29 @@ const fire = [
       c: "ABC",
       d: "ABCG",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Vann kan brukes som slukkemiddel, men hvilken effekt har vannet på brannen?",
+    question:
+      "Vann kan brukes som slukkemiddel, men hvilken effekt har vannet på brannen?",
     answers: {
       a: "Vannet er vått så derfor vil brannen slukke",
       b: "Vann og brann går ikke overens",
       c: "Vann legger seg som et gasslag på flammen",
       d: "Vann virker kjølende på brannen",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
-    question: "Rent vann kan også brukes som slukkemiddel på elektriske anlegg. opptil hvor mange volt kan vann slukke?",
+    question:
+      "Rent vann kan også brukes som slukkemiddel på elektriske anlegg. opptil hvor mange volt kan vann slukke?",
     answers: {
       a: "10 000 v",
       b: "1000 v",
       c: "100 000 v",
       d: "532 v",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Det er lagt opp 3 vedlikeholdnivåer for slukkemidler, hvilke?",
@@ -3090,7 +3140,7 @@ const fire = [
       c: "Kontroll, etterpleie, vasking",
       d: "Ettersyn, påsyn, vasking",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hva er viktig å ha kjennskap til på et sprinkelanlegg?",
@@ -3100,17 +3150,18 @@ const fire = [
       c: "Vite hvor låseventil, skruventil og mekanismeventil er",
       d: "Vite hvor stengeventilen sitt stengepunkt er",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
-    question: "Hvilke tre nivåer trenger man for vedlikehold av automatiske  slukkeranlegg?",
+    question:
+      "Hvilke tre nivåer trenger man for vedlikehold av automatiske  slukkeranlegg?",
     answers: {
       a: "Kontroll, vedlikehold, og ettersyn",
       b: "Kontroll, ettersyn og service",
       c: "Service og kontroll",
       d: "Etikett på baksiden, rapportere avik, og ettersyn",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hva er et antipanikklys?",
@@ -3120,7 +3171,7 @@ const fire = [
       c: "Lys som lyser opp områder som ikke har klart definerte rømningsveier",
       d: "Lys som gjør deg lykkelig",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hva består et automatisk brannalarmanlegg av?",
@@ -3130,7 +3181,7 @@ const fire = [
       c: "Det samme som en vanlig alarm pakke, for vanlige anlegg",
       d: "Alle alarmpakker er forskjellig",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hvor plasseres et markeringsskilt for rømningsveier?",
@@ -3140,27 +3191,28 @@ const fire = [
       c: "Over døra",
       d: "Der det er nødvendig",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hvordan foregår en risikovurdering for brann?",
     answers: {
-      a: "\"grovanalysen\" sannsynlighet x konsekvens = risiko",
+      a: '"grovanalysen" sannsynlighet x konsekvens = risiko',
       b: "Risiko x risiko= sannsynlighet",
       c: "Risikovurdering kommer ann på hvilken brann det er snakk om",
       d: "Konsekvens x risiko = sannsynlighet",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Når skal avvik rapporteres ved følge av brudd på rutiner og innstrukser? ",
+    question:
+      "Når skal avvik rapporteres ved følge av brudd på rutiner og innstrukser? ",
     answers: {
       a: "Minst en gang i mnd",
       b: "Minst annenhver dag",
       c: "Når du føler det er nødvendig",
       d: "Alltid",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hva er passivt brannvern?",
@@ -3170,7 +3222,7 @@ const fire = [
       c: "Passivt brannvern er når brannen ikke er farlig, og slukker av seg selv",
       d: "Passivt brannvern er når konsekvensene av brannen er større en det man har forventet",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hva er felles for de fleste branninstrukser?",
@@ -3180,7 +3232,7 @@ const fire = [
       c: "De skal inneholde informasjon om varsling, slukking, og redning",
       d: "De skal inneholde informasjon om varsling, førstehjelp og tiltak",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hva skal man alltid sørge for når det brenner?",
@@ -3190,7 +3242,7 @@ const fire = [
       c: "Huske å ta med verdifulle gjenstander som mobil, og pc",
       d: "Behandle alle mennesker som et individ",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hva er den farligste røyken?",
@@ -3200,19 +3252,20 @@ const fire = [
       c: "Den svarte tykke røyken",
       d: "Den røyken som lukter verst",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
-]
+];
 
-const firstaid = [  {
+const firstaid = [
+  {
     question: "?",
     answers: {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3220,9 +3273,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3230,9 +3283,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3240,9 +3293,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3250,9 +3303,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3260,9 +3313,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3270,9 +3323,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3280,9 +3333,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3290,9 +3343,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3300,9 +3353,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3310,9 +3363,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3320,9 +3373,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3330,9 +3383,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3340,9 +3393,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3350,9 +3403,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3360,9 +3413,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3370,9 +3423,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3380,9 +3433,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3390,9 +3443,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3400,9 +3453,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3410,9 +3463,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3420,9 +3473,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3430,9 +3483,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3440,9 +3493,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3450,9 +3503,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3460,9 +3513,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3470,9 +3523,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3480,9 +3533,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3490,9 +3543,9 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3500,11 +3553,11 @@ const firstaid = [  {
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
-]
+];
 
 const ethics = [
   {
@@ -3513,9 +3566,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3523,9 +3576,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3533,9 +3586,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3543,9 +3596,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3553,9 +3606,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3563,9 +3616,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3573,9 +3626,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3583,9 +3636,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3593,9 +3646,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3603,9 +3656,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3613,9 +3666,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3623,9 +3676,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3633,9 +3686,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3643,9 +3696,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3653,9 +3706,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3663,9 +3716,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3673,9 +3726,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3683,9 +3736,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3693,9 +3746,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3703,9 +3756,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3713,9 +3766,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3723,9 +3776,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3733,9 +3786,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3743,9 +3796,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3753,9 +3806,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3763,9 +3816,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3773,9 +3826,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3783,9 +3836,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3793,9 +3846,9 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3803,11 +3856,11 @@ const ethics = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
-]
+];
 
 const service = [
   {
@@ -3816,9 +3869,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3826,9 +3879,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3836,9 +3889,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3846,9 +3899,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3856,9 +3909,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3866,9 +3919,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3876,9 +3929,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3886,9 +3939,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3896,9 +3949,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3906,9 +3959,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3916,9 +3969,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3926,9 +3979,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3936,9 +3989,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3946,9 +3999,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3956,9 +4009,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3966,9 +4019,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3976,9 +4029,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3986,9 +4039,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -3996,9 +4049,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -4006,9 +4059,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -4016,9 +4069,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -4026,9 +4079,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -4036,9 +4089,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -4046,9 +4099,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -4056,9 +4109,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -4066,9 +4119,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -4076,9 +4129,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -4086,9 +4139,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -4096,9 +4149,9 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "?",
@@ -4106,11 +4159,11 @@ const service = [
       a: "",
       b: "",
       c: "",
-	  d: ""
+      d: "",
     },
-    correctAnswer: ""
+    correctAnswer: "",
   },
-]
+];
 
 const law = [
   {
@@ -4121,7 +4174,7 @@ const law = [
       c: "De generelle straffevilkårene som må være til stede for å kunne gi den siktede straff",
       d: "De generelle vilkårene for å kunne straffe noen, og hvilke straffereaksjoner som finnes",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hvorfor må vektere kunne strafferett?",
@@ -4131,7 +4184,7 @@ const law = [
       c: "Fordi vekterfirmaene har dette som ansettelseskrav",
       d: "Man må ikke kunne strafferett, bare straffrihetsgrunn",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hva er en straffeprosess?",
@@ -4141,7 +4194,7 @@ const law = [
       c: "Læren om hvordan en straffeforfølging gjennomføres",
       d: "En prosess der straffedømte anker sin tildelte straff",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Allmennprevensjon innebærer...",
@@ -4151,7 +4204,7 @@ const law = [
       c: "At politiet ikke skal kunne gi straff uten dommers avgjørelse",
       d: "At kunnskapen om straff skal holde dømte fra å begå nye lovbrudd",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Induvidualprevensjon innebærer at",
@@ -4161,7 +4214,7 @@ const law = [
       c: "Straffen skal bidra til at den enkelte lovbryter vil avstå fra å begå nye straffbare handlinger",
       d: "Hvermannsen har de nødvendige kunnskapene om politiets strafferettslige kompetanse",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Den viktigste loven innen strafferett er...",
@@ -4171,7 +4224,7 @@ const law = [
       c: "Straffebestemmelsene",
       d: "Straffeforskriftene",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hva heter de praktiske straffrihetsgrunnene?",
@@ -4181,7 +4234,7 @@ const law = [
       c: "Nødverge, forsett, selvtekt og nødrett",
       d: "Hjemmel, forsett, nødrett og nødverge",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Er man fritatt for straff hvis man er rettsuviten?",
@@ -4191,7 +4244,7 @@ const law = [
       c: "Bare hvis det er vist forenklet forelegg",
       d: "Bare i forhold til trafikkregler",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hva må være til stede for å gi noen straff?",
@@ -4201,7 +4254,7 @@ const law = [
       c: "Personen må være tilgjengelig",
       d: "Personen må ha vist høy uaktsomhet",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hvilke gruppe personer anses som ikke tilregnelig?",
@@ -4211,17 +4264,18 @@ const law = [
       c: "Personer på sterke legemiddeler med resept, personer over 76 år og personer som har sonet en en forlenget fengselsstraff og nettopp kommet ut",
       d: "Personer under 15, psykotiske personer, personer som er høyt psykisk utviklingshemmet og personer som har sterke bevissthetsforstyrrelser",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
-    question: "Er det straffbart å gjøre et forsøk på å gjøre en ulovlig handling?",
+    question:
+      "Er det straffbart å gjøre et forsøk på å gjøre en ulovlig handling?",
     answers: {
       a: "Ja, alltid",
       b: "Nei",
       c: "Det er opp til politiet å bestemme",
       d: "Ja, men ikke på bagatellmessige straffbare handlinger",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hva er rettighetstap?",
@@ -4231,7 +4285,7 @@ const law = [
       c: "At man mister rettigheter som er nedskrevet i menneskerettighetserklæringen",
       d: "At man mister retten til å anke i domstolene",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
     question: "Hva er et forelegg?",
@@ -4241,7 +4295,7 @@ const law = [
       c: "At man velger å sone i fengsel istedet for å betale for boten",
       d: "Et tilbud fra påtalemyndighetene om å gjøre opp et straffbart forhold med en bot",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Er det tyveri hvis en gjenstand er besittelsesløs?",
@@ -4251,7 +4305,7 @@ const law = [
       c: "Så lenge en gjenstand har en større verdi enn 0, er det tyveri",
       d: "Nei",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
   {
     question: "Hva kreves for å straffe noen for tyveri?",
@@ -4261,17 +4315,17 @@ const law = [
       c: "At personen at utvist berettighet",
       d: "Høyt uaktsomhet",
     },
-    correctAnswer: "a"
+    correctAnswer: "a",
   },
   {
-    question: "Hvor ligger grensen på \"ubetydelig verdi\"?",
+    question: 'Hvor ligger grensen på "ubetydelig verdi"?',
     answers: {
       a: "3500 kroner",
       b: "2500 kroner",
       c: "2000 kroner",
       d: "3000 kroner",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Kan en vekter ha rollen som anmelder?",
@@ -4281,17 +4335,18 @@ const law = [
       c: "Ja",
       d: "Bare politi",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
-    question: "Er det en straffbar handling hvis en 14åring stjeler i en butikk?",
+    question:
+      "Er det en straffbar handling hvis en 14åring stjeler i en butikk?",
     answers: {
       a: "Ja",
       b: "Nei",
       c: "Bare hvis foreldrene gir samtykke",
       d: "Bare på fersk gjerning og ferske spor",
     },
-    correctAnswer: "b"
+    correctAnswer: "b",
   },
   {
     question: "Hvem er det som har bevisbyrden i straffesaker?",
@@ -4301,7 +4356,7 @@ const law = [
       c: "Påtalemyndighetene",
       d: "Dommer",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
   {
     question: "Hva er forvaring?",
@@ -4311,7 +4366,7 @@ const law = [
       c: "En ubetinget frihetsberøvelse for å verne tidligere forbrytere ovenfor samfunnet",
       d: "En tidsubestemt frihetsberøvelse",
     },
-    correctAnswer: "d"
+    correctAnswer: "d",
   },
 
   {
@@ -4320,10 +4375,10 @@ const law = [
       a: "Å ha et grunnlag i instrukser til å fatte et vedtak eller gjennomføre handlinger som andre mennesker må finne seg i og rette seg etter",
       b: "Å ha et grunnlag i vaktvirksomhetsloven til å gjøre noe som ellers ville være straffbart, som f.eks. selvtekt",
       c: "Å ha et grunnlag i lov, forskrift eller rettspraksis til å fatte et vedtak eller gjennomføre handlinger som andre mennesker må finne seg i og rette seg etter",
-	  d: "Å sette en person i håndjern"
+      d: "Å sette en person i håndjern",
     },
-    correctAnswer: "c"
+    correctAnswer: "c",
   },
-]
+];
 
-const allq = alcohol.concat(drugs).concat(fire).concat(law).concat(hse)
+const allq = alcohol.concat(drugs).concat(fire).concat(law).concat(hse);
