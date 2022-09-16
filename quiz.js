@@ -10,10 +10,6 @@ alternatives =
   '<input type="radio" name="opt" id="c"><label id="lblc" for="c">option 3</label><br>' +
   '<input type="radio" name="opt" id="d"><label id="lbld" for="d">option 4</label><br>';
 
-function random(max) {
-  return Math.floor(Math.random() * max + 1);
-}
-
 function makeQuiz(set, title) {
   document.getElementById("header1").innerHTML = title;
   questions = title === "Alle" ? 81 : 21;

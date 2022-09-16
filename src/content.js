@@ -1,5 +1,5 @@
 export const questions = {
-  threat: [
+  trussel: [
     {
       question: "?",
       answers: {
@@ -11,7 +11,7 @@ export const questions = {
       correctAnswer: "",
     },
   ],
-  risk: [
+  risiko: [
     {
       question: "?",
       answers: {
@@ -23,7 +23,7 @@ export const questions = {
       correctAnswer: "",
     },
   ],
-  securing: [
+  sikring: [
     {
       question: "?",
       answers: {
@@ -35,7 +35,7 @@ export const questions = {
       correctAnswer: "",
     },
   ],
-  tasks: [
+  oppgaver: [
     {
       question: "?",
       answers: {
@@ -47,7 +47,7 @@ export const questions = {
       correctAnswer: "",
     },
   ],
-  preparedness: [
+  beredskap: [
     {
       question: "?",
       answers: {
@@ -59,7 +59,7 @@ export const questions = {
       correctAnswer: "",
     },
   ],
-  conflict: [
+  konflikt: [
     {
       question: "?",
       answers: {
@@ -71,7 +71,7 @@ export const questions = {
       correctAnswer: "",
     },
   ],
-  firstaid: [
+  førstehjelp: [
     {
       question: "?",
       answers: {
@@ -83,7 +83,7 @@ export const questions = {
       correctAnswer: "",
     },
   ],
-  ethics: [
+  etikk: [
     {
       question: "?",
       answers: {
@@ -107,7 +107,7 @@ export const questions = {
       correctAnswer: "",
     },
   ],
-  hse: [
+  hms: [
     {
       question:
         "Hvor er bestemmelser om lønn regulert med tanke på vekteryrket?",
@@ -389,7 +389,7 @@ export const questions = {
       correctAnswer: "a",
     },
   ],
-  alcohol: [
+  alkohol: [
     {
       question: "Hva defineres som alkoholholdig drikk jf. alkoholloven §1-3?",
       answers: {
@@ -998,7 +998,7 @@ export const questions = {
       correctAnswer: "c",
     },
   ],
-  drugs: [
+  rus: [
     {
       question: "Er narkotika et økende problem i Norge?",
       answers: {
@@ -1319,7 +1319,7 @@ export const questions = {
       correctAnswer: "c",
     },
   ],
-  fire: [
+  brann: [
     {
       question:
         "Hvilke tre elementer må være tilstedet for at en brann skal oppstå?",
@@ -1546,7 +1546,7 @@ export const questions = {
       correctAnswer: "c",
     },
   ],
-  law: [
+  jus: [
     {
       question: "Hva omhandler alminnelig strafferett?",
       answers: {
@@ -1762,9 +1762,3 @@ export const questions = {
     },
   ],
 };
-
-export const allq = questions["alcohol"]
-  .concat(questions["drugs"])
-  .concat(questions["fire"])
-  .concat(questions["law"])
-  .concat(questions["law"]);
