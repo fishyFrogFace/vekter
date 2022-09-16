@@ -1,3 +1,32 @@
+export type TopicID = keyof typeof questions;
+
+export interface Topic {
+  name: TopicID;
+  title: string;
+}
+
+export const topics: Topic[] = [
+  { name: "trussel", title: "Trusselbildet" },
+  { name: "risiko", title: "Risikovurdering" },
+  { name: "sikring", title: "Sikringstiltak" },
+  { name: "oppgaver", title: "Vektertjenester og -oppgaver" },
+  { name: "hms", title: "HMS og arbeidsmiljøloven" },
+  { name: "beredskap", title: "Beredskapsplanlegging" },
+  { name: "alkohol", title: "Alkoholloven og bevillingssystemet" },
+  { name: "rus", title: "Rusmidler" },
+  { name: "konflikt", title: "Kommunikasjon og konflikthåndtering" },
+  { name: "brann", title: "Brannvern" },
+  { name: "førstehjelp", title: "Førstehjelp" },
+  { name: "etikk", title: "Etikk" },
+  { name: "service", title: "Service, kundebehandling og kvalitet" },
+  { name: "jus", title: "Jus" },
+];
+
+export const topicsWithQuestions = () =>
+  topics.filter((topic) =>
+    questions[topic.name].some((question) => question.question !== "?")
+  );
+
 export const questions = {
   trussel: [
     {

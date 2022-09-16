@@ -1,27 +1,5 @@
 import Link from "@mui/material/Link";
-import { questions } from "./content.js";
-
-const categories: Category[] = [
-  { name: "trussel", title: "Trusselbildet" },
-  { name: "risiko", title: "Risikovurdering" },
-  { name: "sikring", title: "Sikringstiltak" },
-  { name: "oppgaver", title: "Vektertjenester og -oppgaver" },
-  { name: "hms", title: "HMS og arbeidsmiljøloven" },
-  { name: "beredskap", title: "Beredskapsplanlegging" },
-  { name: "alkohol", title: "Alkoholloven og bevillingssystemet" },
-  { name: "rus", title: "Rusmidler" },
-  { name: "konflikt", title: "Kommunikasjon og konflikthåndtering" },
-  { name: "brann", title: "Brannvern" },
-  { name: "førstehjelp", title: "Førstehjelp" },
-  { name: "etikk", title: "Etikk" },
-  { name: "service", title: "Service, kundebehandling og kvalitet" },
-  { name: "jus", title: "Jus" },
-];
-
-interface Category {
-  name: keyof typeof questions;
-  title: string;
-}
+import { topicsWithQuestions } from "./content";
 
 export default function App() {
   return (
@@ -49,17 +27,13 @@ export default function App() {
               Alle
             </Link>
           </li>
-          {categories
-            .filter((cat) =>
-              questions[cat.name].some((question) => question.question !== "?")
-            )
-            .map((cat) => (
-              <li key={cat.title}>
-                <Link href={cat.name} underline="hover">
-                  {cat.title}
-                </Link>
-              </li>
-            ))}
+          {topicsWithQuestions().map((topic) => (
+            <li key={topic.title}>
+              <Link href={topic.name} underline="hover">
+                {topic.title}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     </div>
