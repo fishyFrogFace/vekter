@@ -1,9 +1,9 @@
-import Link from "@mui/material/Link";
+import { Link } from "react-router-dom";
 import { topicsWithQuestions } from "./content";
 
-export default function App() {
+export default function Main() {
   return (
-    <div className="App">
+    <div className="main">
       <h1>Prøveeksamen for vekterutdanningen</h1>
       <p>
         Dette er en nettside som er satt opp for alle som skal gå opp til
@@ -23,15 +23,11 @@ export default function App() {
       <div>
         <ul>
           <li>
-            <Link href="alle" underline="hover">
-              Alle
-            </Link>
+            <Link to="quiz/alle">Alle</Link>
           </li>
           {topicsWithQuestions().map((topic) => (
             <li key={topic.title}>
-              <Link href={topic.name} underline="hover">
-                {topic.title}
-              </Link>
+              <Link to={`quiz/${topic.name}`}>{topic.title}</Link>
             </li>
           ))}
         </ul>
