@@ -11,10 +11,10 @@ export default function ErrorPage() {
 
   return (
     <div id="error-page">
-      <h1>Oops!</h1>
-      <p>Sorry, en uventet feil har oppstått.</p>
+      <h1>404 Not Found</h1>
+      <p>Denne siden finnes ikke.</p>
       <p>
-        <i>{`${error.status} ${error.statusText || error.message}`}</i>
+        <i>{error.statusText || error.message}</i>
       </p>
     </div>
   );

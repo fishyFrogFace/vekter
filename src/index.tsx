@@ -3,16 +3,19 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import Main from "./Main";
 import reportWebVitals from "./reportWebVitals";
-import Router from "./ErrorPage";
+import NotFound from "./NotFound";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Exam from "./Exam";
 import { Outlet } from "react-router-dom";
+
+const yo = ["alle", "hse", "fisk"];
+const newb = yo.map((topic) => ({ path: `quiz/${topic}` }));
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Outlet />,
-    errorElement: <Router />,
+    errorElement: <NotFound />,
     children: [
       {
         path: "/",
