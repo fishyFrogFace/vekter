@@ -7,9 +7,14 @@ import NotFound from "./NotFound";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Exam from "./Exam";
 import { Outlet } from "react-router-dom";
+import { TopicID, questions } from "./content";
 
-const yo = ["alle", "hse", "fisk"];
-const newb = yo.map((topic) => ({ path: `quiz/${topic}` }));
+const liste = Object.keys(questions) as TopicID[];
+
+const topics = liste.map((topic) => ({
+  path: `quiz/${topic}`,
+  element: <Exam topic={topic} />,
+}));
 
 const router = createBrowserRouter([
   {
@@ -17,14 +22,17 @@ const router = createBrowserRouter([
     element: <Outlet />,
     errorElement: <NotFound />,
     children: [
-      {
-        path: "/",
-        element: <Main />,
-      },
-      {
-        path: "quiz/:topic",
-        element: <Exam />,
-      },
+      ...[
+        {
+          path: "/",
+          element: <Main />,
+        },
+        {
+          path: "quiz/alle",
+          element: <Exam topic="alle" />,
+        },
+      ],
+      ...topics,
     ],
   },
 ]);

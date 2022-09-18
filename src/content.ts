@@ -1,4 +1,5 @@
 export type TopicID = keyof typeof questions;
+export type ExtendedTopic = TopicID | "alle";
 
 export interface Topic {
   name: TopicID;
@@ -27,8 +28,13 @@ export const topicsWithQuestions = () =>
     questions[topic.name].some((question) => question.question !== "?")
   );
 
+export const allQuestions = () =>
+  topicsWithQuestions()
+    .map((topic) => questions[topic.name])
+    .flat();
+
 export const amountOfQuestions = (topicID: TopicID) =>
-  questions[topicID].filter((question) => question.question !== "?").length;
+  questions[topicID].length;
 
 export const questions = {
   trussel: [
@@ -1794,3 +1800,5 @@ export const questions = {
     },
   ],
 };
+
+console.log(typeof questions);
