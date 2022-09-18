@@ -27,6 +27,9 @@ export const topicsWithQuestions = () =>
     questions[topic.name].some((question) => question.question !== "?")
   );
 
+export const amountOfQuestions = (topicID: TopicID) =>
+  questions[topicID].filter((question) => question.question !== "?").length;
+
 export const questions = {
   trussel: [
     {

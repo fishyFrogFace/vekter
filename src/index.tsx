@@ -6,16 +6,23 @@ import reportWebVitals from "./reportWebVitals";
 import Router from "./ErrorPage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Exam from "./Exam";
+import { Outlet } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main />,
+    element: <Outlet />,
     errorElement: <Router />,
-  },
-  {
-    path: "/quiz/:title",
-    element: <Exam />,
+    children: [
+      {
+        path: "/",
+        element: <Main />,
+      },
+      {
+        path: "quiz/:topic",
+        element: <Exam />,
+      },
+    ],
   },
 ]);
 
