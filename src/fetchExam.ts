@@ -1,15 +1,9 @@
-import { questions, TopicID, topicsWithQuestions } from "./content";
+import { allQuestions, TopicID, topics } from "./content";
 import { getRandomElementsFromList } from "./helpers";
 
-const createRandomExam = () =>
-  getRandomElementsFromList(
-    80,
-    topicsWithQuestions()
-      .map((topic) => questions[topic.name])
-      .flat()
-  );
+const createRandomExam = () => getRandomElementsFromList(80, allQuestions());
 
-export const fetchExam = (topic: TopicID | "Alle") =>
-  topic === "Alle"
+export const fetchExam = (topic: TopicID) =>
+  topic === "alle"
     ? createRandomExam()
-    : getRandomElementsFromList(20, questions[topic]);
+    : getRandomElementsFromList(20, topics[topic].questions);

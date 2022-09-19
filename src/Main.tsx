@@ -25,9 +25,9 @@ export default function Main() {
           <li>
             <Link to="quiz/alle">Alle</Link>
           </li>
-          {topicsWithQuestions().map((topic) => (
+          {topicsWithQuestions().map(([name, topic]) => (
             <li key={topic.title}>
-              <Link to={`quiz/${topic.name}`}>{topic.title}</Link>
+              <Link to={`quiz/${name}`}>{topic.title}</Link>
             </li>
           ))}
         </ul>
