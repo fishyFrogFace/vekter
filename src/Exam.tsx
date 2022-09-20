@@ -1,6 +1,6 @@
 import Button from "@mui/material/Button";
-import { useState } from "react";
-import { amountOfQuestions, Topic, TopicID, topics } from "./content";
+import { useState, useEffect } from "react";
+import { amountOfQuestions, Answer, Topic, TopicID, topics } from "./content";
 import { fetchExam } from "./fetchExam";
 
 interface ExamProps {
@@ -12,15 +12,8 @@ interface StartProps {
   startExam: () => void;
 }
 
-enum Page {
-  Start,
-  Quiz,
-  Result,
-}
-
 const Start = (props: StartProps) => (
   <div id="start-quiz">
-    <h1>{props.topic.title}</h1>
     {props.topic.name === "alle" ? (
       <p>Du vil få 80 spørsmål</p>
     ) : (
@@ -44,24 +37,65 @@ const Result = () => (
   </div>
 );
 
-export default function Exam(props: ExamProps) {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [examSet, setExamSet] = useState(fetchExam(props.topic));
-  const [activePage, setActivePage] = useState(Page.Start);
+interface Options {
+  a: string;
+  b: string;
+  c: string;
+  d: string;
+}
 
-  const nextQuestion = () => {
-    if (currentQuestion === examSet.length - 1) {
-      console.log("Done!");
-    } else {
-      console.log(examSet);
-      setCurrentQuestion((cq) => cq + 1);
-    }
-  };
+interface QuestionProps {
+  question: string;
+  correctAnswer: Answer;
+  options: Options;
+  nextQuestion: () => void;
+}
 
+const Question = (props: QuestionProps) => {
   return (
+    <div>
+      <h2>{props.question}</h2>
+      <p>{props.options.a}</p>
+      <p>{props.options.b}</p>
+      <p>{props.options.c}</p>
+      <p>{props.options.d}</p>
+      <Button variant="contained" onClick={props.nextQuestion}>
+        Neste
+      </Button>
+    </div>
+  );
+};
+
+export default function Exam(props: ExamProps) {
+  const [currentQuestion, setCurrentQuestion] = useState(-1);
+  const [examSet] = useState(fetchExam(props.topic));
+  const [activePage, setActivePage] = useState(
     <Start
       topic={{ title: topics[props.topic].title, name: props.topic }}
-      startExam={() => console.log("hello")}
+      startExam={() => setCurrentQuestion(0)}
     />
+  );
+
+  useEffect(() => {
+    const nextQuestion = () => {
+      if (currentQuestion === examSet.length - 1) {
+        setActivePage(<Result />);
+      } else {
+        setCurrentQuestion((cq) => cq + 1);
+      }
+    };
+
+    if (currentQuestion > -1) {
+      setActivePage(
+        <Question {...examSet[currentQuestion]} nextQuestion={nextQuestion} />
+      );
+    }
+  }, [currentQuestion, examSet]);
+
+  return (
+    <div>
+      <h1>{topics[props.topic].title}</h1>
+      {activePage}
+    </div>
   );
 }

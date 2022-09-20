@@ -1,5 +1,7 @@
 export type TopicID = keyof typeof topics;
 
+export type Answer = "a" | "b" | "c" | "d";
+
 export interface Topic {
   name: TopicID;
   title: string;
@@ -24,7 +26,7 @@ export const topics = {
     questions: [
       {
         question: "?",
-        answers: {
+        options: {
           a: "",
           b: "",
           c: "",
@@ -39,7 +41,7 @@ export const topics = {
     questions: [
       {
         question: "?",
-        answers: {
+        options: {
           a: "",
           b: "",
           c: "",
@@ -54,7 +56,7 @@ export const topics = {
     questions: [
       {
         question: "?",
-        answers: {
+        options: {
           a: "",
           b: "",
           c: "",
@@ -69,7 +71,7 @@ export const topics = {
     questions: [
       {
         question: "?",
-        answers: {
+        options: {
           a: "",
           b: "",
           c: "",
@@ -84,7 +86,7 @@ export const topics = {
     questions: [
       {
         question: "?",
-        answers: {
+        options: {
           a: "",
           b: "",
           c: "",
@@ -99,7 +101,7 @@ export const topics = {
     questions: [
       {
         question: "?",
-        answers: {
+        options: {
           a: "",
           b: "",
           c: "",
@@ -114,7 +116,7 @@ export const topics = {
     questions: [
       {
         question: "?",
-        answers: {
+        options: {
           a: "",
           b: "",
           c: "",
@@ -129,7 +131,7 @@ export const topics = {
     questions: [
       {
         question: "?",
-        answers: {
+        options: {
           a: "",
           b: "",
           c: "",
@@ -144,7 +146,7 @@ export const topics = {
     questions: [
       {
         question: "?",
-        answers: {
+        options: {
           a: "",
           b: "",
           c: "",
@@ -160,7 +162,7 @@ export const topics = {
       {
         question:
           "Hvor er bestemmelser om lønn regulert med tanke på vekteryrket?",
-        answers: {
+        options: {
           a: "De er regulert i arbeidsmiljøloven",
           b: "De er regulert i lov om vaktvirksomhet",
           c: "De er regulert i vekteroverkomsten mellom Norsk Arbeidsmandsforbund og NHO service og handel",
@@ -171,7 +173,7 @@ export const topics = {
       {
         question:
           "Hva er det arbeidsmiljøloven retter seg først og fremst etter:",
-        answers: {
+        options: {
           a: "Mot yrkesmessig helsevern",
           b: "Lønn",
           c: "Førstehjelp",
@@ -182,7 +184,7 @@ export const topics = {
       {
         question:
           "Arbeidsmiljøloven har gått stadig lengre i å trygge rettighetene for de ansatte på tre hovedområder:",
-        answers: {
+        options: {
           a: "Arbeidstid, kontrakt og penger",
           b: "Arbeidsmiljø, arbeidstid og kontraktvern",
           c: "Kontrakt, leie, helse",
@@ -192,7 +194,7 @@ export const topics = {
       },
       {
         question: "Hvordan kan man definere et arbeidsmiljø?",
-        answers: {
+        options: {
           a: "Et arbeidsmiljø er summen av faktorer som påvirker arbeidstaker psykisk, fysisk og sosialt. positivt eller negativt",
           b: "Et arbeidsmiljø er summen av faktorer som helse, førstehjelp og brannvern",
           c: "Et arbeidsmiljø er summen av faktorer som psykisk helse, stabilitet, og fysisk helse. positivt eller negativt.",
@@ -202,7 +204,7 @@ export const topics = {
       },
       {
         question: "Hva har arbeidsgiver et generelt ansvar for at blir fulgt?",
-        answers: {
+        options: {
           a: "Et generelt ansvar for at lovens bestemmelser blir fulgt",
           b: "Et generelt ansvar for at lov om vaktvirksomhet blir fulgt",
           c: "Et generelt ansvar for at arbeidsgiverne skal trives på jobb",
@@ -212,7 +214,7 @@ export const topics = {
       },
       {
         question: "Hvilken oppgaver har blant annet verneombudet?",
-        answers: {
+        options: {
           a: "Ivareta arbeidstakers interesser",
           b: "Ivareta arbeidstakers interesser om saker som angår arbeid. delta på forsamlinger på stortinget, ta folk som ikke bruker hjelm.",
           c: "Ivareta arbeidstakerens interesser som angår arbeidsmiljøet, delta på arbeidstilsynets inspeksjoner, fremlegge relevante rapporter for ledelsen",
@@ -222,7 +224,7 @@ export const topics = {
       },
       {
         question: "Hva er blant annet oppgavene til en arbeidstaker",
-        answers: {
+        options: {
           a: "Vaske gulvet til sjefen, smile vær gang man møter noen på jobb.",
           b: "Bruke pålagt verneutstyr, bidra til løsninger, og stanse arbeidet om man mener det er fare for liv og helse",
           c: "Stanse farlig arbeid, stanse noe som er fare for liv, og bidra til instrukser for eks brannvern",
@@ -232,7 +234,7 @@ export const topics = {
       },
       {
         question: "Hva står AMU for",
-        answers: {
+        options: {
           a: "Almennmannsforbund",
           b: "Almenn undersøkelse",
           c: "Arbeidsmiljøutvalg",
@@ -242,7 +244,7 @@ export const topics = {
       },
       {
         question: "Hvor mange ansatte må det være for å oprette AMU?",
-        answers: {
+        options: {
           a: "500",
           b: "2 (mellom 2-14 om det er nødvendig)",
           c: "50 (mellom 20-50 kan hver av partene kreve at det opprettes et slikt utvalg)",
@@ -252,7 +254,7 @@ export const topics = {
       },
       {
         question: "Hva er en av AMU sine plikter?",
-        answers: {
+        options: {
           a: "Ivareta rettsikkerheten til arbeidstaker",
           b: "Til å aktivt overvåke arbeidsmiljøsituasjonen i virksomheten til enhver tid",
           c: "Stoppe farlig arbeid",
@@ -262,7 +264,7 @@ export const topics = {
       },
       {
         question: "Hva er beregnet som nattearbeid?",
-        answers: {
+        options: {
           a: "2100-0600",
           b: "2200-0700",
           c: "2400-1200",
@@ -273,7 +275,7 @@ export const topics = {
       {
         question:
           "Hvor mange timer er max alminnelig arbeidstid, uten overtidsbetaling?",
-        answers: {
+        options: {
           a: "8 timer i løpet av 24 timer",
           b: "13 timer i løpet av 24 timer",
           c: "9 timer i løpet av 24 timer",
@@ -283,7 +285,7 @@ export const topics = {
       },
       {
         question: "Hvor mange timer er max arbeidstid?",
-        answers: {
+        options: {
           a: "8 timer i løpet av 24 timer",
           b: "13 timer i løpet av 24 timer",
           c: "9 timer i løpet av 24 timer",
@@ -294,7 +296,7 @@ export const topics = {
       {
         question:
           "Hvor mange timer er max alminnelig arbeidstid, uten overtidsbetaling?",
-        answers: {
+        options: {
           a: "33,6 timer i løpet av 7 dager",
           b: "37,5 timer i løpet av 7 dager",
           c: "40 timer i løpet av 7 dager",
@@ -304,7 +306,7 @@ export const topics = {
       },
       {
         question: "Hvor mange timer er max arbeidstid?",
-        answers: {
+        options: {
           a: "33,6 timer i løpet av 7 dager",
           b: "37,5 timer i løpet av 7 dager",
           c: "40 timer i løpet av 7 dager",
@@ -315,7 +317,7 @@ export const topics = {
       {
         question:
           "Hvor mange timer skal man ha fri mellom vakter (hos samme arbeidsgiver)?",
-        answers: {
+        options: {
           a: "13 timer",
           b: "9 timer",
           c: "11 timer",
@@ -325,7 +327,7 @@ export const topics = {
       },
       {
         question: "Hva er merarbeid?",
-        answers: {
+        options: {
           a: "Der arbeidstiden går utover avtale men ikke alminnelig arbeidstid",
           b: "Du jobber hele tiden uten øking i lønn",
           c: "Arbeidsgiver ber deg jobbe mer enn du har kapasitet til",
@@ -335,7 +337,7 @@ export const topics = {
       },
       {
         question: "Hva er minstetillegget for overtidsbetaling?",
-        answers: {
+        options: {
           a: "100%",
           b: "40%",
           c: "2%",
@@ -345,9 +347,9 @@ export const topics = {
       },
       {
         question: "Hva er internkontroll?",
-        answers: {
+        options: {
           a: "Kontroll som skjer innad i firmaet for å ivareta HMS",
-          b: "Kontroll som kunn sjekker brannvern",
+          b: "Kontroll som kun sjekker brannvern",
           c: "Kontroll av ansatte",
           d: "Kontroll av de ansattes mobilbruk",
         },
@@ -356,7 +358,7 @@ export const topics = {
       {
         question:
           "Hva er de mest relevante lovene man ser etter i en internkontroll",
-        answers: {
+        options: {
           a: "Alkoholloven, lov om vaktvirksomhet, arbeidsmiljøloven",
           b: "Alkoholloven, skjenkeloven, diskrimineringsloven",
           c: "Arbeidsmiljøloven, brann og eksplosjonsvernsloven, arbeidsplassmiljøloven",
@@ -366,7 +368,7 @@ export const topics = {
       },
       {
         question: "Når har arbeidstakere krav på pause?",
-        answers: {
+        options: {
           a: "Når de er sultne",
           b: "Om vakten overskrider 5 1/2 time",
           c: "Om vakten overskrider 6 timer",
@@ -376,7 +378,7 @@ export const topics = {
       },
       {
         question: "Hva er overtidsarbeid?",
-        answers: {
+        options: {
           a: "Det arbeidet som går utover fri dagene i helgene",
           b: "Det arbeidet som går utover den alminnelige arbeidstiden",
           c: "Det arbeidet som arbeidsgiver mener arbeidstaker burde gjennomføre",
@@ -386,7 +388,7 @@ export const topics = {
       },
       {
         question: "Hva er en fagforening?",
-        answers: {
+        options: {
           a: "Et fag som er inndelt i foreninger",
           b: "En forening som dekker store geografiske områder, som blant annet et fylke",
           c: "En sammenslutting av arbeidstakere innenfor samme fag",
@@ -397,7 +399,7 @@ export const topics = {
       {
         question:
           "Hva er den største grunnen til at folk i Norge i dag blir sykemeldt?",
-        answers: {
+        options: {
           a: "Muskel- og beinplager",
           b: "Leddplager",
           c: "Det varierer veldig fra yrke til yrke",
@@ -408,7 +410,7 @@ export const topics = {
       {
         question:
           "Kan man inngå avtaler som har bedre betingelser enn det arbeidsmiljøloven bestemmer?",
-        answers: {
+        options: {
           a: "Ja",
           b: "Nei",
           c: "Kun med enkelte unntak",
@@ -419,7 +421,7 @@ export const topics = {
       {
         question:
           "Kan man inngå avtaler som har dårligere betingelser enn det arbeidsmiljøloven bestemmer?",
-        answers: {
+        options: {
           a: "Ja",
           b: "Nei",
           c: "Kun med enkelte unntak",
@@ -429,7 +431,7 @@ export const topics = {
       },
       {
         question: "Hva menes med begrepet arbeidstid?",
-        answers: {
+        options: {
           a: "Den tiden arbeidstaker står for disposisjon for arbeidsgiver",
           b: "Den tiden arbeidsgiver står til disposisjon for arbeidstaker",
           c: "Den tiden man er opptatt på arbeid",
@@ -445,7 +447,7 @@ export const topics = {
       {
         question:
           "Hva defineres som alkoholholdig drikk jf. alkoholloven §1-3?",
-        answers: {
+        options: {
           a: "Drikk med alkoholinnhold over 0,7 volumprosent",
           b: "Drikk med alkoholinnhold over 2,5 volumprosent",
           c: "Drikk med alkoholinnhold under 2,5 volumprosent",
@@ -455,7 +457,7 @@ export const topics = {
       },
       {
         question: "Hva er formålet med alkoholloven jf. alkoholloven §1-1?",
-        answers: {
+        options: {
           a: "Å begrense de samfunnsmessige og individuelle skadene som alkoholbruk kan innebære",
           b: "Å begrense de samfunnsmessige og individuelle fordelene som alkoholbruk kan innebære",
           c: "Å sørge for at det blir vanskelig å få tak i alkohol",
@@ -465,7 +467,7 @@ export const topics = {
       },
       {
         question: "Sikter alkoholloven på å begrense forbruket av alkohol?",
-        answers: {
+        options: {
           a: "Ja",
           b: "Ja, men ikke på bekostning av avgifter",
           c: "Nei",
@@ -475,7 +477,7 @@ export const topics = {
       },
       {
         question: "Hvem gir ut bevilling?",
-        answers: {
+        options: {
           a: "Vinmonopolet",
           b: "Politiet",
           c: "Kommunen",
@@ -485,7 +487,7 @@ export const topics = {
       },
       {
         question: "Hvem gjennomfører kontroll av salgs- og skjenkesteder?",
-        answers: {
+        options: {
           a: "Nokas",
           b: "Kommunen",
           c: "Securitas",
@@ -495,7 +497,7 @@ export const topics = {
       },
       {
         question: "Hva vil det si å utføre målrettede kontroller?",
-        answers: {
+        options: {
           a: "Å kontrollere med et mål",
           b: "Å utføre kontroller på steder og tidspunkter der risikoen er størst for brudd på alkoholloven",
           c: "Å bruke ordensvaktene på stedet til å utføre flere kontroller der brudd på alkoholloven har skjedd tidligere",
@@ -506,7 +508,7 @@ export const topics = {
       {
         question:
           "Hvor mange kontroller skal et skjenkested minst ha i året jf. alkoholforskriften §9-7?",
-        answers: {
+        options: {
           a: "3",
           b: "5",
           c: "1",
@@ -517,7 +519,7 @@ export const topics = {
       {
         question:
           "Hvor mange kontroller skal kommunen gjennomføre i året jf. alkoholforskriften §9-7?",
-        answers: {
+        options: {
           a: "3",
           b: "Like mange som antallet skjenkesteder i kommunen",
           c: "Like mange som antallet salgs- og skjenkesteder i kommunen",
@@ -528,7 +530,7 @@ export const topics = {
       {
         question:
           "Hva skal det legges særlig vekt på ved en kontroll jf. alkoholforskriften §9-4?",
-        answers: {
+        options: {
           a: "Salgs- og skjenketider, aldersgrensebestemmelser og ingen skjenking til personer som er åpenbart påvirket",
           b: "At de ansatte ikke drikker alkohol, alkoholfrie alternativer og aldersgrensebestemmelser",
           c: "Salgs- og skjenketider, aldersgrensebestemmelser og at det finnes tilstrekkelig mange ordensvakter",
@@ -539,7 +541,7 @@ export const topics = {
       {
         question:
           "Hva er kravene til en salgs- og skjenkekontrollør jf. alkoholforskriften §5-1?",
-        answers: {
+        options: {
           a: "Vekterutdanning",
           b: "Ingen krav til opplæring",
           c: "Vekterutdanning og bestått kunnskapsprøve for kontrollører",
@@ -550,7 +552,7 @@ export const topics = {
       {
         question:
           "Hvor mange kontrollører må man være på kontroll av skjenkested jf. alkoholforskriften §9-5?",
-        answers: {
+        options: {
           a: "3",
           b: "2",
           c: "En kontrollør og en fra politiet, siden kontrollør ikke har politimyndighet",
@@ -561,7 +563,7 @@ export const topics = {
       {
         question:
           "Hvor mange kontrollører må man være på kontroll av salgssted?",
-        answers: {
+        options: {
           a: "1",
           b: "2",
           c: "En kontrollør og en fra politiet, siden kontrollør ikke har politimyndighet",
@@ -572,7 +574,7 @@ export const topics = {
       {
         question:
           "Hvorfor må man være to kontrollører ved kontroll av skjenkested?",
-        answers: {
+        options: {
           a: "Det må ikke være to kontrollører ved kontroll av sjenkested",
           b: "Observasjoner fra to kontrollører har større bevismessig verdi, bedre rettssikkerhet for bevillingshaver og øker sjansene for at en av dem er edru",
           c: "Observasjoner fra to kontrollører har større bevismessig verdi, bedre rettssikkerhet for bevillingshaver og øker sjansene for å avdekke lovbrudd",
@@ -583,7 +585,7 @@ export const topics = {
       {
         question:
           "Hvorfor må man være to kontrollører ved kontroll av salgssted?",
-        answers: {
+        options: {
           a: "Det må ikke være to kontrollører ved kontroll av salgssted",
           b: "Observasjoner fra to kontrollører har større bevismessig verdi, bedre rettssikkerhet for bevillingshaver og øker sjansene for at en av dem er edru",
           c: "Observasjoner fra to kontrollører har større bevismessig verdi, bedre rettssikkerhet for bevillingshaver og øker sjansene for å avdekke lovbrudd",
@@ -593,7 +595,7 @@ export const topics = {
       },
       {
         question: "Hva er en åpen kontroll?",
-        answers: {
+        options: {
           a: "En kontroll der alle skap må åpnes",
           b: "En kontroll der ansvarshavende legitimerer seg til kontrollørene når de ankommer salgs- eller skjenkestedet",
           c: "En kontroll av at alle flasker som selges på et skjenkested er åpne",
@@ -603,7 +605,7 @@ export const topics = {
       },
       {
         question: "Hva er hensikten med en åpen kontroll?",
-        answers: {
+        options: {
           a: "Å bedre rettssikkerheten til bevillingshaver",
           b: "F.eks. å kunne gjennomføre en kontroll selv om lokalet er fullt eller det er lang kø",
           c: "Åpen kontroll har liten hensikt, da ordensvakter og bartendere vil gjemme unna lovbrudd om de vet at kontrolløren er der",
@@ -613,7 +615,7 @@ export const topics = {
       },
       {
         question: "Hva er en anonym kontroll?",
-        answers: {
+        options: {
           a: "En kontroll der bevillingshaver ikke får vite at de er kontrollert før sanksjoner kommer i posten",
           b: "En kontroll der kontrollørene legitimerer seg til ordensvakt eller ansvarshavende når de ankommer salgs- eller skjenkestedet",
           c: "En kontroll der kontrollører betaler inngangspenger og går inn på stedet som en vanlig gjest",
@@ -623,7 +625,7 @@ export const topics = {
       },
       {
         question: "Må kontrollører av salgs- og sjenkesteder legitimere seg?",
-        answers: {
+        options: {
           a: "Ja, de må alltid legitimere seg til ordensvakt eller ansvarshavende når de ankommer salgs- eller skjenkestedet",
           b: "Ja, de må alltid legitimere seg til ordensvakt eller ansvarshavende når de forlater salgs- eller skjenkestedet",
           c: "Nei, ikke ved anonym kontroll, da får ansvarshavende brev fra kommunen i ettertid",
@@ -633,7 +635,7 @@ export const topics = {
       },
       {
         question: "Hva skjer i etterkant av en salgs- eller skjenkekontroll?",
-        answers: {
+        options: {
           a: "Kontrollører skal sende en rapport innen en uke til bevillingshaver.",
           b: "Politiet skal sende en rapport innen en uke til bevillingshaver.",
           c: "Kommunen skal sende en rapport innen en uke til bevillingshaver.",
@@ -643,7 +645,7 @@ export const topics = {
       },
       {
         question: "Hva er en samordnet kontroll?",
-        answers: {
+        options: {
           a: "En kontroll gjennom Samordna opptak",
           b: "Når politiet trenger bistand og kaller inn brannvesenet",
           c: "En planlagt aksjon der flere instanser gjennømfører kontroll samtidig",
@@ -653,7 +655,7 @@ export const topics = {
       },
       {
         question: "Hvilke instanser kan møte på en samordnet kontroll?",
-        answers: {
+        options: {
           a: "Politi, brannvesen, tollvesen, Skatteetaten, Mattilsynet, skjenkekontroll",
           b: "Politi, brannvesen, tollvesen, Skatteetaten, Mattilsynet, men ikke skjenkekontroll",
           c: "Bare private kontrollorganer",
@@ -663,7 +665,7 @@ export const topics = {
       },
       {
         question: "Hvem skal gis bevilling jf. alkoholloven §1-4b?",
-        answers: {
+        options: {
           a: "Julenissen",
           b: "Den som har det juridiske og økonomiske ansvaret for bedriften",
           c: "Den som har det ansvaret for ordensvaktene i bedriften",
@@ -674,7 +676,7 @@ export const topics = {
       {
         question:
           "Må hvert salgs- og skjenkested ha egen bevilling jf. alkoholloven §3-1 og §4-2?",
-        answers: {
+        options: {
           a: "Ja",
           b: "Nei",
           c: "Nei, ikke hvis de har samme eier",
@@ -685,7 +687,7 @@ export const topics = {
       {
         question:
           "Hvilke krav er det til den som er oppført som styrer på en bevilling?",
-        answers: {
+        options: {
           a: "Må være daglig leder",
           b: "Må være over 20 år, ha uklanderlig vandel",
           c: "Må være over 25 år, ha plettfri vandel",
@@ -695,7 +697,7 @@ export const topics = {
       },
       {
         question: "Hvem kan inndra en bevilling?",
-        answers: {
+        options: {
           a: "Skjenkekontrollør",
           b: "Politiet",
           c: "Kommunen",
@@ -705,7 +707,7 @@ export const topics = {
       },
       {
         question: "Hva slags sanksjoner gir 12 prikker i løpet av to år?",
-        answers: {
+        options: {
           a: "Bevilling inndras og stedet kan ikke få ny bevilling på 5 år",
           b: "Bevilling inndras permanent",
           c: "Bevilling inndras i én uke",
@@ -715,7 +717,7 @@ export const topics = {
       },
       {
         question: "Hvilken av disse gir åtte prikker?",
-        answers: {
+        options: {
           a: "Brudd på kravet om alkoholfrie alternativer jf. alkoholforskriften §4-6",
           b: "Gjentatt diskriminering jf. alkoholloven §1-8",
           c: "Salg og utlevering til person som er åpenbart påvirket jf. alkoholforskriften §4-2",
@@ -725,7 +727,7 @@ export const topics = {
       },
       {
         question: "Hvilken av disse gir fire prikker?",
-        answers: {
+        options: {
           a: "Brudd på kravet om alkoholfrie alternativer jf. alkoholforskriften §4-6",
           b: "Gjentatt diskriminering jf. alkoholloven §1-8",
           c: "Salg og utlevering til person som er åpenbart påvirket jf. alkoholforskriften §4-2",
@@ -735,7 +737,7 @@ export const topics = {
       },
       {
         question: "Hvilken av disse gir to prikker?",
-        answers: {
+        options: {
           a: "Brudd på kravet om alkoholfrie alternativer jf. alkoholforskriften §4-6",
           b: "Gjentatt diskriminering jf. alkoholloven §1-8",
           c: "Salg og utlevering til person som er åpenbart påvirket jf. alkoholforskriften §4-2",
@@ -745,7 +747,7 @@ export const topics = {
       },
       {
         question: "Hvilken av disse gir én prikk?",
-        answers: {
+        options: {
           a: "Brudd på kravet om alkoholfrie alternativer jf. alkoholforskriften §4-6",
           b: "Gjentatt diskriminering jf. alkoholloven §1-8",
           c: "Salg og utlevering til person som er åpenbart påvirket jf. alkoholforskriften §4-2",
@@ -756,7 +758,7 @@ export const topics = {
       {
         question:
           "Krever alkoholloven at salgs- og sjenkesteder skal ha et internkontrollsystem?",
-        answers: {
+        options: {
           a: "Nei",
           b: "Nei, dette er noe kommunen kan kreve hvis det er nødvendig",
           c: "Ja, dersom det er flere enn 10 ansatte i bedriften",
@@ -767,7 +769,7 @@ export const topics = {
       {
         question:
           "Kan politiet stenge et sted som driver salg- eller skjenking?",
-        answers: {
+        options: {
           a: "Nei",
           b: "Ja, dersom stedet ikke har bevilling. I tillegg kan de stenge opp til 12 dager for å hindre forstyrrelse av offentlig ro og orden, ivareta sikkerhet eller avverge/stanse lovbrudd.",
           c: "Nei, dette må kommunen gjøre",
@@ -777,7 +779,7 @@ export const topics = {
       },
       {
         question: "Hvilke straffer kan man få for brudd på alkoholloven?",
-        answers: {
+        options: {
           a: "Ingen straff",
           b: "Kun inndragelse av bevilling",
           c: "Bøter og/eller fengsel og dermed miste mulighetene for å få bevilling",
@@ -787,7 +789,7 @@ export const topics = {
       },
       {
         question: "Hvilke drikker finnes i gruppe 3?",
-        answers: {
+        options: {
           a: "Drikke med 4,7-22 volumprosent alkohol",
           b: "Drikke med 22-60 volumprosent alkohol",
           c: "Drikke med 0,7-2,5 volumprosent alkohol",
@@ -797,7 +799,7 @@ export const topics = {
       },
       {
         question: "Hvilke drikker finnes i gruppe 2?",
-        answers: {
+        options: {
           a: "Drikke med 4,7-22 volumprosent alkohol",
           b: "Drikke med 22-60 volumprosent alkohol",
           c: "Drikke med 0,7-2,5 volumprosent alkohol",
@@ -807,7 +809,7 @@ export const topics = {
       },
       {
         question: "Hvilke drikker finnes i gruppe 1?",
-        answers: {
+        options: {
           a: "Drikke med 4,7-22 volumprosent alkohol",
           b: "Drikke med 22-60 volumprosent alkohol",
           c: "Drikke med 0,7-2,5 volumprosent alkohol",
@@ -817,7 +819,7 @@ export const topics = {
       },
       {
         question: "Hvilke drikker regnes som alkoholsvake?",
-        answers: {
+        options: {
           a: "Drikke med 4,7-22 volumprosent alkohol",
           b: "Drikke med 22-60 volumprosent alkohol",
           c: "Drikke med 0,7-2,5 volumprosent alkohol",
@@ -828,7 +830,7 @@ export const topics = {
       {
         question:
           "Hva er aldersgrensen for salg, skjenking og kjøp av alkoholholdig drikke i gruppe 1 og gruppe 2?",
-        answers: {
+        options: {
           a: "18 år",
           b: "15 år",
           c: "20 år",
@@ -839,7 +841,7 @@ export const topics = {
       {
         question:
           "Hva er aldersgrensen for salg, skjenking og kjøp av alkoholholdig drikke i gruppe 3?",
-        answers: {
+        options: {
           a: "18 år",
           b: "15 år",
           c: "20 år",
@@ -850,7 +852,7 @@ export const topics = {
       {
         question:
           "Regnes det som skjenking om en mindreårig drikker medbrakt alkohol?",
-        answers: {
+        options: {
           a: "Nei",
           b: "Ja, all konsum på skjenkestedet regnes som skjenking",
           c: "Ja, så lenge personen har vært på skjenkestedet samme kveld som de drikker",
@@ -860,7 +862,7 @@ export const topics = {
       },
       {
         question: "Hva er forbudt jf. alkoholloven §8-11?",
-        answers: {
+        options: {
           a: "Å bistå personer som er åpenbart påvirket og ikke klarer seg selv",
           b: "Å vise bort personer som er åpenbart påvirket",
           c: "Å skjenke alkohol til personer som er åpenbart påvirket av rusmidler eller skjenke på en slik måte at de kan antas å bli det",
@@ -871,7 +873,7 @@ export const topics = {
       {
         question:
           "Kan en person som er åpenbart påvirket oppholde seg på et sjenkested jf. alkoholforskriften §4-1?",
-        answers: {
+        options: {
           a: "Ja, selvfølgelig",
           b: "Bare om de ikke drikker",
           c: "Bare om de spiser brød",
@@ -882,7 +884,7 @@ export const topics = {
       {
         question:
           "Hvem står ansvarlig for at åpenbart påvirkede gjester blir fjernet?",
-        answers: {
+        options: {
           a: "Ordensvaktene",
           b: "Bevillingshaver",
           c: "Politiet",
@@ -893,7 +895,7 @@ export const topics = {
       {
         question:
           "Kan det serveres alkohol til de som sitter sammen med en åpenbart beruset person?",
-        answers: {
+        options: {
           a: "Ja, hvis de passer godt på de(n) som er åpenbart påvirket",
           b: "Nei",
           c: "Bare om det er flere edru personer rundt bordet",
@@ -903,7 +905,7 @@ export const topics = {
       },
       {
         question: "Hva menes med rusmidler i alkoholloven forstand?",
-        answers: {
+        options: {
           a: "Bare alkohol",
           b: "Alkohol, narkotika, alle rusmidler",
           c: "Bare narkotika",
@@ -913,7 +915,7 @@ export const topics = {
       },
       {
         question: "Hva vil det si å være åpenbart påvirket av alkohol?",
-        answers: {
+        options: {
           a: "Oppstemt, færre hemninger, mer pratsom, hever stemmen",
           b: "Uoppmerksom, vanskeligheter med å feste blikket, snakker utydelig, ofte høyrøstet, problemer med å gå rett, kan virke forstyrrende på andre gjester",
           c: "Ler høyt, drikker vann, sitter stille på en stol, snakker rolig og tydelig",
@@ -924,7 +926,7 @@ export const topics = {
       {
         question:
           "Hva bør man gjøre om en person som er åpenbart påvirket av rusmidler vil komme inn på et skjenkested?",
-        answers: {
+        options: {
           a: "Pågripe dem",
           b: "Ringe politiet",
           c: "La dem komme inn, slik at man kan passe på dem",
@@ -935,7 +937,7 @@ export const topics = {
       {
         question:
           "Hva innebærer bevillingshaverens bistandsplikt jf. alkoholforskriften §4-1?",
-        answers: {
+        options: {
           a: "En plikt til å bare selge eller skjenke alkohol til personer over 18 år",
           b: "En plikt til å bistå påvirkede personer til å komme seg ut av lokalet, f.eks. ved å støtte dem ut",
           c: "En plikt til å hjelpe påvirkede personer som er ute av stand til å hjelpe seg selv, f.eks. ved å ringe etter taxi eller politi",
@@ -946,7 +948,7 @@ export const topics = {
       {
         question:
           "Hva innebærer krav om forsvarlig drift jf. alkoholloven §4-7?",
-        answers: {
+        options: {
           a: "At salg og skjenking av alkoholholdig drikk må foregå innenfor alkohollovens system og til enhver tid utøves på en forsvarlig måte",
           b: "At salg og skjenking av alkoholholdig drikk må foregå utenfor alkohollovens system og til enhver tid utøves på en forsvarlig måte",
           c: "At det finnes rutiner synlig bak baren som alle ansatte har tilgang til",
@@ -957,7 +959,7 @@ export const topics = {
       {
         question:
           "Har kommunen rett på tilgang til lokalene til salgs- og skjenkested?",
-        answers: {
+        options: {
           a: "Nei",
           b: "Ja, før og etter stengetid. Hindring av slik tilgang er forbudt jf. alkoholloven §1-9",
           c: "Ja, både før, under og etter stengetid. Hindring av slik tilgang er forbudt jf. alkoholloven §1-9",
@@ -968,7 +970,7 @@ export const topics = {
       {
         question:
           "Kan gjestene ta med seg medbrakt inn på et skjenkested jf. alkoholloven §4-4?",
-        answers: {
+        options: {
           a: "Nei, kun på salgssted",
           b: "Ja",
           c: "Nei",
@@ -979,7 +981,7 @@ export const topics = {
       {
         question:
           "Kan gjestene ta med seg alkohol ut fra et skjenkested jf. alkoholloven §4-4?",
-        answers: {
+        options: {
           a: "Nei",
           b: "Ja, hvis de må rekke bussen",
           c: "Ja, hvis alkoholen ikke er kjøpt på stedet",
@@ -990,7 +992,7 @@ export const topics = {
       {
         question:
           "Når er skjenking av alkoholholdig drikke i gruppe 3 forbudt jf. alkoholloven §4-4?",
-        answers: {
+        options: {
           a: "Det er ikke forbudt",
           b: "Mellom kl. 03:00 og 06:00",
           c: "Mellom kl. 03:00 og 09:00",
@@ -1001,7 +1003,7 @@ export const topics = {
       {
         question:
           "Når er skjenking av all alkoholholdig drikke forbudt jf. alkoholloven §4-4?",
-        answers: {
+        options: {
           a: "Det er ikke forbudt",
           b: "Mellom kl. 03:00 og 06:00",
           c: "Mellom kl. 03:00 og 09:00",
@@ -1012,7 +1014,7 @@ export const topics = {
       {
         question:
           "Hvor lang tid har gjestene på å konsumere alkoholholdig drikke de har kjøpt før skjenketidens utløp?",
-        answers: {
+        options: {
           a: "15 minutter etter skjenketidens utløp",
           b: "30 minutter etter skjenketidens utløp",
           c: "60 minutter etter skjenketidens utløp",
@@ -1023,7 +1025,7 @@ export const topics = {
       {
         question:
           "Kan gjestene ta med seg skjenket alkohol ut av skjenkingslokalet etter skjenketidens utløp?",
-        answers: {
+        options: {
           a: "Ja",
           b: "Hvis de heller den på en flaske",
           c: "Nei",
@@ -1034,7 +1036,7 @@ export const topics = {
       {
         question:
           "Kan kommunestyret inndra bevilling på grunnlag av gjentatt omsetting av narkotika på skjenkestedet jf. alkoholloven §1-8?",
-        answers: {
+        options: {
           a: "Ja",
           b: "Kun hvis skjenkestedet har fått 12 prikker i løpet av to år",
           c: "Nei",
@@ -1045,7 +1047,7 @@ export const topics = {
       {
         question:
           "Kan kommunestyret inndra bevilling på grunnlag av gjentatt diskriminering av gjester jf. alkoholloven §1-8?",
-        answers: {
+        options: {
           a: "Nei",
           b: "Kun hvis skjenkestedet har fått 12 prikker i løpet av to år",
           c: "Ja",
@@ -1060,7 +1062,7 @@ export const topics = {
     questions: [
       {
         question: "Er narkotika et økende problem i Norge?",
-        answers: {
+        options: {
           a: "Nei, bruk av narkotika blir mindre og mindre",
           b: "Ja",
           c: "Ja, men ikke i verden forøvrig",
@@ -1070,7 +1072,7 @@ export const topics = {
       },
       {
         question: "Ruser alle brukere seg hver dag?",
-        answers: {
+        options: {
           a: "Vet ikke",
           b: "Nei, det finnes også rekreasjonsbruk hvor bruket er begrenset til ferie og fest",
           c: "De fleste som bruker narkotika, er ruset hver dag",
@@ -1080,7 +1082,7 @@ export const topics = {
       },
       {
         question: "Hva er en partypakke?",
-        answers: {
+        options: {
           a: "En pakke man får i posten med ballonger, servietter og alt man trenger for fest",
           b: "En partypakke inneholder amfetamin og heroin",
           c: "En pakke med flere typer rusmidler, slik at man kan ruse seg opp og ned igjen når festen er over",
@@ -1090,7 +1092,7 @@ export const topics = {
       },
       {
         question: "Er all bruk av narkotika ulovlig?",
-        answers: {
+        options: {
           a: "Ja, men det er lovlig med bruk av narkotiske legemidler som personen har fått på resept fra lege",
           b: "Nei",
           c: "Nei, ikke hvis det er for å behandle en sykdom",
@@ -1101,7 +1103,7 @@ export const topics = {
       {
         question:
           "Hvor finner vi ut om et stoff er klassifisert som narkotika?",
-        answers: {
+        options: {
           a: "Narkotikalisten i narkotikaloven",
           b: "Vaktvirksomhetsloven",
           c: "Narkotikalisten i forskrift om narkotika",
@@ -1111,7 +1113,7 @@ export const topics = {
       },
       {
         question: "I hvilke(n) lov(er) er befatning med narkotika omhandlet?",
-        answers: {
+        options: {
           a: "Straffeloven",
           b: "Legemiddelloven",
           c: "Alkoholloven",
@@ -1122,7 +1124,7 @@ export const topics = {
       {
         question:
           "I hvilke(n) lov(er) er bruk og besittelse av narkotika omhandlet, samt overdragelse av legemidler som ikke betegnes som narkotika?",
-        answers: {
+        options: {
           a: "Straffeloven",
           b: "Legemiddelloven",
           c: "Alkoholloven",
@@ -1133,7 +1135,7 @@ export const topics = {
       {
         question:
           "I hvilke(n) lov(er) er ulovlig tilvirkning, innførsel, utførsel, erverv, oppbevaring, sending og overdragelse av narkotika omhandlet?",
-        answers: {
+        options: {
           a: "Straffeloven",
           b: "Legemiddelloven",
           c: "Alkoholloven",
@@ -1144,7 +1146,7 @@ export const topics = {
       {
         question:
           "Hva slags rusmiddel er det sannsynlig at en person har tatt om de har meget store pupiller?",
-        answers: {
+        options: {
           a: "Sentraldempende, f.eks. heroin",
           b: "Sentralstimulerende, f.eks. kodein",
           c: "Sentraldempende, f.eks. LSD",
@@ -1155,7 +1157,7 @@ export const topics = {
       {
         question:
           "Hva slags rusmiddel er det sannsynlig at en person har tatt om de har meget små pupiller?",
-        answers: {
+        options: {
           a: "Sentraldempende, f.eks. heroin",
           b: "Sentralstimulerende, f.eks. kodein",
           c: "Sentraldempende, f.eks. LSD",
@@ -1165,7 +1167,7 @@ export const topics = {
       },
       {
         question: "Finnes det helsepersonell som ruser seg på jobb?",
-        answers: {
+        options: {
           a: "Mange grupper ruser seg for å klare lange arbeidsøkter, men helsepersonell gjør aldri dette",
           b: "Ja, det er lov jf. legemiddelloven §14-3",
           c: "Ja, det forekommer at personer ruser seg for å klare lange arbeidsøkter, også helsepersonell",
@@ -1176,7 +1178,7 @@ export const topics = {
       {
         question:
           "Hvilken av disse er en uaktsom overtredelse av narkotikalovgivningen?",
-        answers: {
+        options: {
           a: "Person som frivillig har tatt MDMA, men det viser seg å være opiumsstoffer",
           b: "Person som er ruset fordi noen andre har puttet noe i drinken deres",
           c: "Innførsel av narkotika i en koffert personen ikke vet hva inneholder",
@@ -1186,7 +1188,7 @@ export const topics = {
       },
       {
         question: "Hva er doping jf. straffeloven §234?",
-        answers: {
+        options: {
           a: "Det samme som å ruse seg",
           b: "Stoffer listet opp i forskrift om hva som skal anses som dopingmidler",
           c: "Bruk av stoffer som kan gi utestenging fra idretten",
@@ -1196,7 +1198,7 @@ export const topics = {
       },
       {
         question: "Hva er derviatregelen?",
-        answers: {
+        options: {
           a: "Avsnitt av narkotikalisten som inkluderer derivater (liknende stoffer) av stoffer som finnes på listen",
           b: "Avsnitt i straffeloven som forbyr bruk av derivater (opiumliknende stoff)",
           c: "En instruks som gir tilgang for vektere til å beslaglegge narkotika",
@@ -1206,7 +1208,7 @@ export const topics = {
       },
       {
         question: "Hva står THC for og hvilken plante finnes dette stoffet i?",
-        answers: {
+        options: {
           a: "Tetrahydrocannabinol, Papaver somniferum",
           b: "Tetrahydrocarabinkrok, Erythroxylum coca",
           c: "Tetrahydrocannabinol, Cannabis sativa",
@@ -1216,7 +1218,7 @@ export const topics = {
       },
       {
         question: "Kan cannabis injiseres direkte inn i blodårene?",
-        answers: {
+        options: {
           a: "Bare om du løser det opp i appelsinjuice",
           b: "Ja, dette blir mer og mer vanlig",
           c: "Nei, dette er umulig",
@@ -1226,7 +1228,7 @@ export const topics = {
       },
       {
         question: "Hva kan stemme med tegn på cannabisrus?",
-        answers: {
+        options: {
           a: "Problemer med å holde seg oppreist, omtåket, snøvlete tale, knekk i nakke og knær, tydelig ruset",
           b: "Latter, stor sannsynlighet for aggresjon, forstørrede pupiller, røde øyne, tørre slimhinner",
           c: "Høylytt, problemer med å snakke, hukommelsestap, sult, små pupiller",
@@ -1236,7 +1238,7 @@ export const topics = {
       },
       {
         question: "Hva kan stemme med tegn på opioiderus?",
-        answers: {
+        options: {
           a: "Problemer med å holde seg oppreist, omtåket, snøvlete tale, knekk i nakke og knær, tydelig ruset",
           b: "Latter, stor sannsynlighet for aggresjon, forstørrede pupiller, røde øyne, tørre slimhinner",
           c: "Høylytt, problemer med å snakke, hukommelsestap, sult, små pupiller",
@@ -1246,7 +1248,7 @@ export const topics = {
       },
       {
         question: "Er all bruk av opioider forbudt?",
-        answers: {
+        options: {
           a: "Ja",
           b: "Nei, opioider finnes i legemidler og brukes som smertelindrende",
           c: "Ikke hvis det er kjøpt reseptfritt på dagligvarebutikk",
@@ -1256,7 +1258,7 @@ export const topics = {
       },
       {
         question: "Hvordan blir herion oftest tatt?",
-        answers: {
+        options: {
           a: "Sprøytes inn (injiseres), røykes, blandet i cola",
           b: "Sprøytes inn (injiseres), partypakke, blandet med tobakk",
           c: "Sprøytes inn (injiseres), røykes, sniffes",
@@ -1266,7 +1268,7 @@ export const topics = {
       },
       {
         question: "Hvilke stoffer regnes som sentraldempende?",
-        answers: {
+        options: {
           a: "Amfetaminer, cannabinoider, poppers",
           b: "Barbiturater, benzodiapiner, opioider",
           c: "Amfetaminer, khat, kokain",
@@ -1276,7 +1278,7 @@ export const topics = {
       },
       {
         question: "Hvilke stoffer regnes som sentralstimulerende?",
-        answers: {
+        options: {
           a: "Amfetaminer, cannbinoider, poppers",
           b: "Barbiturater, benzodiapiner, opioider",
           c: "Amfetaminer, khat, kokain",
@@ -1286,7 +1288,7 @@ export const topics = {
       },
       {
         question: "Hvilke stoffer regnes som hallusinogener?",
-        answers: {
+        options: {
           a: "Fleinsopp, LSD, ecstasy, PCP, amfetamin",
           b: "Barbiturater, benzodiapiner, opioider",
           c: "Amfetaminer, khat, kokain",
@@ -1296,7 +1298,7 @@ export const topics = {
       },
       {
         question: "Hva kan stemme med tegn på rus fra sentralstimulerende?",
-        answers: {
+        options: {
           a: "Problemer med å holde seg oppreist, omtåket, snøvlete tale, knekk i nakke og knær, tydelig ruset",
           b: "Kontinuerlig bevegelse, usammenhengende tale, store pupiller, tett, rennende nese, ofte tynne",
           c: "Høylytt, problemer med å snakke, hukommelsestap, sult, små pupiller",
@@ -1306,7 +1308,7 @@ export const topics = {
       },
       {
         question: "Hva kan stemme med tegn på rus fra hallusinogener?",
-        answers: {
+        options: {
           a: "Virkelighetsfjern, kan gi psykotiske trekk, hallusinasjoner, kan likne på sentralstimulerende rus",
           b: "Virkelighetsfjern, kan gi psykotiske trekk, blek og kald, hallusinasjoner, kan likne på sentraldempende rus",
           c: "Problemer med å holde seg oppreist, omtåket, snøvlete tale, knekk i nakke og knær, tydelig ruset",
@@ -1317,7 +1319,7 @@ export const topics = {
       {
         question:
           "Hva slags førstehjelpstiltak er fordelaktige ved overdose av amfetamin, kokain og ecstasy (MDMA)?",
-        answers: {
+        options: {
           a: "Det er ikke sannsynlig med overdose av disse stoffene",
           b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevisst person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
           c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Nalokson), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
@@ -1328,7 +1330,7 @@ export const topics = {
       {
         question:
           "Hva slags førstehjelpstiltak er fordelaktige ved overdose av heroin, fentanyl og metadon?",
-        answers: {
+        options: {
           a: "Det er ikke sannsynlig med overdose av disse stoffene",
           b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevisst person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
           c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Nalokson), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
@@ -1339,7 +1341,7 @@ export const topics = {
       {
         question:
           "Hva slags førstehjelpstiltak er fordelaktige ved overdose av fleinsopp og LSD?",
-        answers: {
+        options: {
           a: "Det er ikke sannsynlig med overdose av disse stoffene",
           b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevisst person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
           c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Naloxon), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
@@ -1350,7 +1352,7 @@ export const topics = {
       {
         question:
           "Hva slags førstehjelpstiltak er fordelaktige ved overdose av cannabis?",
-        answers: {
+        options: {
           a: "Det er ikke sannsynlig med overdose av dette stoffet",
           b: "Stopp fysisk aktivitet, kjøl personen ned, gi drikke til bevisst person (gjerne sportsdrikk e.l.), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
           c: "Få dem opp for å holde kroppen i gang, gi motgift om mulig (Naloxon), ring 113, stabilt sideleie om bevisstløs, HLR hvis pustestans",
@@ -1360,7 +1362,7 @@ export const topics = {
       },
       {
         question: "Hvilke av disse legemidlene er sentraldempende?",
-        answers: {
+        options: {
           a: "Bare Valium",
           b: "Valium, Rohypnol, Mogadon, Pinex Forte",
           c: "Ritalin, Concerta, Modiodal, Fenazon-Koffein",
@@ -1370,7 +1372,7 @@ export const topics = {
       },
       {
         question: "Hvilke av disse legemidlene er sentralstimulerende?",
-        answers: {
+        options: {
           a: "Bare Ritalin",
           b: "Valium, Rohypnol, Mogadon, Pinex Forte",
           c: "Ritalin, Concerta, Modiodal, Fenazon-Koffein",
@@ -1386,7 +1388,7 @@ export const topics = {
       {
         question:
           "Hvilke tre elementer må være tilstedet for at en brann skal oppstå?",
-        answers: {
+        options: {
           a: "Temperatur, brennbart materiale, luft",
           b: "Varme, oksygen og brennbart materiale",
           c: "Varme, H2o og brennbart materiale",
@@ -1396,7 +1398,7 @@ export const topics = {
       },
       {
         question: "Hvilket materiale kan slukkes med pulverapparat?",
-        answers: {
+        options: {
           a: "AFD",
           b: "CDF",
           c: "ABC",
@@ -1406,7 +1408,7 @@ export const topics = {
       },
       {
         question: "Hvilket brennbart materiale har Bokstaven B?",
-        answers: {
+        options: {
           a: "Brann i brennbare væsker som f.eks. bensin",
           b: "Brann i metall  som f.eks. svart stål",
           c: "Brann i frityr",
@@ -1416,7 +1418,7 @@ export const topics = {
       },
       {
         question: "Hva heter de ulike type brannene?",
-        answers: {
+        options: {
           a: "Flammebrann, ildbrann, eksplosjonsbrann",
           b: "Ulmebrann, glødebrann, og flammebrann",
           c: "Brann er brann uavhengig av hvilket stoff som brenner.",
@@ -1426,7 +1428,7 @@ export const topics = {
       },
       {
         question: "Hva er et flammepunkt?",
-        answers: {
+        options: {
           a: "Et flammepunkt er der flammen har tilstrekkelig med oksygen",
           b: "Et flammepunkt er der flammen er på sitt sterkeste",
           c: "Et flammepunkt er når man deler flammen inn i kategorier",
@@ -1436,7 +1438,7 @@ export const topics = {
       },
       {
         question: "Hvilke 4 måter kan en brann spres på?",
-        answers: {
+        options: {
           a: "Flyvebrann, ledning, stråling. strømning",
           b: "Flyvebrann, seilebrann, MDM brann, strømning",
           c: "Åpen brann, lukket brann, vid brann, kort brann",
@@ -1446,7 +1448,7 @@ export const topics = {
       },
       {
         question: "Hva vil en brannrøyk alltid inneholde?",
-        answers: {
+        options: {
           a: "Oksygen, brennbart materiale, CO2",
           b: "Faste materialer, vanndamp, giftgasser",
           c: "Faste materialer (karbon og sot), luft, vanndamp og forbrenningsgasser",
@@ -1456,7 +1458,7 @@ export const topics = {
       },
       {
         question: "Hvilke klasser er slukkemidlene delt inn i?",
-        answers: {
+        options: {
           a: "ABCF",
           b: "ABCDEFG",
           c: "ABC",
@@ -1467,7 +1469,7 @@ export const topics = {
       {
         question:
           "Vann kan brukes som slukkemiddel, men hvilken effekt har vannet på brannen?",
-        answers: {
+        options: {
           a: "Vannet er vått så derfor vil brannen slukke",
           b: "Vann og brann går ikke overens",
           c: "Vann legger seg som et gasslag på flammen",
@@ -1478,7 +1480,7 @@ export const topics = {
       {
         question:
           "Rent vann kan også brukes som slukkemiddel på elektriske anlegg. opptil hvor mange volt kan vann slukke?",
-        answers: {
+        options: {
           a: "10 000 v",
           b: "1000 v",
           c: "100 000 v",
@@ -1489,7 +1491,7 @@ export const topics = {
       {
         question:
           "Det er lagt opp 3 vedlikeholdnivåer for slukkemidler, hvilke?",
-        answers: {
+        options: {
           a: "Service, etterkontroll, kontroll",
           b: "Service, kontroll, og ettersyn",
           c: "Kontroll, etterpleie, vasking",
@@ -1499,7 +1501,7 @@ export const topics = {
       },
       {
         question: "Hva er viktig å ha kjennskap til på et sprinkelanlegg?",
-        answers: {
+        options: {
           a: "Vite hvor stengeventil og tømmeventil er",
           b: "Vite hvor sprinkelsentral, tømmeventil og stengeventil er",
           c: "Vite hvor låseventil, skruventil og mekanismeventil er",
@@ -1510,7 +1512,7 @@ export const topics = {
       {
         question:
           "Hvilke tre nivåer trenger man for vedlikehold av automatiske  slukkeranlegg?",
-        answers: {
+        options: {
           a: "Kontroll, vedlikehold, og ettersyn",
           b: "Kontroll, ettersyn og service",
           c: "Service og kontroll",
@@ -1520,7 +1522,7 @@ export const topics = {
       },
       {
         question: "Hva er et antipanikklys?",
-        answers: {
+        options: {
           a: "Lys som gir deg en beroligende effekt",
           b: "Lys som lyser opp områder som ikke har lys",
           c: "Lys som lyser opp områder som ikke har klart definerte rømningsveier",
@@ -1530,7 +1532,7 @@ export const topics = {
       },
       {
         question: "Hva består et automatisk brannalarmanlegg av?",
-        answers: {
+        options: {
           a: "Detektor, sirene, magneter, sentralalarmanlegg, betjeningspanel",
           b: "Detektor, manuelle meldere, alarmgiver og sentralapparat",
           c: "Det samme som en vanlig alarm pakke, for vanlige anlegg",
@@ -1540,7 +1542,7 @@ export const topics = {
       },
       {
         question: "Hvor plasseres et markeringsskilt for rømningsveier?",
-        answers: {
+        options: {
           a: "I taket",
           b: "Under døra",
           c: "Over døra",
@@ -1550,7 +1552,7 @@ export const topics = {
       },
       {
         question: "Hvordan foregår en risikovurdering for brann?",
-        answers: {
+        options: {
           a: '"grovanalysen" sannsynlighet x konsekvens = risiko',
           b: "Risiko x risiko= sannsynlighet",
           c: "Risikovurdering kommer ann på hvilken brann det er snakk om",
@@ -1561,7 +1563,7 @@ export const topics = {
       {
         question:
           "Når skal avvik rapporteres ved følge av brudd på rutiner og innstrukser? ",
-        answers: {
+        options: {
           a: "Minst en gang i mnd",
           b: "Minst annenhver dag",
           c: "Når du føler det er nødvendig",
@@ -1571,7 +1573,7 @@ export const topics = {
       },
       {
         question: "Hva er passivt brannvern?",
-        answers: {
+        options: {
           a: "Passivt brannvern er den branntekniske oppdelingen av bygget",
           b: "Passivt brannvern er når det ikke er aktivt brannvern",
           c: "Passivt brannvern er når brannen ikke er farlig, og slukker av seg selv",
@@ -1581,7 +1583,7 @@ export const topics = {
       },
       {
         question: "Hva er felles for de fleste branninstrukser?",
-        answers: {
+        options: {
           a: "De er skrevet av samme brannansvarlig",
           b: "Den brannansvarlige skal ha få tildelt ansvar, oppgaver og myndighet",
           c: "De skal inneholde informasjon om varsling, slukking, og redning",
@@ -1591,7 +1593,7 @@ export const topics = {
       },
       {
         question: "Hva skal man alltid sørge for når det brenner?",
-        answers: {
+        options: {
           a: "Sørge for å tilkalle hjelp",
           b: "Slukke brannen",
           c: "Huske å ta med verdifulle gjenstander som mobil, og pc",
@@ -1601,7 +1603,7 @@ export const topics = {
       },
       {
         question: "Hva er den farligste røyken?",
-        answers: {
+        options: {
           a: "Den røyken som er hvit og gjennomsiktig",
           b: "Den røyken som ingen ser men føler med kroppen at den er der",
           c: "Den svarte tykke røyken",
@@ -1616,7 +1618,7 @@ export const topics = {
     questions: [
       {
         question: "Hva omhandler alminnelig strafferett?",
-        answers: {
+        options: {
           a: "De generelle vilkårene som gir allmennheten hjemmel til å straffe noen",
           b: "De generelle straffereaksjonene en dommer kan gi",
           c: "De generelle straffevilkårene som må være til stede for å kunne gi den siktede straff",
@@ -1626,7 +1628,7 @@ export const topics = {
       },
       {
         question: "Hvorfor må vektere kunne strafferett?",
-        answers: {
+        options: {
           a: "For å blant annet vite hvilken myndighet en vekter har og for at vekteren selv ikke begår straffbare handlinger",
           b: "Fordi Utdanningsdirektoratet krever det",
           c: "Fordi vekterfirmaene har dette som ansettelseskrav",
@@ -1636,7 +1638,7 @@ export const topics = {
       },
       {
         question: "Hva er en straffeprosess?",
-        answers: {
+        options: {
           a: "Læren om hvilke kriminelle handlinger som fører til straff",
           b: "En metode politiet bruker for å avdekke kriminelle handlinger",
           c: "Læren om hvordan en straffeforfølging gjennomføres",
@@ -1646,7 +1648,7 @@ export const topics = {
       },
       {
         question: "Allmennprevensjon innebærer...",
-        answers: {
+        options: {
           a: "At hvermannsens rettigheter blir overholdt i kontakt med vekter",
           b: "At kunnskapen om straff skal bidra til å holde folk fra å begå straffbare handlinger",
           c: "At politiet ikke skal kunne gi straff uten dommers avgjørelse",
@@ -1656,7 +1658,7 @@ export const topics = {
       },
       {
         question: "Induvidualprevensjon innebærer at",
-        answers: {
+        options: {
           a: "Straffen skal bidra til at den enkelte lovbryter skal få den nødvendige hjelp til å begå nye lovbrudd",
           b: "Kunnskap om straffeloven skal skremme enkeltmennesker til å ikke begå lovbrudd",
           c: "Straffen skal bidra til at den enkelte lovbryter vil avstå fra å begå nye straffbare handlinger",
@@ -1666,7 +1668,7 @@ export const topics = {
       },
       {
         question: "Den viktigste loven innen strafferett er...",
-        answers: {
+        options: {
           a: "Selvfølgelig straffeloven",
           b: "Straffeprosessen",
           c: "Straffebestemmelsene",
@@ -1676,7 +1678,7 @@ export const topics = {
       },
       {
         question: "Hva heter de praktiske straffrihetsgrunnene?",
-        answers: {
+        options: {
           a: "Det er ingen «praktiske straffrihetsgrunner»",
           b: "Nødverge, nødrett, selvtekt og samtykke",
           c: "Nødverge, forsett, selvtekt og nødrett",
@@ -1686,7 +1688,7 @@ export const topics = {
       },
       {
         question: "Er man fritatt for straff hvis man er rettsuviten?",
-        answers: {
+        options: {
           a: "Nei",
           b: "Ja",
           c: "Bare hvis det er vist forenklet forelegg",
@@ -1696,7 +1698,7 @@ export const topics = {
       },
       {
         question: "Hva må være til stede for å gi noen straff?",
-        answers: {
+        options: {
           a: "Personen må ha gjort en ulovlig handling",
           b: "Personen må være tilregnelig",
           c: "Personen må være tilgjengelig",
@@ -1706,7 +1708,7 @@ export const topics = {
       },
       {
         question: "Hvilke gruppe personer anses som ikke tilregnelig?",
-        answers: {
+        options: {
           a: "Personer under 18 år og berusede personer",
           b: "Personer under 16 år og gravide",
           c: "Personer på sterke legemiddeler med resept, personer over 76 år og personer som har sonet en en forlenget fengselsstraff og nettopp kommet ut",
@@ -1717,7 +1719,7 @@ export const topics = {
       {
         question:
           "Er det straffbart å gjøre et forsøk på å gjøre en ulovlig handling?",
-        answers: {
+        options: {
           a: "Ja, alltid",
           b: "Nei",
           c: "Det er opp til politiet å bestemme",
@@ -1727,7 +1729,7 @@ export const topics = {
       },
       {
         question: "Hva er rettighetstap?",
-        answers: {
+        options: {
           a: "At man mister retten til å drive bestemte typer virksomhet, eller retten til å oppholde deg på bestemte steder",
           b: "At man mister retten til å føre motorvogn eller ytre sin mening",
           c: "At man mister rettigheter som er nedskrevet i menneskerettighetserklæringen",
@@ -1737,7 +1739,7 @@ export const topics = {
       },
       {
         question: "Hva er et forelegg?",
-        answers: {
+        options: {
           a: "Et tilbud fra justisdepartementet om å gjøre opp et straffbart forhold med en bot",
           b: "Et tilbud fra politiet hvis man har kjørt for fort og kan gjøre det opp med bot istedet for å miste førerrett til motorvogn",
           c: "At man velger å sone i fengsel istedet for å betale for boten",
@@ -1747,7 +1749,7 @@ export const topics = {
       },
       {
         question: "Er det tyveri hvis en gjenstand er besittelsesløs?",
-        answers: {
+        options: {
           a: "Ja",
           b: "Bare hvis gjenstanden har en verdi som er større enn 2500 kr",
           c: "Så lenge en gjenstand har en større verdi enn 0, er det tyveri",
@@ -1757,7 +1759,7 @@ export const topics = {
       },
       {
         question: "Hva kreves for å straffe noen for tyveri?",
-        answers: {
+        options: {
           a: "At personen har utvist forsett",
           b: "At personen har tatt en gjenstand vitende om at det ikke er hans egen",
           c: "At personen at utvist berettighet",
@@ -1767,7 +1769,7 @@ export const topics = {
       },
       {
         question: 'Hvor ligger grensen på "ubetydelig verdi"?',
-        answers: {
+        options: {
           a: "3500 kroner",
           b: "2500 kroner",
           c: "2000 kroner",
@@ -1777,7 +1779,7 @@ export const topics = {
       },
       {
         question: "Kan en vekter ha rollen som anmelder?",
-        answers: {
+        options: {
           a: "Bare med samtykke fra eventuelt gjerningsperson",
           b: "Nei",
           c: "Ja",
@@ -1788,7 +1790,7 @@ export const topics = {
       {
         question:
           "Er det en straffbar handling hvis en 14åring stjeler i en butikk?",
-        answers: {
+        options: {
           a: "Ja",
           b: "Nei",
           c: "Bare hvis foreldrene gir samtykke",
@@ -1798,7 +1800,7 @@ export const topics = {
       },
       {
         question: "Hvem er det som har bevisbyrden i straffesaker?",
-        answers: {
+        options: {
           a: "Advokaten",
           b: "Siktede",
           c: "Påtalemyndighetene",
@@ -1808,7 +1810,7 @@ export const topics = {
       },
       {
         question: "Hva er forvaring?",
-        answers: {
+        options: {
           a: "En tidsbestemt frihetsberøvelse",
           b: "Fengselsstraff som varer lengre enn 21 år",
           c: "En ubetinget frihetsberøvelse for å verne tidligere forbrytere ovenfor samfunnet",
@@ -1819,7 +1821,7 @@ export const topics = {
 
       {
         question: "Hva vil det si å ha hjemmel?",
-        answers: {
+        options: {
           a: "Å ha et grunnlag i instrukser til å fatte et vedtak eller gjennomføre handlinger som andre mennesker må finne seg i og rette seg etter",
           b: "Å ha et grunnlag i vaktvirksomhetsloven til å gjøre noe som ellers ville være straffbart, som f.eks. selvtekt",
           c: "Å ha et grunnlag i lov, forskrift eller rettspraksis til å fatte et vedtak eller gjennomføre handlinger som andre mennesker må finne seg i og rette seg etter",
