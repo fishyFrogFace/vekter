@@ -1,7 +1,13 @@
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Radio from "@mui/material/Radio";
 import Button from "@mui/material/Button";
+import FormControl from "@mui/material/FormControl";
+import FormLabel from "@mui/material/FormLabel";
+import RadioGroup from "@mui/material/RadioGroup";
 import { useState, useEffect } from "react";
 import { amountOfQuestions, Answer, Topic, TopicID, topics } from "./content";
 import { fetchExam } from "./fetchExam";
+import Grid from "@mui/material/Grid";
 
 interface ExamProps {
   topic: TopicID;
@@ -48,21 +54,57 @@ interface QuestionProps {
   question: string;
   correctAnswer: Answer;
   options: Options;
+  index: number;
   nextQuestion: () => void;
 }
 
 const Question = (props: QuestionProps) => {
+  const [value, setValue] = useState("");
+
+  const handleRadioChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setValue(event.target.value);
+  };
+
   return (
-    <div>
-      <h2>{props.question}</h2>
-      <p>{props.options.a}</p>
-      <p>{props.options.b}</p>
-      <p>{props.options.c}</p>
-      <p>{props.options.d}</p>
-      <Button variant="contained" onClick={props.nextQuestion}>
-        Neste
-      </Button>
-    </div>
+    <Grid container flexDirection="column" spacing={2}>
+      <Grid item>
+        <FormControl>
+          <FormLabel id="radio-buttons-group-label">{`${props.index}. ${props.question}`}</FormLabel>
+          <RadioGroup
+            aria-labelledby="radio-buttons-group-label"
+            name="quiz"
+            value={value}
+            onChange={handleRadioChange}
+          >
+            <FormControlLabel
+              value="a"
+              control={<Radio />}
+              label={props.options.a}
+            />
+            <FormControlLabel
+              value="b"
+              control={<Radio />}
+              label={props.options.b}
+            />
+            <FormControlLabel
+              value="c"
+              control={<Radio />}
+              label={props.options.c}
+            />
+            <FormControlLabel
+              value="d"
+              control={<Radio />}
+              label={props.options.d}
+            />
+          </RadioGroup>
+        </FormControl>
+      </Grid>
+      <Grid item>
+        <Button variant="contained" onClick={props.nextQuestion}>
+          Neste
+        </Button>
+      </Grid>
+    </Grid>
   );
 };
 
@@ -77,7 +119,7 @@ export default function Exam(props: ExamProps) {
   );
 
   useEffect(() => {
-    const nextQuestion = () => {
+    const nextQuestion = (event: React.FormEvent<HTMLFormElement>) => {
       if (currentQuestion === examSet.length - 1) {
         setActivePage(<Result />);
       } else {
@@ -87,7 +129,11 @@ export default function Exam(props: ExamProps) {
 
     if (currentQuestion > -1) {
       setActivePage(
-        <Question {...examSet[currentQuestion]} nextQuestion={nextQuestion} />
+        <Question
+          {...examSet[currentQuestion]}
+          nextQuestion={nextQuestion}
+          index={currentQuestion + 1}
+        />
       );
     }
   }, [currentQuestion, examSet]);
