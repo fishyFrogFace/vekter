@@ -6,7 +6,7 @@ import FormLabel from "@mui/material/FormLabel";
 import RadioGroup from "@mui/material/RadioGroup";
 import { useState, useEffect } from "react";
 import { amountOfQuestions, Answer, Topic, TopicID, topics } from "./content";
-import { fetchExam } from "./fetchExam";
+import { fetchQuiz } from "./fetchExam";
 import Grid from "@mui/material/Grid";
 
 interface ExamProps {
@@ -52,17 +52,16 @@ interface Options {
 
 interface QuestionProps {
   question: string;
-  correctAnswer: Answer;
   options: Options;
   index: number;
-  nextQuestion: () => void;
+  nextQuestion: (answer: Answer) => void;
 }
 
 const Question = (props: QuestionProps) => {
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState<Answer | "">("");
 
   const handleRadioChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setValue(event.target.value);
+    setValue(event.target.value as Answer);
   };
 
   return (
@@ -100,7 +99,14 @@ const Question = (props: QuestionProps) => {
         </FormControl>
       </Grid>
       <Grid item>
-        <Button variant="contained" onClick={props.nextQuestion}>
+        <Button
+          variant="contained"
+          disabled={value === ""}
+          onClick={() => {
+            value !== "" && props.nextQuestion(value);
+            setValue("");
+          }}
+        >
           Neste
         </Button>
       </Grid>
@@ -110,7 +116,7 @@ const Question = (props: QuestionProps) => {
 
 export default function Exam(props: ExamProps) {
   const [currentQuestion, setCurrentQuestion] = useState(-1);
-  const [examSet] = useState(fetchExam(props.topic));
+  const [examSet, setExamSet] = useState(fetchQuiz(props.topic));
   const [activePage, setActivePage] = useState(
     <Start
       topic={{ title: topics[props.topic].title, name: props.topic }}
@@ -119,7 +125,18 @@ export default function Exam(props: ExamProps) {
   );
 
   useEffect(() => {
-    const nextQuestion = (event: React.FormEvent<HTMLFormElement>) => {
+    const nextQuestion = (
+      value: Answer,
+      event: React.FormEvent<HTMLFormElement>
+    ) => {
+      setExamSet((exam) =>
+        exam.map((question) =>
+          examSet[currentQuestion].question === question.question
+            ? { ...question, ...{ userAnswer: value } }
+            : question
+        )
+      );
+
       if (currentQuestion === examSet.length - 1) {
         setActivePage(<Result />);
       } else {
