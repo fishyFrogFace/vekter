@@ -37,11 +37,28 @@ const Start = (props: StartProps) => (
   </div>
 );
 
-const Result = () => (
-  <div>
-    <h1>Result page</h1>
-  </div>
-);
+interface Result {
+  question: string;
+  options: Options;
+  correctAnswer: Answer;
+  userAnswer: Answer;
+}
+
+interface ResultProps {
+  result: Result[];
+}
+
+const Result = (props: ResultProps) => {
+  console.log(props.result);
+  return (
+    <div>
+      <h2>Resultat</h2>
+      {props.result.map((result) => (
+        <p>{`${result.correctAnswer} ${result.userAnswer}`}</p>
+      ))}
+    </div>
+  );
+};
 
 interface Options {
   a: string;
@@ -116,7 +133,7 @@ const Question = (props: QuestionProps) => {
 
 export default function Exam(props: ExamProps) {
   const [currentQuestion, setCurrentQuestion] = useState(-1);
-  const [examSet, setExamSet] = useState(fetchQuiz(props.topic));
+  const [examSet, setExamSet] = useState<Result[]>(fetchQuiz(props.topic));
   const [activePage, setActivePage] = useState(
     <Start
       topic={{ title: topics[props.topic].title, name: props.topic }}
@@ -125,10 +142,7 @@ export default function Exam(props: ExamProps) {
   );
 
   useEffect(() => {
-    const nextQuestion = (
-      value: Answer,
-      event: React.FormEvent<HTMLFormElement>
-    ) => {
+    const nextQuestion = (value: Answer) => {
       setExamSet((exam) =>
         exam.map((question) =>
           examSet[currentQuestion].question === question.question
@@ -137,14 +151,12 @@ export default function Exam(props: ExamProps) {
         )
       );
 
-      if (currentQuestion === examSet.length - 1) {
-        setActivePage(<Result />);
-      } else {
-        setCurrentQuestion((cq) => cq + 1);
-      }
+      setCurrentQuestion((cq) => cq + 1);
     };
 
-    if (currentQuestion > -1) {
+    if (currentQuestion === examSet.length) {
+      setActivePage(<Result result={examSet} />);
+    } else if (currentQuestion > -1) {
       setActivePage(
         <Question
           {...examSet[currentQuestion]}

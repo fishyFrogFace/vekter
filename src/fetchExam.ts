@@ -6,7 +6,7 @@ const createRandomExam = () => getRandomElementsFromList(80, allQuestions());
 const createQuiz = (topic: TopicID) =>
   topic === "alle"
     ? createRandomExam()
-    : getRandomElementsFromList(20, topics[topic].questions);
+    : getRandomElementsFromList(2, topics[topic].questions);
 
 export const fetchQuiz = (topic: TopicID) =>
   createQuiz(topic).map((question) => ({
