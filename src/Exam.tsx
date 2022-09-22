@@ -8,6 +8,7 @@ import { useState, useEffect } from "react";
 import { amountOfQuestions, Answer, Topic, TopicID, topics } from "./content";
 import { fetchQuiz } from "./fetchExam";
 import Grid from "@mui/material/Grid";
+import LinearProgress from "@mui/material/LinearProgress";
 
 interface ExamProps {
   topic: TopicID;
@@ -48,8 +49,8 @@ interface ResultProps {
   result: Result[];
 }
 
+// eslint-disable-next-line @typescript-eslint/no-redeclare
 const Result = (props: ResultProps) => {
-  console.log(props.result);
   return (
     <div>
       <h2>Resultat</h2>
@@ -71,6 +72,7 @@ interface QuestionProps {
   question: string;
   options: Options;
   index: number;
+  progress: number;
   nextQuestion: (answer: Answer) => void;
 }
 
@@ -83,6 +85,9 @@ const Question = (props: QuestionProps) => {
 
   return (
     <Grid container flexDirection="column" spacing={2}>
+      <Grid item>
+        <LinearProgress variant="determinate" value={props.progress} />
+      </Grid>
       <Grid item>
         <FormControl>
           <FormLabel id="radio-buttons-group-label">{`${props.index}. ${props.question}`}</FormLabel>
@@ -160,6 +165,7 @@ export default function Exam(props: ExamProps) {
       setActivePage(
         <Question
           {...examSet[currentQuestion]}
+          progress={(currentQuestion / examSet.length) * 100}
           nextQuestion={nextQuestion}
           index={currentQuestion + 1}
         />

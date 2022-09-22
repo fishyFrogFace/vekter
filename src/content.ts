@@ -575,7 +575,7 @@ export const topics = {
         question:
           "Hvorfor må man være to kontrollører ved kontroll av skjenkested?",
         options: {
-          a: "Det må ikke være to kontrollører ved kontroll av sjenkested",
+          a: "Det må ikke være to kontrollører ved kontroll av skjenkested",
           b: "Observasjoner fra to kontrollører har større bevismessig verdi, bedre rettssikkerhet for bevillingshaver og øker sjansene for at en av dem er edru",
           c: "Observasjoner fra to kontrollører har større bevismessig verdi, bedre rettssikkerhet for bevillingshaver og øker sjansene for å avdekke lovbrudd",
           d: "Fordi dette står i loven",
@@ -624,7 +624,7 @@ export const topics = {
         correctAnswer: "c",
       },
       {
-        question: "Må kontrollører av salgs- og sjenkesteder legitimere seg?",
+        question: "Må kontrollører av salgs- og skjenkesteder legitimere seg?",
         options: {
           a: "Ja, de må alltid legitimere seg til ordensvakt eller ansvarshavende når de ankommer salgs- eller skjenkestedet",
           b: "Ja, de må alltid legitimere seg til ordensvakt eller ansvarshavende når de forlater salgs- eller skjenkestedet",
@@ -757,7 +757,7 @@ export const topics = {
       },
       {
         question:
-          "Krever alkoholloven at salgs- og sjenkesteder skal ha et internkontrollsystem?",
+          "Krever alkoholloven at salgs- og skjenkesteder skal ha et internkontrollsystem?",
         options: {
           a: "Nei",
           b: "Nei, dette er noe kommunen kan kreve hvis det er nødvendig",
@@ -872,7 +872,7 @@ export const topics = {
       },
       {
         question:
-          "Kan en person som er åpenbart påvirket oppholde seg på et sjenkested jf. alkoholforskriften §4-1?",
+          "Kan en person som er åpenbart påvirket oppholde seg på et skjenkested jf. alkoholforskriften §4-1?",
         options: {
           a: "Ja, selvfølgelig",
           b: "Bare om de ikke drikker",
