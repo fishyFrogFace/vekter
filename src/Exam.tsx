@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 import { amountOfQuestions, Answer, Topic, TopicID, topics } from "./content";
 import { fetchQuiz } from "./fetchExam";
 import Grid from "@mui/material/Grid";
-import LinearProgress from "@mui/material/LinearProgress";
+import { ProgressBar } from "./ProgressBar";
 
 interface ExamProps {
   topic: TopicID;
@@ -86,7 +86,7 @@ const Question = (props: QuestionProps) => {
   return (
     <Grid container flexDirection="column" spacing={2}>
       <Grid item>
-        <LinearProgress variant="determinate" value={props.progress} />
+        <ProgressBar variant="determinate" value={props.progress} />
       </Grid>
       <Grid item>
         <FormControl>
