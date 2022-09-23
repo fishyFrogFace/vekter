@@ -1,7 +1,5 @@
 export type TopicID = keyof typeof topics;
 
-export type Answer = "a" | "b" | "c" | "d";
-
 export interface Topic {
   name: TopicID;
   title: string;

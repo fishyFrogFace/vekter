@@ -5,14 +5,12 @@ import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
 import RadioGroup from "@mui/material/RadioGroup";
 import { useState, useEffect } from "react";
-import { amountOfQuestions, Answer, Topic, TopicID, topics } from "./content";
+import { amountOfQuestions, Topic, TopicID, topics } from "./content";
 import { fetchQuiz } from "./fetchExam";
 import Grid from "@mui/material/Grid";
 import { ProgressBar } from "./ProgressBar";
-
-interface ExamProps {
-  topic: TopicID;
-}
+import { Answer, Options, Result } from "./Types";
+import ResultPage from "./Result";
 
 interface StartProps {
   topic: Topic;
@@ -37,36 +35,6 @@ const Start = (props: StartProps) => (
     </Button>
   </div>
 );
-
-interface Result {
-  question: string;
-  options: Options;
-  correctAnswer: Answer;
-  userAnswer: Answer;
-}
-
-interface ResultProps {
-  result: Result[];
-}
-
-// eslint-disable-next-line @typescript-eslint/no-redeclare
-const Result = (props: ResultProps) => {
-  return (
-    <div>
-      <h2>Resultat</h2>
-      {props.result.map((result) => (
-        <p>{`${result.correctAnswer} ${result.userAnswer}`}</p>
-      ))}
-    </div>
-  );
-};
-
-interface Options {
-  a: string;
-  b: string;
-  c: string;
-  d: string;
-}
 
 interface QuestionProps {
   question: string;
@@ -136,6 +104,10 @@ const Question = (props: QuestionProps) => {
   );
 };
 
+interface ExamProps {
+  topic: TopicID;
+}
+
 export default function Exam(props: ExamProps) {
   const [currentQuestion, setCurrentQuestion] = useState(-1);
   const [examSet, setExamSet] = useState<Result[]>(fetchQuiz(props.topic));
@@ -160,7 +132,7 @@ export default function Exam(props: ExamProps) {
     };
 
     if (currentQuestion === examSet.length) {
-      setActivePage(<Result result={examSet} />);
+      setActivePage(<ResultPage result={examSet} />);
     } else if (currentQuestion > -1) {
       setActivePage(
         <Question
