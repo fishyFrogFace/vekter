@@ -7,9 +7,6 @@ interface ResultProps {
 }
 
 export default function ResultPage(props: ResultProps) {
-  console.log(
-    props.result.filter((result) => result.correctAnswer !== result.userAnswer)
-  );
   const correct = props.result.filter(
     (result) => result.correctAnswer !== result.userAnswer
   ).length;
