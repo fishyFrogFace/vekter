@@ -17,7 +17,7 @@ export default function ResultPage(props: ResultProps) {
     <div>
       <h2>Resultat</h2>
       <p>
-        Du fikk <b>{correct}</b> riktige svar av <b>{props.result.length}</b>{" "}
+        Du fikk <b>{correct}</b> riktige svar av <b>{props.result.length} </b>
         mulige.
       </p>
       <p>

@@ -158,8 +158,7 @@ export const topics = {
     title: "HMS og arbeidsmiljøloven",
     questions: [
       {
-        question:
-          "Hvor er bestemmelser om lønn regulert med tanke på vekteryrket?",
+        question: "Hvor er bestemmelser om lønn regulert for vekteryrket?",
         options: {
           a: "De er regulert i arbeidsmiljøloven",
           b: "De er regulert i lov om vaktvirksomhet",
@@ -256,7 +255,7 @@ export const topics = {
           a: "Ivareta rettsikkerheten til arbeidstaker",
           b: "Til å aktivt overvåke arbeidsmiljøsituasjonen i virksomheten til enhver tid",
           c: "Stoppe farlig arbeid",
-          d: "Sørge for at enhver person får de han trenger på jobben",
+          d: "Sørge for at enhver person får det de trenger på jobben",
         },
         correctAnswer: "b",
       },

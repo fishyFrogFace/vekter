@@ -11,6 +11,7 @@ import Grid from "@mui/material/Grid";
 import { ProgressBar } from "./ProgressBar";
 import { Answer, Options, Result } from "./Types";
 import ResultPage from "./Result";
+import { getRandomElementsFromList } from "./helpers";
 
 interface StartProps {
   topic: Topic;
@@ -51,6 +52,16 @@ const Question = (props: QuestionProps) => {
     setValue(event.target.value as Answer);
   };
 
+  const [randomOrder, setRandomOrder] = useState<Answer[]>(
+    Object.keys(props.options) as Answer[]
+  );
+
+  useEffect(
+    () =>
+      setRandomOrder(getRandomElementsFromList(4, Object.keys(props.options))),
+    [props.index]
+  );
+
   return (
     <Grid container flexDirection="column" spacing={2}>
       <Grid item>
@@ -65,26 +76,14 @@ const Question = (props: QuestionProps) => {
             value={value}
             onChange={handleRadioChange}
           >
-            <FormControlLabel
-              value="a"
-              control={<Radio />}
-              label={props.options.a}
-            />
-            <FormControlLabel
-              value="b"
-              control={<Radio />}
-              label={props.options.b}
-            />
-            <FormControlLabel
-              value="c"
-              control={<Radio />}
-              label={props.options.c}
-            />
-            <FormControlLabel
-              value="d"
-              control={<Radio />}
-              label={props.options.d}
-            />
+            {randomOrder.map((option) => (
+              <FormControlLabel
+                key={props.options[option]}
+                value={option}
+                control={<Radio />}
+                label={props.options[option]}
+              />
+            ))}
           </RadioGroup>
         </FormControl>
       </Grid>
