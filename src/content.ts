@@ -192,9 +192,9 @@ export const topics = {
       {
         question: "Hvordan kan man definere et arbeidsmiljø?",
         options: {
-          a: "Et arbeidsmiljø er summen av faktorer som påvirker arbeidstaker psykisk, fysisk og sosialt. positivt eller negativt",
+          a: "Et arbeidsmiljø er summen av faktorer som påvirker arbeidstaker psykisk, fysisk og sosialt. Positivt eller negativt",
           b: "Et arbeidsmiljø er summen av faktorer som helse, førstehjelp og brannvern",
-          c: "Et arbeidsmiljø er summen av faktorer som psykisk helse, stabilitet, og fysisk helse. positivt eller negativt.",
+          c: "Et arbeidsmiljø er summen av faktorer som psykisk helse, stabilitet, og fysisk helse. Positivt eller negativt.",
           d: "Et arbeidsmiljø er summen av faktorer som fysisk helse, styrke og sosiale ferdigheter",
         },
         correctAnswer: "a",
@@ -354,7 +354,7 @@ export const topics = {
       },
       {
         question:
-          "Hva er de mest relevante lovene man ser etter i en internkontroll",
+          "Hva er de mest relevante lovene man ser etter i en internkontroll?",
         options: {
           a: "Alkoholloven, lov om vaktvirksomhet, arbeidsmiljøloven",
           b: "Alkoholloven, skjenkeloven, diskrimineringsloven",
@@ -1388,7 +1388,7 @@ export const topics = {
         options: {
           a: "Temperatur, brennbart materiale, luft",
           b: "Varme, oksygen og brennbart materiale",
-          c: "Varme, H2o og brennbart materiale",
+          c: "Varme, H2O og brennbart materiale",
           d: "Brennbart stoff, bensin, og fuel",
         },
         correctAnswer: "b",

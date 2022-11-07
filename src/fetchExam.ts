@@ -9,7 +9,8 @@ const createQuiz = (topic: TopicID) =>
     : getRandomElementsFromList(2, topics[topic].questions);
 
 export const fetchQuiz = (topic: TopicID) =>
-  createQuiz(topic).map((question) => ({
+  createQuiz(topic).map((question, index) => ({
     ...question,
-    ...{ userAnswer: "" },
+    userAnswer: "",
+    question: `${index + 1}. ${question.question}`,
   }));
