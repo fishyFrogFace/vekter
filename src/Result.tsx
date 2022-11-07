@@ -67,11 +67,11 @@ export default function ResultPage(props: ResultProps) {
                   <ListItem>
                     <ListItemAvatar>
                       {result.correctAnswer === option[0] ? (
-                        <Avatar sx={{ bgcolor: red }}>
+                        <Avatar sx={{ bgcolor: green }}>
                           <CorrectIcon />
                         </Avatar>
                       ) : result.userAnswer === option[0] ? (
-                        <Avatar sx={{ bgcolor: green }}>
+                        <Avatar sx={{ bgcolor: red }}>
                           <WrongIcon />
                         </Avatar>
                       ) : null}

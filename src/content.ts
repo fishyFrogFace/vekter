@@ -1194,7 +1194,7 @@ export const topics = {
         correctAnswer: "b",
       },
       {
-        question: "Hva er derviatregelen?",
+        question: "Hva er derivatregelen?",
         options: {
           a: "Avsnitt av narkotikalisten som inkluderer derivater (liknende stoffer) av stoffer som finnes på listen",
           b: "Avsnitt i straffeloven som forbyr bruk av derivater (opiumliknende stoff)",
