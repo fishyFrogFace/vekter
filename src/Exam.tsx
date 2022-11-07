@@ -69,7 +69,7 @@ const Question = (props: QuestionProps) => {
       </Grid>
       <Grid item>
         <FormControl>
-          <FormLabel id="radio-buttons-group-label">{`${props.index}. ${props.question}`}</FormLabel>
+          <FormLabel id="radio-buttons-group-label">{props.question}</FormLabel>
           <RadioGroup
             aria-labelledby="radio-buttons-group-label"
             name="quiz"
