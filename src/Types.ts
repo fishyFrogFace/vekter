@@ -3,6 +3,7 @@ export interface Result {
   options: Options;
   correctAnswer: Answer;
   userAnswer: Answer;
+  timesWrong?: number;
 }
 
 export interface Options {

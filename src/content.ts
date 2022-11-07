@@ -1829,4 +1829,5 @@ export const topics = {
     ],
   },
   alle: { title: "Alle", questions: [] },
+  svakhet: { title: "Mine problemspørsmål", questions: [] },
 };

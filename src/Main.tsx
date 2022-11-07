@@ -19,9 +19,19 @@ export default function Main() {
         også få beskjed om hvilke kategorier du er svak i, slik at du kan gå
         tilbake og øve på disse.
       </p>
+      <p>
+        Dersom du svarer feil på spørsmål, vil de lagres i nettleseren din,
+        inkludert hvor mange ganger du har svart feil på spørsmålet. Du får da
+        muligheten til å starte en prøve med bare spørsmål du har svart feil på.
+      </p>
       <h2>Velg kategori:</h2>
       <div>
         <ul>
+          {JSON.parse(localStorage.getItem("weakness") ?? "[]").length > 0 && (
+            <li>
+              <Link to="quiz/svakhet">Mine problemspørsmål</Link>
+            </li>
+          )}
           <li>
             <Link to="quiz/alle">Alle</Link>
           </li>

@@ -59,7 +59,7 @@ const Question = (props: QuestionProps) => {
   useEffect(
     () =>
       setRandomOrder(getRandomElementsFromList(4, Object.keys(props.options))),
-    [props.index]
+    [props.index, props.options]
   );
 
   return (
@@ -119,6 +119,33 @@ export default function Exam(props: ExamProps) {
 
   useEffect(() => {
     const nextQuestion = (value: Answer) => {
+      const answeredQuestion = examSet.find(
+        (question) => examSet[currentQuestion].question === question.question
+      );
+
+      if (answeredQuestion && answeredQuestion.correctAnswer !== value) {
+        const weaknessList: Result[] = JSON.parse(
+          localStorage.getItem("weakness") ?? "[]"
+        );
+
+        const alreadyInList = weaknessList.find(
+          (weak) => weak.question === answeredQuestion.question
+        );
+
+        if (alreadyInList) {
+          alreadyInList.timesWrong! += 1;
+          localStorage.setItem("weakness", JSON.stringify(weaknessList));
+        } else {
+          localStorage.setItem(
+            "weakness",
+            JSON.stringify([
+              ...weaknessList,
+              { ...answeredQuestion, timesWrong: 1 },
+            ])
+          );
+        }
+      }
+
       setExamSet((exam) =>
         exam.map((question) =>
           examSet[currentQuestion].question === question.question
