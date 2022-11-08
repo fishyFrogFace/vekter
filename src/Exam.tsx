@@ -18,24 +18,35 @@ interface StartProps {
   startExam: () => void;
 }
 
-const Start = (props: StartProps) => (
-  <div id="start-quiz">
-    {props.topic.name === "alle" ? (
-      <p>Du vil få 80 spørsmål</p>
-    ) : (
-      <div>
-        <p>
-          Det finnes {amountOfQuestions(props.topic.name)} spørsmål i denne
-          kategorien.
-        </p>
-        <p>Du vil få 20 spørsmål.</p>
-      </div>
-    )}
-    <Button variant="contained" onClick={props.startExam}>
-      Start
-    </Button>
-  </div>
-);
+const Start = (props: StartProps) => {
+  const [weakQuestions] = useState<number>(
+    JSON.parse(localStorage.getItem("weakness") ?? "[]").length
+  );
+
+  return (
+    <div id="start-quiz">
+      {props.topic.name === "alle" ? (
+        <p>Du vil få 80 tilfeldige spørsmål</p>
+      ) : props.topic.name === "svakhet" ? (
+        <div>
+          <p>Det finnes {weakQuestions} spørsmål i denne kategorien.</p>
+          <p>Du vil få {Math.min(80, weakQuestions)} spørsmål.</p>
+        </div>
+      ) : (
+        <div>
+          <p>
+            Det finnes {amountOfQuestions(props.topic.name)} spørsmål i denne
+            kategorien.
+          </p>
+          <p>Du vil få 20 spørsmål.</p>
+        </div>
+      )}
+      <Button variant="contained" onClick={props.startExam}>
+        Start
+      </Button>
+    </div>
+  );
+};
 
 interface QuestionProps {
   question: string;
