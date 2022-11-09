@@ -38,14 +38,14 @@ export const topics = {
     title: "Risikovurdering",
     questions: [
       {
-        question: "?",
+        question: "Hva er ikke relevant i en trusselvurdering?",
         options: {
-          a: "",
-          b: "",
-          c: "",
-          d: "",
+          a: "Hva slags trusler bedriften er beskyttet mot allerede",
+          b: "Om trusselaktører har kapital og evne til å angripe bedriften",
+          c: "Trusselhistorikk i bedriften",
+          d: "Om verdiene er attraktive nok til å tiltrekke seg trusselaktører",
         },
-        correctAnswer: "",
+        correctAnswer: "a",
       },
     ],
   },
@@ -53,12 +53,22 @@ export const topics = {
     title: "Sikringstiltak",
     questions: [
       {
-        question: "?",
+        question: "Hva er skallsikring?",
         options: {
-          a: "",
-          b: "",
-          c: "",
-          d: "",
+          a: "Et skall rundt en verdigjenstand, f.eks. en safe",
+          b: "Romsikring mot innbrudd",
+          c: "Sikring av ytterveggene på et bygg",
+          d: "Gjerder rundt f.eks. en parkeringsplass",
+        },
+        correctAnswer: "c",
+      },
+      {
+        question: "Hva er periferisikring?",
+        options: {
+          a: "Sikring som ikke er bestilt, men som leveres som et ekstra gode",
+          b: "Sikring av ytterveggene på et bygg",
+          c: "Sikring på landsbygda",
+          d: "Sikring rundt et definert område, f.eks. gjerde rundt en fabrikk",
         },
         correctAnswer: "",
       },
@@ -68,14 +78,14 @@ export const topics = {
     title: "Vektertjenester og -oppgaver",
     questions: [
       {
-        question: "?",
+        question: "Hva er ikke lov å skrive om i en vaktrapport?",
         options: {
-          a: "",
-          b: "",
-          c: "",
-          d: "",
+          a: "Informasjon om vitner",
+          b: "Opplysninger om hva du foretok deg under vakta",
+          c: "Signalement og personalia til personer du mistenker er lovbrytere",
+          d: "Tidspunktene og omgivelsene der et lovbrudd fant sted",
         },
-        correctAnswer: "",
+        correctAnswer: "c",
       },
     ],
   },
@@ -98,14 +108,14 @@ export const topics = {
     title: "Kommunikasjon og konflikthåndtering",
     questions: [
       {
-        question: "?",
+        question: "Hvor kommer de fleste innvandrere i Norge fra?",
         options: {
-          a: "",
-          b: "",
-          c: "",
-          d: "",
+          a: "Polen",
+          b: "Somalia",
+          c: "Pakistan",
+          d: "Sverige",
         },
-        correctAnswer: "",
+        correctAnswer: "a",
       },
     ],
   },
@@ -113,14 +123,14 @@ export const topics = {
     title: "Førstehjelp",
     questions: [
       {
-        question: "?",
+        question: "Hva er gjennomsnittlig responstid på ambulanse i Norge?",
         options: {
-          a: "",
-          b: "",
-          c: "",
-          d: "",
+          a: "20 minutter",
+          b: "40 minutter",
+          c: "15 minutter",
+          d: "10 minutter",
         },
-        correctAnswer: "",
+        correctAnswer: "c",
       },
     ],
   },
@@ -441,6 +451,37 @@ export const topics = {
   alkohol: {
     title: "Alkoholloven og bevillingssystemet",
     questions: [
+      {
+        question: "Kan en skjenkekontrollør stenge et utested umiddelbart?",
+        options: {
+          a: "Ja, men bare om de får vedtak fra en dommer",
+          b: "Ja, men bare hvis stedet får 12 prikker i løpet av kvelden",
+          c: "Nei",
+          d: "Ja, men bare i 24 timer",
+        },
+        correctAnswer: "c",
+      },
+      {
+        question:
+          "En mor skal på konsert med sin 17 år gamle datter. Kan datteren slippe inn på utestedet?",
+        options: {
+          a: "Ingen av dem kan slippe inn",
+          b: "Ja, men hun kan ikke drikke alkohol",
+          c: "Nei, ikke hvis det er alkoholservering på stedet",
+          d: "De må ha med egen vekter for å slippe inn sammen",
+        },
+        correctAnswer: "b",
+      },
+      {
+        question: "Hva regulerer alkoholloven?",
+        options: {
+          a: "At positive sosiale egenskaper skal maksimeres, mens skadevirkninger skal begrenset",
+          b: "Balansen mellom ønskene til gjester på et utested og gjestene selv",
+          c: "Balansen mellom avgiftsbehov og utestedenes behov for å selge nok drinker",
+          d: "Balansen mellom skadevirkningene alkoholen har og ønsket befolkningen har om tilgjengelighet av alkohol",
+        },
+        correctAnswer: "d",
+      },
       {
         question:
           "Hva defineres som alkoholholdig drikk jf. alkoholloven §1-3?",
@@ -1383,6 +1424,77 @@ export const topics = {
     title: "Brannvern",
     questions: [
       {
+        question: "Velg alternativet som er et aktivt brannverntiltak.",
+        options: {
+          a: "Røykventilasjon",
+          b: "Brannrutine",
+          c: "Brannvegg",
+          d: "Rømningsveier",
+        },
+        correctAnswer: "a",
+      },
+      {
+        question: "Velg alternativet som er et aktivt brannverntiltak.",
+        options: {
+          a: "Skilting av rømningsvei",
+          b: "Brannklassifiserte dører",
+          c: "Sprinkleranlegg",
+          d: "Selvlukkende dører",
+        },
+        correctAnswer: "a",
+      },
+      {
+        question: "Når trenger sprinkleranlegg tilsyn?",
+        options: {
+          a: "Sprinklersentraler må ha tilsyn minst 1 gang i uken",
+          b: "Sprinkleranlegg er dyrere og mer komplisert enn å ha et brannslukningsanlegg basert på gass",
+          c: "Sprinklerhoder må ha ettersyn minst hver 14 dag",
+          d: "Vektere kan utføre ettersyn og feilretting på et sprinkleranlegg",
+        },
+        correctAnswer: "a",
+      },
+      {
+        question: "Hva er en brannklasse?",
+        options: {
+          a: "Et kull på brannkonstabelskolen",
+          b: "En inndeling av branntyper basert på hva slags stoff det brenner i",
+          c: "En inndeling av branntyper basert på intensiteten til brannen",
+          d: "En inndeling av branntyper basert på hvor langt brannen har spredd seg",
+        },
+        correctAnswer: "",
+      },
+      {
+        question:
+          "Hvor nær et sprinklerhode kan du plassere møbler og andre gjenstander?",
+        options: {
+          a: "1 meter",
+          b: "50 cm",
+          c: "40 cm",
+          d: "10 cm",
+        },
+        correctAnswer: "b",
+      },
+      {
+        question: "Hvilken farge har en manuell brannmelder?",
+        options: {
+          a: "Blå",
+          b: "Rød",
+          c: "Hvit med grå nøkkel",
+          d: "Grønn",
+        },
+        correctAnswer: "b",
+      },
+      {
+        question: "Hvilken farge har en nødåpner på en nødutgang?",
+        options: {
+          a: "Blå",
+          b: "Rød",
+          c: "Hvit med grå nøkkel",
+          d: "Grønn",
+        },
+        correctAnswer: "d",
+      },
+      {
         question:
           "Hvilke tre elementer må være tilstedet for at en brann skal oppstå?",
         options: {
@@ -1613,6 +1725,69 @@ export const topics = {
   jus: {
     title: "Jus",
     questions: [
+      {
+        question:
+          "Hvor lenge kan man lagre informasjon fra adgangskontrollsystemer?",
+        options: {
+          a: "15 dager",
+          b: "90 dager",
+          c: "30 dager",
+          d: "7 dager",
+        },
+        correctAnswer: "b",
+      },
+      {
+        question: "Hva er et offentlig sted?",
+        options: {
+          a: "Det er synonymt med utendørs",
+          b: "Et område, sted eller bygg som eies av norske myndigheter",
+          c: "Et område, sted eller bygg som er ment for allmennheten eller der allmennheten beveger seg",
+          d: "Et område, sted eller bygg som er minst 3 meter unna boliger",
+        },
+        correctAnswer: "c",
+      },
+      {
+        question:
+          "Hvem kan krenke andres rettigheter for å opprettholde sikkerheten?",
+        options: {
+          a: "Politiet",
+          b: "Vektere",
+          c: "Alle kan krenke andres rettigheter hvis formålet er å øke sikkerheten deres",
+          d: "Ingen",
+        },
+        correctAnswer: "a",
+      },
+      {
+        question: "Hva er uberettig adgang?",
+        options: {
+          a: "At man har brutt seg inn i en bygning ved bruk av makt",
+          b: "At en person nekter å gå bort fra deg om de blir bedt om det",
+          c: "At en person er for tung til å bæres ut",
+          d: "At en person blir bedt av noen med eieråderett om å forlate et område, men nekter å gå",
+        },
+        correctAnswer: "d",
+      },
+      {
+        question:
+          "Innebærer alltid kroppskrenkelse alltid en synlig fysisk skade?",
+        options: {
+          a: "Ja, man må ha synlige merker for at en handling skal defineres som en kroppskrenkelse",
+          b: "Ja, men det er bare den som slår først som får straff",
+          c: "Nei, både spytting eller det å flytte en person mot deres vilje, kan defineres som kroppkrenkelse",
+          d: "Nei, det trenger ikke være en synlig skade, men det må gjøre vondt",
+        },
+        correctAnswer: "c",
+      },
+      {
+        question: "Hva er unndragelsesfare?",
+        options: {
+          a: "Fare for at saken skal bli henlagt dersom du ikke samler bevis",
+          b: "Fare for at gjerningspersonen vil fjerne bevis",
+          c: "Gjerningsperson forsøker å levere tilbake noe som er stjålet",
+          d: "Risiko for at gjerningspersonen ikke vil bli straffet",
+        },
+        correctAnswer: "",
+      },
       {
         question: "Hva omhandler alminnelig strafferett?",
         options: {
